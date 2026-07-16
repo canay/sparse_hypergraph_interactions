@@ -1,0 +1,42 @@
+{
+  "run_id": "EXP-SHIL-Q1-003_q1_action_20260623_0740",
+  "date_time": "2026-06-23 07:40 +03:00",
+  "operation_id": "shil-q1-action-remediation-20260623-0740",
+  "purpose": "Q1 action register remediation analyses for uncertainty, L1 top-k budget check, bounded sensitivity, and stability numeric reporting.",
+  "seeds_topk": [
+    11,
+    23,
+    37,
+    53,
+    71,
+    89,
+    101,
+    131,
+    157,
+    181
+  ],
+  "seeds_sensitivity": [],
+  "l1_c_grid": [
+    0.02,
+    0.05,
+    0.25,
+    1.0
+  ],
+  "outputs": {
+    "synthetic_uncertainty": "MD\\06_results\\EXP-SHIL-Q1-003_q1_action_20260623_0740_synthetic_l1_uncertainty.csv",
+    "real_uncertainty": "MD\\06_results\\EXP-SHIL-Q1-003_q1_action_20260623_0740_real_followup_uncertainty.csv",
+    "scale_uncertainty": "MD\\06_results\\EXP-SHIL-Q1-003_q1_action_20260623_0740_scale_stress_uncertainty.csv",
+    "paired_diffs": "MD\\06_results\\EXP-SHIL-Q1-003_q1_action_20260623_0740_paired_differences.csv",
+    "stability": "MD\\06_results\\EXP-SHIL-Q1-003_q1_action_20260623_0740_stability_numeric.csv",
+    "topk_raw": "experiments\\q1_extension\\EXP-SHIL-Q1-003_q1_action_20260623_0740_l1_top8_raw.csv",
+    "topk_summary": "experiments\\q1_extension\\EXP-SHIL-Q1-003_q1_action_20260623_0740_l1_top8_summary.csv",
+    "topk_edges": "experiments\\q1_extension\\EXP-SHIL-Q1-003_q1_action_20260623_0740_l1_top8_edges.csv",
+    "sensitivity_raw": "experiments\\q1_extension\\EXP-SHIL-Q1-003_q1_action_20260623_0740_sensitivity_not_used_raw.csv",
+    "sensitivity_summary": "experiments\\q1_extension\\EXP-SHIL-Q1-003_q1_action_20260623_0740_sensitivity_not_used_summary.csv",
+    "sensitivity_edges": "experiments\\q1_extension\\EXP-SHIL-Q1-003_q1_action_20260623_0740_sensitivity_not_used_edges.csv",
+    "report": "MD\\06_results\\EXP-SHIL-Q1-003_q1_action_20260623_0740_numeric_update.md"
+  },
+  "sensitivity_scenarios": [],
+  "sensitivity_note": "Initial local bounded sensitivity rerun exceeded practical runtime/process budget and is not used as evidence; D-003 fallback is claim-boundary strengthening.",
+  "python": "3.12.12 | packaged by conda-forge | (main, Oct 22 2025, 23:13:34) [MSC v.1944 64 bit (AMD64)]"
+}

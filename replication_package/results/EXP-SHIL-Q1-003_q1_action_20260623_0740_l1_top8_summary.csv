@@ -1,0 +1,4 @@
+dataset,model,n,nonzero_edges_mean,nonzero_edges_sd,nonzero_edges_ci95_low,nonzero_edges_ci95_high,selected_edges_mean,selected_edges_sd,selected_edges_ci95_low,selected_edges_ci95_high,support_precision_mean,support_precision_sd,support_precision_ci95_low,support_precision_ci95_high,support_recall_mean,support_recall_sd,support_recall_ci95_low,support_recall_ci95_high
+synthetic_mixed,l1_pair_triple_top8,10,23.8,3.675746333890726,21.170712157256265,26.429287842743737,8.0,0.0,8.0,8.0,0.5,0.0,0.5,0.5,1.0,0.0,1.0,1.0
+synthetic_pair,l1_pair_triple_top8,10,89.1,105.84522242931473,13.38814959836209,164.8118504016379,8.0,0.0,8.0,8.0,0.375,0.0,0.375,0.375,1.0,0.0,1.0,1.0
+synthetic_triple,l1_pair_triple_top8,10,34.8,4.825856285561029,31.348030220294504,38.25196977970549,8.0,0.0,8.0,8.0,0.375,0.0,0.375,0.375,1.0,0.0,1.0,1.0

@@ -1,0 +1,31 @@
+{
+  "run_id": "EXP-SHIL-Q1-004_bounded_sensitivity_20260623_2234",
+  "date_time": "2026-06-23 22:34 +03:00",
+  "operation_id": "shil-quality-fixes-20260623-2234",
+  "tool": "Codex",
+  "model": "GPT-5 Codex",
+  "source_function": "q1_action_remediation_analysis.run_sensitivity",
+  "scenarios": [
+    "correlated_pair",
+    "imbalanced_pair",
+    "low_snr_pair",
+    "small_n_pair"
+  ],
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "l1_c_grid": [
+    0.02,
+    0.05,
+    0.25,
+    1.0
+  ],
+  "elapsed_seconds": 20.973,
+  "outputs": {
+    "raw": "experiments\\q1_extension\\EXP-SHIL-Q1-004_bounded_sensitivity_20260623_2234_raw.csv",
+    "summary": "experiments\\q1_extension\\EXP-SHIL-Q1-004_bounded_sensitivity_20260623_2234_summary.csv",
+    "edges": "experiments\\q1_extension\\EXP-SHIL-Q1-004_bounded_sensitivity_20260623_2234_edges.csv"
+  }
+}

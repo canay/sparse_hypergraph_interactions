@@ -1,0 +1,28 @@
+artifact_id,path,status,notes
+core_script,code/shil_run_experiments.py,runnable_copy,Base dataset and SHIL selector script
+q1_extension_script,code/shil_q1_extension.py,runnable_copy,Registered EXP-SHIL-Q1-001 follow-up script
+scale_stress_script,code/shil_scale_stress.py,runnable_copy,Registered EXP-SHIL-Q1-002 scale-stress script
+q1_action_script,code/q1_action_remediation_analysis.py,runnable_copy,Registered EXP-SHIL-Q1-003 numeric-update script
+bounded_sensitivity_script,code/q1_bounded_sensitivity.py,runnable_copy,Registered EXP-SHIL-Q1-004 bounded sensitivity script
+requirements,requirements.txt,pinned_environment,Exact package versions from the verified local environment
+smoke_script,run_smoke.ps1,runnable_command,Non-compute dependency and package-local evidence integrity check
+all_script,run_all.ps1,runnable_command,Review-oriented wrapper around the non-compute integrity checks
+software_license,LICENSE,release_ready,MIT License for source code and software-oriented files
+content_license,LICENSE-CONTENT.md,release_ready,CC BY 4.0 notice for documentation and author-generated artifacts
+citation_metadata,CITATION.cff,release_ready,Repository citation metadata
+frozen_metrics,replication_package/results/frozen_metrics_summary.csv,package_local_copy,Frozen metrics summary used by the draft manuscript
+q1_001_real_summary,replication_package/results/EXP-SHIL-Q1-001_20260620_133955_summary.csv,package_local_copy,Real-data follow-up summary
+q1_001_synthetic_summary,replication_package/results/EXP-SHIL-Q1-001_20260620_134724_summary.csv,package_local_copy,Synthetic follow-up summary
+q1_002_scale_stress,replication_package/results/EXP-SHIL-Q1-002_scale_20260620_232347_summary.csv,package_local_copy,Five-seed wider support-stress summary used by the manuscript
+q1_003_synthetic_uncertainty,replication_package/results/EXP-SHIL-Q1-003_q1_action_20260623_0740_synthetic_l1_uncertainty.csv,package_local_copy,Synthetic L1/SHIL uncertainty summary used by revised manuscript
+q1_003_real_uncertainty,replication_package/results/EXP-SHIL-Q1-003_q1_action_20260623_0740_real_followup_uncertainty.csv,package_local_copy,Real-data follow-up uncertainty summary
+q1_003_scale_uncertainty,replication_package/results/EXP-SHIL-Q1-003_q1_action_20260623_0740_scale_stress_uncertainty.csv,package_local_copy,Scale-stress uncertainty summary
+q1_003_paired_diffs,replication_package/results/EXP-SHIL-Q1-003_q1_action_20260623_0740_paired_differences.csv,package_local_copy,Paired descriptive difference summary used to bound small margins
+q1_003_stability_numeric,replication_package/results/EXP-SHIL-Q1-003_q1_action_20260623_0740_stability_numeric.csv,package_local_copy,Numeric Jaccard stability summary
+q1_003_l1_top8_summary,replication_package/results/EXP-SHIL-Q1-003_q1_action_20260623_0740_l1_top8_summary.csv,package_local_copy,Budget-matched L1 top-8 support recovery summary
+q1_003_l1_top8_raw,replication_package/results/EXP-SHIL-Q1-003_q1_action_20260623_0740_l1_top8_raw.csv,package_local_copy,Per-seed budget-matched L1 top-8 support recovery rows
+q1_003_manifest,replication_package/results/EXP-SHIL-Q1-003_q1_action_20260623_0740_manifest.json,package_local_copy,Q1 numeric-update manifest and environment note
+q1_004_bounded_summary,replication_package/results/EXP-SHIL-Q1-004_bounded_sensitivity_20260623_2234_summary.csv,package_local_copy,Bounded three-seed planted-pair sensitivity summary
+q1_004_bounded_raw,replication_package/results/EXP-SHIL-Q1-004_bounded_sensitivity_20260623_2234_raw.csv,package_local_copy,Bounded sensitivity per-seed rows
+q1_004_bounded_edges,replication_package/results/EXP-SHIL-Q1-004_bounded_sensitivity_20260623_2234_edges.csv,package_local_copy,Bounded sensitivity selected-edge rows
+q1_004_bounded_manifest,replication_package/results/EXP-SHIL-Q1-004_bounded_sensitivity_20260623_2234_manifest.json,package_local_copy,Bounded sensitivity manifest

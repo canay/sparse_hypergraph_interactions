@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software or its replication artifacts, please cite the repository."
+title: "Sparse Hypergraph Interaction Learning replication package"
+type: software
+authors:
+  - family-names: "Canay"
+    given-names: "Özkan"
+    orcid: "https://orcid.org/0000-0001-7539-6001"
+repository-code: "https://github.com/canay/sparse_hypergraph_interactions"
+url: "https://github.com/canay/sparse_hypergraph_interactions"
+license: MIT
+abstract: >-
+  Reproducible code and evidence artifacts for fixed-budget sparse pair and
+  triple interaction support screening in tabular classification.
+keywords:
+  - feature interactions
+  - support recovery
+  - sparse polynomial model
+  - tabular classification
