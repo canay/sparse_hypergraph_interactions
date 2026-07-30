@@ -1,0 +1,9 @@
+{
+  "all_preregistered_rows_present": true,
+  "decision": "PROTOCOL_ONLY",
+  "experiment_id": "EXP-SHIL-SC-001",
+  "input_method_rows": 720,
+  "input_selected_edge_rows": 17501,
+  "mode": "full-synthetic",
+  "verification_status": "ANALYZED"
+}

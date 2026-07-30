@@ -1,0 +1,10 @@
+{
+  "config_path": "/home/ubuntu/experiments/sparse_hypergraph_interactions/2026-07-18_codex_vps_stability-calibrated-shil-recovery/config/partitioned_full_real/full_real_seed_71.json",
+  "config_sha256": "70D0688A41F268DD3776607E27D20B386AA4F396F5680C0E96DF381098643936",
+  "experiment_id": "EXP-SHIL-SC-001",
+  "mode": "full-real",
+  "protocol_path": "/home/ubuntu/experiments/MD/02_design/method_extension_protocol_20260717.md",
+  "protocol_sha256": "0D4826686126386AA35BB8975C33B1CADAE6C74CAA0A2DD425F5AFF2062053DC",
+  "source_sha256": "48528D1B52D57EFD3344DD0745775AE58C317DB0C50FBC20882711FCDAA1C64E",
+  "started_at_local": "2026-07-19 01:04:34 +0300"
+}

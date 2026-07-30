@@ -26,3 +26,13 @@ q1_004_bounded_summary,replication_package/results/EXP-SHIL-Q1-004_bounded_sensi
 q1_004_bounded_raw,replication_package/results/EXP-SHIL-Q1-004_bounded_sensitivity_20260623_2234_raw.csv,package_local_copy,Bounded sensitivity per-seed rows
 q1_004_bounded_edges,replication_package/results/EXP-SHIL-Q1-004_bounded_sensitivity_20260623_2234_edges.csv,package_local_copy,Bounded sensitivity selected-edge rows
 q1_004_bounded_manifest,replication_package/results/EXP-SHIL-Q1-004_bounded_sensitivity_20260623_2234_manifest.json,package_local_copy,Bounded sensitivity manifest
+calibrated_runs_readme,replication_package/calibrated_runs/README.md,release_ready,Artifact map and claim boundary for the calibrated runs
+calibrated_runs_sha256,replication_package/calibrated_runs/manifest_sha256.csv,verified_manifest,SHA-256 and byte-size manifest for every file in the calibrated-runs subtree except this manifest
+sc_protocol,replication_package/calibrated_runs/EXP-SHIL-SC-001/protocol/method_extension_protocol_20260717.md,hash_locked_protocol,Pre-specified stability-calibration protocol
+sc_synthetic_metrics,replication_package/calibrated_runs/EXP-SHIL-SC-001/synthetic/outputs/metrics.csv,verified_output,Full twelve-scenario synthetic metrics with 720 method rows
+sc_synthetic_edges,replication_package/calibrated_runs/EXP-SHIL-SC-001/synthetic/outputs/selected_edges.csv,verified_output,Selected-edge rows for the full synthetic matrix
+sc_dry_bean_metrics,replication_package/calibrated_runs/EXP-SHIL-SC-001/dry_bean/outputs/full-real-combined/metrics.csv,verified_output,Ten-seed Dry Bean stability-calibration metrics with 60 method rows
+sc_dry_bean_partitions,replication_package/calibrated_runs/EXP-SHIL-SC-001/dry_bean/outputs/full-real-partitions,verified_output,Per-seed completion records and source configuration and output hashes
+fixed_c_protocol,replication_package/calibrated_runs/EXP-SHIL-FIXED-C-001/protocol/fixed_c_cost_sensitivity_protocol_20260727.md,hash_locked_protocol,Pre-specified fixed-C cost sensitivity protocol
+fixed_c_metrics,replication_package/calibrated_runs/EXP-SHIL-FIXED-C-001/dry_bean/outputs/full-real-combined/metrics.csv,verified_output,Contemporary fixed-C and SC-SHIL metrics with 20 method rows
+fixed_c_analysis,replication_package/calibrated_runs/EXP-SHIL-FIXED-C-001/dry_bean/analysis/analysis_summary.json,verified_output,Ten-pair timing analysis and bounded procedure-level decision

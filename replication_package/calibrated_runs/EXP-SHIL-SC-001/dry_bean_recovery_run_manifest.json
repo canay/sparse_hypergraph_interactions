@@ -1,0 +1,29 @@
+{
+  "run_id": "2026-07-18_codex_vps_stability-calibrated-shil-recovery",
+  "experiment_id": "EXP-SHIL-SC-001",
+  "status": "running_partitioned_full_real_vps",
+  "relationship": "rerun_of:2026-07-17_codex_vps_stability-calibrated-shil",
+  "tool": "Codex",
+  "model": "GPT-5.6 Sol Extra High (user-attested; runtime exposed GPT-5)",
+  "operation_id": "shil-full-real-partitioned-recovery-20260718",
+  "created_at": "2026-07-18 17:50:22 +03:00",
+  "launched_at": "2026-07-18 18:02:08 +03:00",
+  "remote_pid": 1780011,
+  "remote_preflight": "14_of_14_unit_tests_passed_and_remote_smoke_passed",
+  "execution_host": "vps",
+  "remote_folder": "/home/ubuntu/experiments/sparse_hypergraph_interactions/2026-07-18_codex_vps_stability-calibrated-shil-recovery",
+  "protocol_sha256": "0D4826686126386AA35BB8975C33B1CADAE6C74CAA0A2DD425F5AFF2062053DC",
+  "base_config": "config/full_config.json",
+  "real_split_seeds": [11, 23, 37, 53, 71, 89, 101, 131, 157, 181],
+  "methods": ["L1-full", "L1-top8", "L1-match", "SHIL-k8", "SC-L1", "SC-SHIL"],
+  "scientific_protocol_changed": false,
+  "execution_repair": {
+    "atomic_unit": "one locked real split seed",
+    "max_concurrent_workers": 3,
+    "cpu_affinity": [0, 1, 2],
+    "threads_per_worker": 1,
+    "hard_timeout_per_seed": "24h",
+    "resume_policy": "skip only fully validated completed partitions; preserve incomplete attempts"
+  },
+  "promotion_boundary": "remote_unverified_until_downloaded_and_validated_locally"
+}

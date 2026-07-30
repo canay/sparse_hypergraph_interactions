@@ -1,0 +1,9 @@
+{
+  "completed_at_local": "2026-07-27 20:09:04 +0300",
+  "dataset_runs": 1,
+  "elapsed_seconds": 5423.718979309022,
+  "experiment_id": "EXP-SHIL-FIXED-C-001",
+  "method_rows": 2,
+  "mode": "full-real",
+  "status": "completed"
+}

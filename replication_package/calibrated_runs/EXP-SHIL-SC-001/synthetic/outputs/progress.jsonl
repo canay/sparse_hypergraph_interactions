@@ -1,0 +1,240 @@
+{"data_seed": 1103, "dataset": "S01", "event": "dataset_started", "index": 1, "split_seed": 1103, "time": "2026-07-17 10:36:44 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S01", "elapsed_seconds": 34.508410399983404, "event": "dataset_completed", "index": 1, "split_seed": 1103, "time": "2026-07-17 10:37:18 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S01", "event": "dataset_started", "index": 2, "split_seed": 1129, "time": "2026-07-17 10:37:18 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S01", "elapsed_seconds": 68.00778319998062, "event": "dataset_completed", "index": 2, "split_seed": 1129, "time": "2026-07-17 10:37:52 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S01", "event": "dataset_started", "index": 3, "split_seed": 1151, "time": "2026-07-17 10:37:52 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S01", "elapsed_seconds": 103.58953209998435, "event": "dataset_completed", "index": 3, "split_seed": 1151, "time": "2026-07-17 10:38:28 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S01", "event": "dataset_started", "index": 4, "split_seed": 1171, "time": "2026-07-17 10:38:28 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S01", "elapsed_seconds": 140.5125261999783, "event": "dataset_completed", "index": 4, "split_seed": 1171, "time": "2026-07-17 10:39:04 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S01", "event": "dataset_started", "index": 5, "split_seed": 1181, "time": "2026-07-17 10:39:04 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S01", "elapsed_seconds": 176.06839879998006, "event": "dataset_completed", "index": 5, "split_seed": 1181, "time": "2026-07-17 10:39:40 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S01", "event": "dataset_started", "index": 6, "split_seed": 1201, "time": "2026-07-17 10:39:40 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S01", "elapsed_seconds": 210.78248890000395, "event": "dataset_completed", "index": 6, "split_seed": 1201, "time": "2026-07-17 10:40:15 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S01", "event": "dataset_started", "index": 7, "split_seed": 1213, "time": "2026-07-17 10:40:15 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S01", "elapsed_seconds": 249.82902609999292, "event": "dataset_completed", "index": 7, "split_seed": 1213, "time": "2026-07-17 10:40:54 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S01", "event": "dataset_started", "index": 8, "split_seed": 1231, "time": "2026-07-17 10:40:54 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S01", "elapsed_seconds": 284.6577627999941, "event": "dataset_completed", "index": 8, "split_seed": 1231, "time": "2026-07-17 10:41:29 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S01", "event": "dataset_started", "index": 9, "split_seed": 1249, "time": "2026-07-17 10:41:29 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S01", "elapsed_seconds": 317.6600772999809, "event": "dataset_completed", "index": 9, "split_seed": 1249, "time": "2026-07-17 10:42:02 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S01", "event": "dataset_started", "index": 10, "split_seed": 1277, "time": "2026-07-17 10:42:02 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S01", "elapsed_seconds": 352.8885186999978, "event": "dataset_completed", "index": 10, "split_seed": 1277, "time": "2026-07-17 10:42:37 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S02", "event": "dataset_started", "index": 11, "split_seed": 1103, "time": "2026-07-17 10:42:37 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S02", "elapsed_seconds": 386.65800329999183, "event": "dataset_completed", "index": 11, "split_seed": 1103, "time": "2026-07-17 10:43:11 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S02", "event": "dataset_started", "index": 12, "split_seed": 1129, "time": "2026-07-17 10:43:11 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S02", "elapsed_seconds": 422.77366249999614, "event": "dataset_completed", "index": 12, "split_seed": 1129, "time": "2026-07-17 10:43:47 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S02", "event": "dataset_started", "index": 13, "split_seed": 1151, "time": "2026-07-17 10:43:47 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S02", "elapsed_seconds": 470.82169419998536, "event": "dataset_completed", "index": 13, "split_seed": 1151, "time": "2026-07-17 10:44:35 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S02", "event": "dataset_started", "index": 14, "split_seed": 1171, "time": "2026-07-17 10:44:35 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S02", "elapsed_seconds": 507.52449889999116, "event": "dataset_completed", "index": 14, "split_seed": 1171, "time": "2026-07-17 10:45:11 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S02", "event": "dataset_started", "index": 15, "split_seed": 1181, "time": "2026-07-17 10:45:11 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S02", "elapsed_seconds": 543.428377299977, "event": "dataset_completed", "index": 15, "split_seed": 1181, "time": "2026-07-17 10:45:47 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S02", "event": "dataset_started", "index": 16, "split_seed": 1201, "time": "2026-07-17 10:45:47 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S02", "elapsed_seconds": 583.0270589999855, "event": "dataset_completed", "index": 16, "split_seed": 1201, "time": "2026-07-17 10:46:27 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S02", "event": "dataset_started", "index": 17, "split_seed": 1213, "time": "2026-07-17 10:46:27 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S02", "elapsed_seconds": 627.317372199992, "event": "dataset_completed", "index": 17, "split_seed": 1213, "time": "2026-07-17 10:47:11 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S02", "event": "dataset_started", "index": 18, "split_seed": 1231, "time": "2026-07-17 10:47:11 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S02", "elapsed_seconds": 678.9472488999891, "event": "dataset_completed", "index": 18, "split_seed": 1231, "time": "2026-07-17 10:48:03 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S02", "event": "dataset_started", "index": 19, "split_seed": 1249, "time": "2026-07-17 10:48:03 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S02", "elapsed_seconds": 713.1555853000027, "event": "dataset_completed", "index": 19, "split_seed": 1249, "time": "2026-07-17 10:48:37 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S02", "event": "dataset_started", "index": 20, "split_seed": 1277, "time": "2026-07-17 10:48:37 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S02", "elapsed_seconds": 753.1003731999954, "event": "dataset_completed", "index": 20, "split_seed": 1277, "time": "2026-07-17 10:49:17 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S03", "event": "dataset_started", "index": 21, "split_seed": 1103, "time": "2026-07-17 10:49:17 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S03", "elapsed_seconds": 788.3106833999918, "event": "dataset_completed", "index": 21, "split_seed": 1103, "time": "2026-07-17 10:49:52 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S03", "event": "dataset_started", "index": 22, "split_seed": 1129, "time": "2026-07-17 10:49:52 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S03", "elapsed_seconds": 823.217531000002, "event": "dataset_completed", "index": 22, "split_seed": 1129, "time": "2026-07-17 10:50:27 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S03", "event": "dataset_started", "index": 23, "split_seed": 1151, "time": "2026-07-17 10:50:27 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S03", "elapsed_seconds": 862.5312463000009, "event": "dataset_completed", "index": 23, "split_seed": 1151, "time": "2026-07-17 10:51:06 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S03", "event": "dataset_started", "index": 24, "split_seed": 1171, "time": "2026-07-17 10:51:06 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S03", "elapsed_seconds": 904.7631163999904, "event": "dataset_completed", "index": 24, "split_seed": 1171, "time": "2026-07-17 10:51:49 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S03", "event": "dataset_started", "index": 25, "split_seed": 1181, "time": "2026-07-17 10:51:49 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S03", "elapsed_seconds": 938.5412876000046, "event": "dataset_completed", "index": 25, "split_seed": 1181, "time": "2026-07-17 10:52:22 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S03", "event": "dataset_started", "index": 26, "split_seed": 1201, "time": "2026-07-17 10:52:22 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S03", "elapsed_seconds": 979.4410912999883, "event": "dataset_completed", "index": 26, "split_seed": 1201, "time": "2026-07-17 10:53:03 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S03", "event": "dataset_started", "index": 27, "split_seed": 1213, "time": "2026-07-17 10:53:03 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S03", "elapsed_seconds": 1017.528428199992, "event": "dataset_completed", "index": 27, "split_seed": 1213, "time": "2026-07-17 10:53:41 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S03", "event": "dataset_started", "index": 28, "split_seed": 1231, "time": "2026-07-17 10:53:41 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S03", "elapsed_seconds": 1052.0242201999936, "event": "dataset_completed", "index": 28, "split_seed": 1231, "time": "2026-07-17 10:54:16 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S03", "event": "dataset_started", "index": 29, "split_seed": 1249, "time": "2026-07-17 10:54:16 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S03", "elapsed_seconds": 1085.7380203999928, "event": "dataset_completed", "index": 29, "split_seed": 1249, "time": "2026-07-17 10:54:50 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S03", "event": "dataset_started", "index": 30, "split_seed": 1277, "time": "2026-07-17 10:54:50 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S03", "elapsed_seconds": 1130.7294677000027, "event": "dataset_completed", "index": 30, "split_seed": 1277, "time": "2026-07-17 10:55:35 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S04", "event": "dataset_started", "index": 31, "split_seed": 1103, "time": "2026-07-17 10:55:35 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S04", "elapsed_seconds": 1144.4542380999774, "event": "dataset_completed", "index": 31, "split_seed": 1103, "time": "2026-07-17 10:55:48 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S04", "event": "dataset_started", "index": 32, "split_seed": 1129, "time": "2026-07-17 10:55:48 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S04", "elapsed_seconds": 1158.9581322000013, "event": "dataset_completed", "index": 32, "split_seed": 1129, "time": "2026-07-17 10:56:03 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S04", "event": "dataset_started", "index": 33, "split_seed": 1151, "time": "2026-07-17 10:56:03 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S04", "elapsed_seconds": 1174.3320054999785, "event": "dataset_completed", "index": 33, "split_seed": 1151, "time": "2026-07-17 10:56:18 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S04", "event": "dataset_started", "index": 34, "split_seed": 1171, "time": "2026-07-17 10:56:18 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S04", "elapsed_seconds": 1189.205447299988, "event": "dataset_completed", "index": 34, "split_seed": 1171, "time": "2026-07-17 10:56:33 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S04", "event": "dataset_started", "index": 35, "split_seed": 1181, "time": "2026-07-17 10:56:33 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S04", "elapsed_seconds": 1202.9452282999991, "event": "dataset_completed", "index": 35, "split_seed": 1181, "time": "2026-07-17 10:56:47 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S04", "event": "dataset_started", "index": 36, "split_seed": 1201, "time": "2026-07-17 10:56:47 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S04", "elapsed_seconds": 1217.8208449999802, "event": "dataset_completed", "index": 36, "split_seed": 1201, "time": "2026-07-17 10:57:02 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S04", "event": "dataset_started", "index": 37, "split_seed": 1213, "time": "2026-07-17 10:57:02 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S04", "elapsed_seconds": 1237.076659399987, "event": "dataset_completed", "index": 37, "split_seed": 1213, "time": "2026-07-17 10:57:21 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S04", "event": "dataset_started", "index": 38, "split_seed": 1231, "time": "2026-07-17 10:57:21 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S04", "elapsed_seconds": 1256.2137599999842, "event": "dataset_completed", "index": 38, "split_seed": 1231, "time": "2026-07-17 10:57:40 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S04", "event": "dataset_started", "index": 39, "split_seed": 1249, "time": "2026-07-17 10:57:40 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S04", "elapsed_seconds": 1272.7424548999988, "event": "dataset_completed", "index": 39, "split_seed": 1249, "time": "2026-07-17 10:57:57 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S04", "event": "dataset_started", "index": 40, "split_seed": 1277, "time": "2026-07-17 10:57:57 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S04", "elapsed_seconds": 1284.9232809999958, "event": "dataset_completed", "index": 40, "split_seed": 1277, "time": "2026-07-17 10:58:09 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S05", "event": "dataset_started", "index": 41, "split_seed": 1103, "time": "2026-07-17 10:58:09 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S05", "elapsed_seconds": 1412.8477356999938, "event": "dataset_completed", "index": 41, "split_seed": 1103, "time": "2026-07-17 11:00:17 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S05", "event": "dataset_started", "index": 42, "split_seed": 1129, "time": "2026-07-17 11:00:17 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S05", "elapsed_seconds": 1533.532693599991, "event": "dataset_completed", "index": 42, "split_seed": 1129, "time": "2026-07-17 11:02:17 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S05", "event": "dataset_started", "index": 43, "split_seed": 1151, "time": "2026-07-17 11:02:17 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S05", "elapsed_seconds": 1655.494158299989, "event": "dataset_completed", "index": 43, "split_seed": 1151, "time": "2026-07-17 11:04:19 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S05", "event": "dataset_started", "index": 44, "split_seed": 1171, "time": "2026-07-17 11:04:19 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S05", "elapsed_seconds": 1769.3360945000022, "event": "dataset_completed", "index": 44, "split_seed": 1171, "time": "2026-07-17 11:06:13 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S05", "event": "dataset_started", "index": 45, "split_seed": 1181, "time": "2026-07-17 11:06:13 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S05", "elapsed_seconds": 1889.4522278999793, "event": "dataset_completed", "index": 45, "split_seed": 1181, "time": "2026-07-17 11:08:13 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S05", "event": "dataset_started", "index": 46, "split_seed": 1201, "time": "2026-07-17 11:08:13 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S05", "elapsed_seconds": 2020.6966920999985, "event": "dataset_completed", "index": 46, "split_seed": 1201, "time": "2026-07-17 11:10:25 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S05", "event": "dataset_started", "index": 47, "split_seed": 1213, "time": "2026-07-17 11:10:25 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S05", "elapsed_seconds": 2125.0656480999896, "event": "dataset_completed", "index": 47, "split_seed": 1213, "time": "2026-07-17 11:12:09 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S05", "event": "dataset_started", "index": 48, "split_seed": 1231, "time": "2026-07-17 11:12:09 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S05", "elapsed_seconds": 2256.292563199997, "event": "dataset_completed", "index": 48, "split_seed": 1231, "time": "2026-07-17 11:14:20 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S05", "event": "dataset_started", "index": 49, "split_seed": 1249, "time": "2026-07-17 11:14:20 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S05", "elapsed_seconds": 2401.3812932999863, "event": "dataset_completed", "index": 49, "split_seed": 1249, "time": "2026-07-17 11:16:45 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S05", "event": "dataset_started", "index": 50, "split_seed": 1277, "time": "2026-07-17 11:16:45 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S05", "elapsed_seconds": 2540.6663952999806, "event": "dataset_completed", "index": 50, "split_seed": 1277, "time": "2026-07-17 11:19:05 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S06", "event": "dataset_started", "index": 51, "split_seed": 1103, "time": "2026-07-17 11:19:05 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S06", "elapsed_seconds": 2786.842392199993, "event": "dataset_completed", "index": 51, "split_seed": 1103, "time": "2026-07-17 11:23:11 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S06", "event": "dataset_started", "index": 52, "split_seed": 1129, "time": "2026-07-17 11:23:11 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S06", "elapsed_seconds": 3024.8326300999906, "event": "dataset_completed", "index": 52, "split_seed": 1129, "time": "2026-07-17 11:27:09 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S06", "event": "dataset_started", "index": 53, "split_seed": 1151, "time": "2026-07-17 11:27:09 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S06", "elapsed_seconds": 3267.5375461999793, "event": "dataset_completed", "index": 53, "split_seed": 1151, "time": "2026-07-17 11:31:11 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S06", "event": "dataset_started", "index": 54, "split_seed": 1171, "time": "2026-07-17 11:31:11 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S06", "elapsed_seconds": 3513.6140275999787, "event": "dataset_completed", "index": 54, "split_seed": 1171, "time": "2026-07-17 11:35:18 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S06", "event": "dataset_started", "index": 55, "split_seed": 1181, "time": "2026-07-17 11:35:18 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S06", "elapsed_seconds": 3750.073455399979, "event": "dataset_completed", "index": 55, "split_seed": 1181, "time": "2026-07-17 11:39:14 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S06", "event": "dataset_started", "index": 56, "split_seed": 1201, "time": "2026-07-17 11:39:14 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S06", "elapsed_seconds": 3980.5608492999745, "event": "dataset_completed", "index": 56, "split_seed": 1201, "time": "2026-07-17 11:43:05 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S06", "event": "dataset_started", "index": 57, "split_seed": 1213, "time": "2026-07-17 11:43:05 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S06", "elapsed_seconds": 4218.444672099984, "event": "dataset_completed", "index": 57, "split_seed": 1213, "time": "2026-07-17 11:47:02 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S06", "event": "dataset_started", "index": 58, "split_seed": 1231, "time": "2026-07-17 11:47:02 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S06", "elapsed_seconds": 4441.025132900017, "event": "dataset_completed", "index": 58, "split_seed": 1231, "time": "2026-07-17 11:50:45 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S06", "event": "dataset_started", "index": 59, "split_seed": 1249, "time": "2026-07-17 11:50:45 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S06", "elapsed_seconds": 4676.815579499962, "event": "dataset_completed", "index": 59, "split_seed": 1249, "time": "2026-07-17 11:54:41 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S06", "event": "dataset_started", "index": 60, "split_seed": 1277, "time": "2026-07-17 11:54:41 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S06", "elapsed_seconds": 4948.82737709998, "event": "dataset_completed", "index": 60, "split_seed": 1277, "time": "2026-07-17 11:59:13 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S07", "event": "dataset_started", "index": 61, "split_seed": 1103, "time": "2026-07-17 11:59:13 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S07", "elapsed_seconds": 4982.249611899984, "event": "dataset_completed", "index": 61, "split_seed": 1103, "time": "2026-07-17 11:59:46 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S07", "event": "dataset_started", "index": 62, "split_seed": 1129, "time": "2026-07-17 11:59:46 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S07", "elapsed_seconds": 5019.26695629998, "event": "dataset_completed", "index": 62, "split_seed": 1129, "time": "2026-07-17 12:00:23 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S07", "event": "dataset_started", "index": 63, "split_seed": 1151, "time": "2026-07-17 12:00:23 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S07", "elapsed_seconds": 5059.655446000019, "event": "dataset_completed", "index": 63, "split_seed": 1151, "time": "2026-07-17 12:01:04 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S07", "event": "dataset_started", "index": 64, "split_seed": 1171, "time": "2026-07-17 12:01:04 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S07", "elapsed_seconds": 5096.886968400009, "event": "dataset_completed", "index": 64, "split_seed": 1171, "time": "2026-07-17 12:01:41 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S07", "event": "dataset_started", "index": 65, "split_seed": 1181, "time": "2026-07-17 12:01:41 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S07", "elapsed_seconds": 5138.298957099993, "event": "dataset_completed", "index": 65, "split_seed": 1181, "time": "2026-07-17 12:02:22 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S07", "event": "dataset_started", "index": 66, "split_seed": 1201, "time": "2026-07-17 12:02:22 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S07", "elapsed_seconds": 5182.864950899995, "event": "dataset_completed", "index": 66, "split_seed": 1201, "time": "2026-07-17 12:03:07 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S07", "event": "dataset_started", "index": 67, "split_seed": 1213, "time": "2026-07-17 12:03:07 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S07", "elapsed_seconds": 5218.221008099994, "event": "dataset_completed", "index": 67, "split_seed": 1213, "time": "2026-07-17 12:03:42 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S07", "event": "dataset_started", "index": 68, "split_seed": 1231, "time": "2026-07-17 12:03:42 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S07", "elapsed_seconds": 5246.564369200001, "event": "dataset_completed", "index": 68, "split_seed": 1231, "time": "2026-07-17 12:04:11 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S07", "event": "dataset_started", "index": 69, "split_seed": 1249, "time": "2026-07-17 12:04:11 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S07", "elapsed_seconds": 5270.758920899971, "event": "dataset_completed", "index": 69, "split_seed": 1249, "time": "2026-07-17 12:04:35 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S07", "event": "dataset_started", "index": 70, "split_seed": 1277, "time": "2026-07-17 12:04:35 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S07", "elapsed_seconds": 5295.704499300016, "event": "dataset_completed", "index": 70, "split_seed": 1277, "time": "2026-07-17 12:05:00 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S08", "event": "dataset_started", "index": 71, "split_seed": 1103, "time": "2026-07-17 12:05:00 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S08", "elapsed_seconds": 5326.172581099992, "event": "dataset_completed", "index": 71, "split_seed": 1103, "time": "2026-07-17 12:05:30 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S08", "event": "dataset_started", "index": 72, "split_seed": 1129, "time": "2026-07-17 12:05:30 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S08", "elapsed_seconds": 5357.242171599966, "event": "dataset_completed", "index": 72, "split_seed": 1129, "time": "2026-07-17 12:06:01 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S08", "event": "dataset_started", "index": 73, "split_seed": 1151, "time": "2026-07-17 12:06:01 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S08", "elapsed_seconds": 5387.623599500017, "event": "dataset_completed", "index": 73, "split_seed": 1151, "time": "2026-07-17 12:06:32 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S08", "event": "dataset_started", "index": 74, "split_seed": 1171, "time": "2026-07-17 12:06:32 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S08", "elapsed_seconds": 5418.871124599973, "event": "dataset_completed", "index": 74, "split_seed": 1171, "time": "2026-07-17 12:07:03 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S08", "event": "dataset_started", "index": 75, "split_seed": 1181, "time": "2026-07-17 12:07:03 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S08", "elapsed_seconds": 5450.480060400005, "event": "dataset_completed", "index": 75, "split_seed": 1181, "time": "2026-07-17 12:07:34 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S08", "event": "dataset_started", "index": 76, "split_seed": 1201, "time": "2026-07-17 12:07:34 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S08", "elapsed_seconds": 5480.423693000019, "event": "dataset_completed", "index": 76, "split_seed": 1201, "time": "2026-07-17 12:08:04 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S08", "event": "dataset_started", "index": 77, "split_seed": 1213, "time": "2026-07-17 12:08:04 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S08", "elapsed_seconds": 5510.781409499963, "event": "dataset_completed", "index": 77, "split_seed": 1213, "time": "2026-07-17 12:08:35 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S08", "event": "dataset_started", "index": 78, "split_seed": 1231, "time": "2026-07-17 12:08:35 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S08", "elapsed_seconds": 5539.902848499973, "event": "dataset_completed", "index": 78, "split_seed": 1231, "time": "2026-07-17 12:09:04 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S08", "event": "dataset_started", "index": 79, "split_seed": 1249, "time": "2026-07-17 12:09:04 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S08", "elapsed_seconds": 5569.6213345, "event": "dataset_completed", "index": 79, "split_seed": 1249, "time": "2026-07-17 12:09:34 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S08", "event": "dataset_started", "index": 80, "split_seed": 1277, "time": "2026-07-17 12:09:34 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S08", "elapsed_seconds": 5599.457827699982, "event": "dataset_completed", "index": 80, "split_seed": 1277, "time": "2026-07-17 12:10:03 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S09", "event": "dataset_started", "index": 81, "split_seed": 1103, "time": "2026-07-17 12:10:03 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S09", "elapsed_seconds": 5623.176200000016, "event": "dataset_completed", "index": 81, "split_seed": 1103, "time": "2026-07-17 12:10:27 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S09", "event": "dataset_started", "index": 82, "split_seed": 1129, "time": "2026-07-17 12:10:27 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S09", "elapsed_seconds": 5646.825746200018, "event": "dataset_completed", "index": 82, "split_seed": 1129, "time": "2026-07-17 12:10:51 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S09", "event": "dataset_started", "index": 83, "split_seed": 1151, "time": "2026-07-17 12:10:51 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S09", "elapsed_seconds": 5670.509070600005, "event": "dataset_completed", "index": 83, "split_seed": 1151, "time": "2026-07-17 12:11:14 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S09", "event": "dataset_started", "index": 84, "split_seed": 1171, "time": "2026-07-17 12:11:14 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S09", "elapsed_seconds": 5694.021495899971, "event": "dataset_completed", "index": 84, "split_seed": 1171, "time": "2026-07-17 12:11:38 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S09", "event": "dataset_started", "index": 85, "split_seed": 1181, "time": "2026-07-17 12:11:38 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S09", "elapsed_seconds": 5717.569259999989, "event": "dataset_completed", "index": 85, "split_seed": 1181, "time": "2026-07-17 12:12:02 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S09", "event": "dataset_started", "index": 86, "split_seed": 1201, "time": "2026-07-17 12:12:02 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S09", "elapsed_seconds": 5741.7759402999945, "event": "dataset_completed", "index": 86, "split_seed": 1201, "time": "2026-07-17 12:12:26 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S09", "event": "dataset_started", "index": 87, "split_seed": 1213, "time": "2026-07-17 12:12:26 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S09", "elapsed_seconds": 5764.228983500012, "event": "dataset_completed", "index": 87, "split_seed": 1213, "time": "2026-07-17 12:12:48 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S09", "event": "dataset_started", "index": 88, "split_seed": 1231, "time": "2026-07-17 12:12:48 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S09", "elapsed_seconds": 5787.26829279997, "event": "dataset_completed", "index": 88, "split_seed": 1231, "time": "2026-07-17 12:13:11 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S09", "event": "dataset_started", "index": 89, "split_seed": 1249, "time": "2026-07-17 12:13:11 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S09", "elapsed_seconds": 5809.5991206000035, "event": "dataset_completed", "index": 89, "split_seed": 1249, "time": "2026-07-17 12:13:34 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S09", "event": "dataset_started", "index": 90, "split_seed": 1277, "time": "2026-07-17 12:13:34 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S09", "elapsed_seconds": 5833.126339799986, "event": "dataset_completed", "index": 90, "split_seed": 1277, "time": "2026-07-17 12:13:57 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S10", "event": "dataset_started", "index": 91, "split_seed": 1103, "time": "2026-07-17 12:13:57 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S10", "elapsed_seconds": 5956.915692799987, "event": "dataset_completed", "index": 91, "split_seed": 1103, "time": "2026-07-17 12:16:01 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S10", "event": "dataset_started", "index": 92, "split_seed": 1129, "time": "2026-07-17 12:16:01 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S10", "elapsed_seconds": 6089.744408800005, "event": "dataset_completed", "index": 92, "split_seed": 1129, "time": "2026-07-17 12:18:14 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S10", "event": "dataset_started", "index": 93, "split_seed": 1151, "time": "2026-07-17 12:18:14 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S10", "elapsed_seconds": 6191.84102079997, "event": "dataset_completed", "index": 93, "split_seed": 1151, "time": "2026-07-17 12:19:56 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S10", "event": "dataset_started", "index": 94, "split_seed": 1171, "time": "2026-07-17 12:19:56 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S10", "elapsed_seconds": 6296.304362399998, "event": "dataset_completed", "index": 94, "split_seed": 1171, "time": "2026-07-17 12:21:40 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S10", "event": "dataset_started", "index": 95, "split_seed": 1181, "time": "2026-07-17 12:21:40 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S10", "elapsed_seconds": 6400.14460249999, "event": "dataset_completed", "index": 95, "split_seed": 1181, "time": "2026-07-17 12:23:24 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S10", "event": "dataset_started", "index": 96, "split_seed": 1201, "time": "2026-07-17 12:23:24 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S10", "elapsed_seconds": 6503.076333500008, "event": "dataset_completed", "index": 96, "split_seed": 1201, "time": "2026-07-17 12:25:07 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S10", "event": "dataset_started", "index": 97, "split_seed": 1213, "time": "2026-07-17 12:25:07 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S10", "elapsed_seconds": 6607.772174700018, "event": "dataset_completed", "index": 97, "split_seed": 1213, "time": "2026-07-17 12:26:52 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S10", "event": "dataset_started", "index": 98, "split_seed": 1231, "time": "2026-07-17 12:26:52 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S10", "elapsed_seconds": 6718.275137799996, "event": "dataset_completed", "index": 98, "split_seed": 1231, "time": "2026-07-17 12:28:42 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S10", "event": "dataset_started", "index": 99, "split_seed": 1249, "time": "2026-07-17 12:28:42 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S10", "elapsed_seconds": 6823.541564099985, "event": "dataset_completed", "index": 99, "split_seed": 1249, "time": "2026-07-17 12:30:27 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S10", "event": "dataset_started", "index": 100, "split_seed": 1277, "time": "2026-07-17 12:30:27 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S10", "elapsed_seconds": 6930.03213420001, "event": "dataset_completed", "index": 100, "split_seed": 1277, "time": "2026-07-17 12:32:14 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S11", "event": "dataset_started", "index": 101, "split_seed": 1103, "time": "2026-07-17 12:32:14 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S11", "elapsed_seconds": 6975.344547999994, "event": "dataset_completed", "index": 101, "split_seed": 1103, "time": "2026-07-17 12:32:59 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S11", "event": "dataset_started", "index": 102, "split_seed": 1129, "time": "2026-07-17 12:32:59 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S11", "elapsed_seconds": 7017.9999155999685, "event": "dataset_completed", "index": 102, "split_seed": 1129, "time": "2026-07-17 12:33:42 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S11", "event": "dataset_started", "index": 103, "split_seed": 1151, "time": "2026-07-17 12:33:42 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S11", "elapsed_seconds": 7061.8155357999785, "event": "dataset_completed", "index": 103, "split_seed": 1151, "time": "2026-07-17 12:34:26 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S11", "event": "dataset_started", "index": 104, "split_seed": 1171, "time": "2026-07-17 12:34:26 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S11", "elapsed_seconds": 7105.5817791999725, "event": "dataset_completed", "index": 104, "split_seed": 1171, "time": "2026-07-17 12:35:10 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S11", "event": "dataset_started", "index": 105, "split_seed": 1181, "time": "2026-07-17 12:35:10 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S11", "elapsed_seconds": 7147.4609716999985, "event": "dataset_completed", "index": 105, "split_seed": 1181, "time": "2026-07-17 12:35:51 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S11", "event": "dataset_started", "index": 106, "split_seed": 1201, "time": "2026-07-17 12:35:51 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S11", "elapsed_seconds": 7190.3630851999915, "event": "dataset_completed", "index": 106, "split_seed": 1201, "time": "2026-07-17 12:36:34 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S11", "event": "dataset_started", "index": 107, "split_seed": 1213, "time": "2026-07-17 12:36:34 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S11", "elapsed_seconds": 7231.8346724, "event": "dataset_completed", "index": 107, "split_seed": 1213, "time": "2026-07-17 12:37:16 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S11", "event": "dataset_started", "index": 108, "split_seed": 1231, "time": "2026-07-17 12:37:16 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S11", "elapsed_seconds": 7273.566311500006, "event": "dataset_completed", "index": 108, "split_seed": 1231, "time": "2026-07-17 12:37:58 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S11", "event": "dataset_started", "index": 109, "split_seed": 1249, "time": "2026-07-17 12:37:58 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S11", "elapsed_seconds": 7316.000123899983, "event": "dataset_completed", "index": 109, "split_seed": 1249, "time": "2026-07-17 12:38:40 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S11", "event": "dataset_started", "index": 110, "split_seed": 1277, "time": "2026-07-17 12:38:40 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S11", "elapsed_seconds": 7356.914336999966, "event": "dataset_completed", "index": 110, "split_seed": 1277, "time": "2026-07-17 12:39:21 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S12", "event": "dataset_started", "index": 111, "split_seed": 1103, "time": "2026-07-17 12:39:21 +0300", "total": 120}
+{"data_seed": 1103, "dataset": "S12", "elapsed_seconds": 7379.258862399991, "event": "dataset_completed", "index": 111, "split_seed": 1103, "time": "2026-07-17 12:39:43 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S12", "event": "dataset_started", "index": 112, "split_seed": 1129, "time": "2026-07-17 12:39:43 +0300", "total": 120}
+{"data_seed": 1129, "dataset": "S12", "elapsed_seconds": 7402.962981799996, "event": "dataset_completed", "index": 112, "split_seed": 1129, "time": "2026-07-17 12:40:07 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S12", "event": "dataset_started", "index": 113, "split_seed": 1151, "time": "2026-07-17 12:40:07 +0300", "total": 120}
+{"data_seed": 1151, "dataset": "S12", "elapsed_seconds": 7425.109044400015, "event": "dataset_completed", "index": 113, "split_seed": 1151, "time": "2026-07-17 12:40:29 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S12", "event": "dataset_started", "index": 114, "split_seed": 1171, "time": "2026-07-17 12:40:29 +0300", "total": 120}
+{"data_seed": 1171, "dataset": "S12", "elapsed_seconds": 7446.998659900011, "event": "dataset_completed", "index": 114, "split_seed": 1171, "time": "2026-07-17 12:40:51 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S12", "event": "dataset_started", "index": 115, "split_seed": 1181, "time": "2026-07-17 12:40:51 +0300", "total": 120}
+{"data_seed": 1181, "dataset": "S12", "elapsed_seconds": 7469.0723481999885, "event": "dataset_completed", "index": 115, "split_seed": 1181, "time": "2026-07-17 12:41:13 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S12", "event": "dataset_started", "index": 116, "split_seed": 1201, "time": "2026-07-17 12:41:13 +0300", "total": 120}
+{"data_seed": 1201, "dataset": "S12", "elapsed_seconds": 7491.708894600015, "event": "dataset_completed", "index": 116, "split_seed": 1201, "time": "2026-07-17 12:41:36 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S12", "event": "dataset_started", "index": 117, "split_seed": 1213, "time": "2026-07-17 12:41:36 +0300", "total": 120}
+{"data_seed": 1213, "dataset": "S12", "elapsed_seconds": 7514.301724699995, "event": "dataset_completed", "index": 117, "split_seed": 1213, "time": "2026-07-17 12:41:58 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S12", "event": "dataset_started", "index": 118, "split_seed": 1231, "time": "2026-07-17 12:41:58 +0300", "total": 120}
+{"data_seed": 1231, "dataset": "S12", "elapsed_seconds": 7537.402749099972, "event": "dataset_completed", "index": 118, "split_seed": 1231, "time": "2026-07-17 12:42:21 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S12", "event": "dataset_started", "index": 119, "split_seed": 1249, "time": "2026-07-17 12:42:21 +0300", "total": 120}
+{"data_seed": 1249, "dataset": "S12", "elapsed_seconds": 7561.1171362999885, "event": "dataset_completed", "index": 119, "split_seed": 1249, "time": "2026-07-17 12:42:45 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S12", "event": "dataset_started", "index": 120, "split_seed": 1277, "time": "2026-07-17 12:42:45 +0300", "total": 120}
+{"data_seed": 1277, "dataset": "S12", "elapsed_seconds": 7584.929682599992, "event": "dataset_completed", "index": 120, "split_seed": 1277, "time": "2026-07-17 12:43:09 +0300", "total": 120}

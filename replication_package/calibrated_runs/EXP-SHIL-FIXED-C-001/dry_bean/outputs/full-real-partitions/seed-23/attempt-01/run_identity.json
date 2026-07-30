@@ -1,0 +1,13 @@
+{
+  "config_path": "/home/ubuntu/experiments/sparse_hypergraph_interactions/2026-07-27_codex_vps_fixed-c-cost-sensitivity/config/partitioned_full_real/full_real_seed_23.json",
+  "config_sha256": "2BEAEB58573D631F3452F5B4BBDDAF664B23A1D6064E4D0CC8A3171C1F837298",
+  "dry_bean_archive_sha256": "0A64EFF5BE87F48C3DBBFC0A12A56C5D5B5167EF8E61CD45D69B3E7C7130C06F",
+  "experiment_id": "EXP-SHIL-FIXED-C-001",
+  "historical_metrics_sha256": "BB70E74763F9574DD22BC97E5753CE240B5317732996661F299D9A37A1E75326",
+  "methodology_change_id": "MCH-SHIL-002",
+  "mode": "full-real",
+  "predecessor_source_sha256": "48528D1B52D57EFD3344DD0745775AE58C317DB0C50FBC20882711FCDAA1C64E",
+  "protocol_sha256": "39EBFB027CA08DDB18BC65D91DAD11B3C6524C175193D796C35E031FDA1F713A",
+  "runner_source_sha256": "2458A1C7F80CF08BB61B227B5525E798A923C78C150AF3419FE900313162DD27",
+  "started_at_local": "2026-07-27 15:29:09 +0300"
+}

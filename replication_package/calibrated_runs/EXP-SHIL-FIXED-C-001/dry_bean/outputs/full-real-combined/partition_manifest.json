@@ -1,0 +1,79 @@
+{
+  "base_config": "/home/ubuntu/experiments/sparse_hypergraph_interactions/2026-07-27_codex_vps_fixed-c-cost-sensitivity/config/full_config.json",
+  "base_config_sha256": "7D911963E408934093BB65F901B735337D4503027EFE8DD985DE52D1AD1E2FB8",
+  "methodology_change_id": "MCH-SHIL-002",
+  "partitions": [
+    {
+      "attempt": "outputs/full-real-partitions/seed-11/attempt-01",
+      "metrics_rows": 2,
+      "output_hashes_sha256": "5BBB74E462ED7604E678677A0DF3D52F03CAB7093E7F83B010BC5D8B99B76670",
+      "protocol_sha256": "39EBFB027CA08DDB18BC65D91DAD11B3C6524C175193D796C35E031FDA1F713A",
+      "seed": 11
+    },
+    {
+      "attempt": "outputs/full-real-partitions/seed-23/attempt-01",
+      "metrics_rows": 2,
+      "output_hashes_sha256": "897E7055DB70AFFBAE31995662930A66EAFF455A7FD44E9481D4F2C14BBEFE36",
+      "protocol_sha256": "39EBFB027CA08DDB18BC65D91DAD11B3C6524C175193D796C35E031FDA1F713A",
+      "seed": 23
+    },
+    {
+      "attempt": "outputs/full-real-partitions/seed-37/attempt-01",
+      "metrics_rows": 2,
+      "output_hashes_sha256": "5403A71E581324D2326237F9120C97DCC729EEE96065B9C40CAEECED91818A7F",
+      "protocol_sha256": "39EBFB027CA08DDB18BC65D91DAD11B3C6524C175193D796C35E031FDA1F713A",
+      "seed": 37
+    },
+    {
+      "attempt": "outputs/full-real-partitions/seed-53/attempt-01",
+      "metrics_rows": 2,
+      "output_hashes_sha256": "F1622994740D93077B4584C0C138BF96257880DE8B12A340EDC9731DF7C4FD30",
+      "protocol_sha256": "39EBFB027CA08DDB18BC65D91DAD11B3C6524C175193D796C35E031FDA1F713A",
+      "seed": 53
+    },
+    {
+      "attempt": "outputs/full-real-partitions/seed-71/attempt-01",
+      "metrics_rows": 2,
+      "output_hashes_sha256": "9882E46352C7AA277EF6D367E7411B8EC70622E1EFA3A76150547E81A626560A",
+      "protocol_sha256": "39EBFB027CA08DDB18BC65D91DAD11B3C6524C175193D796C35E031FDA1F713A",
+      "seed": 71
+    },
+    {
+      "attempt": "outputs/full-real-partitions/seed-89/attempt-01",
+      "metrics_rows": 2,
+      "output_hashes_sha256": "D69DCCED21AAB46D9BBC7150F3011BB05ED901177FC7D11157F24B63D5CFB7AA",
+      "protocol_sha256": "39EBFB027CA08DDB18BC65D91DAD11B3C6524C175193D796C35E031FDA1F713A",
+      "seed": 89
+    },
+    {
+      "attempt": "outputs/full-real-partitions/seed-101/attempt-01",
+      "metrics_rows": 2,
+      "output_hashes_sha256": "067DA89BF5FCC141D84DA0565299BB39A159A4EF9094ABC3869FD11B346339AA",
+      "protocol_sha256": "39EBFB027CA08DDB18BC65D91DAD11B3C6524C175193D796C35E031FDA1F713A",
+      "seed": 101
+    },
+    {
+      "attempt": "outputs/full-real-partitions/seed-131/attempt-01",
+      "metrics_rows": 2,
+      "output_hashes_sha256": "CEC42FE54D73BA1C7506D7A2B17365ACB687783F1ABD796AC75436B6DE0353BC",
+      "protocol_sha256": "39EBFB027CA08DDB18BC65D91DAD11B3C6524C175193D796C35E031FDA1F713A",
+      "seed": 131
+    },
+    {
+      "attempt": "outputs/full-real-partitions/seed-157/attempt-01",
+      "metrics_rows": 2,
+      "output_hashes_sha256": "ABD91B32F35D84D1CC566DD0ADB2724FCF6B5D767ACA3FC47A73D029D978A4DC",
+      "protocol_sha256": "39EBFB027CA08DDB18BC65D91DAD11B3C6524C175193D796C35E031FDA1F713A",
+      "seed": 157
+    },
+    {
+      "attempt": "outputs/full-real-partitions/seed-181/attempt-01",
+      "metrics_rows": 2,
+      "output_hashes_sha256": "E075A9690B2357895EB9071CC31876B8FBD41F970DB22C48824CCE0956003616",
+      "protocol_sha256": "39EBFB027CA08DDB18BC65D91DAD11B3C6524C175193D796C35E031FDA1F713A",
+      "seed": 181
+    }
+  ],
+  "protocol_sha256": "39EBFB027CA08DDB18BC65D91DAD11B3C6524C175193D796C35E031FDA1F713A",
+  "scientific_protocol_changed": true
+}

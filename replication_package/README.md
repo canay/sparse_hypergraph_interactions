@@ -1,9 +1,9 @@
 # Replication Package
 
-Date/time: 2026-07-16 23:22 +03:00
+Date/time: 2026-07-30 19:53 +03:00
 Tool: Codex
-Model, if known: GPT-5
-Operation ID: shil-github-disclosure-tier-reassessment-20260716-2312
+Model, if known: GPT-5.6 Extra High (xhigh, user-attested)
+Operation ID: shil-ijmlc-public-repo-sync-20260730-1953
 
 This directory maps manuscript evidence to runnable scripts and package-local generated outputs.
 
@@ -21,6 +21,14 @@ Public repository: `https://github.com/canay/sparse_hypergraph_interactions`.
 
 `EXP-SHIL-Q1-002` is used only as bounded wider-feature support-stress evidence. `EXP-SHIL-Q1-003` narrows the claim further: L1 top-8 coefficient ranking matches SHIL's planted-support precision and recall on the synthetic follow-up, so the manuscript may contrast SHIL with the default nonzero L1 support but must not claim superiority over budget-matched L1 ranking. `EXP-SHIL-Q1-004` adds descriptive three-seed planted-pair sensitivity evidence; it is not a broad generalization benchmark.
 
+The `calibrated_runs/` subtree contains `EXP-SHIL-SC-001` and
+`EXP-SHIL-FIXED-C-001`. The synthetic stability-calibration matrix supports the
+protocol-only decision recorded in its analysis summary. The Dry Bean arm has no
+ground-truth interaction support and is retained as real-data prediction,
+stability, and cost evidence. The fixed-`C` arm is a pre-specified
+procedure-level cost sensitivity and does not establish general method
+superiority.
+
 ## Commands
 
 From the repository root:
@@ -31,4 +39,8 @@ python -m pip install -r requirements.txt
 .\run_all.ps1
 ```
 
-The command wrappers verify package layout, dependency imports, and selected evidence-table schemas without running an experiment. Full frozen, ten-seed follow-up, scale-stress, and bounded-sensitivity experiments remain available through the scripts but are not required for a clean-clone smoke test.
+The command wrappers verify package layout, dependency imports, SHA-256 entries,
+selected evidence-table schemas, calibrated row counts, and the twenty completed
+Dry Bean seed records without running an experiment. Full experiment commands
+are documented with each calibrated run and are not required for a clean-clone
+smoke test.

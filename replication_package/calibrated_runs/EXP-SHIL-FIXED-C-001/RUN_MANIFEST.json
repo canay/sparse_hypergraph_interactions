@@ -1,0 +1,58 @@
+{
+  "run_id": "2026-07-27_codex_vps_fixed-c-cost-sensitivity",
+  "experiment_id": "EXP-SHIL-FIXED-C-001",
+  "methodology_change_id": "MCH-SHIL-002",
+  "status": "completed_verified_integrated",
+  "created_at_local": "2026-07-27 15:24 +03:00",
+  "tool": "Codex",
+  "model": "GPT-5.6 Extra High (xhigh; user-attested, runtime exposed GPT-5 family)",
+  "operation_id": "shil-fixed-c-result-integration-20260728-0914",
+  "relationship": "sensitivity_of:EXP-SHIL-SC-001",
+  "fixed_c": 1.0,
+  "protocol_sha256": "39EBFB027CA08DDB18BC65D91DAD11B3C6524C175193D796C35E031FDA1F713A",
+  "local_smoke": {
+    "status": "passed",
+    "output": "outputs/smoke-local-v2",
+    "output_hashes_sha256": "48CF5CCBF212B53803BB513DE90DFEAD57BB0B3DE4CC02585C2DFCA915CF12DF",
+    "methods": [
+      "SC-L1-fixed-C",
+      "SC-SHIL-contemporary"
+    ],
+    "fit_units_per_method": 4,
+    "fixed_c_values": [
+      1.0
+    ],
+    "fixed_c_inner_validation_rows": [
+      0
+    ]
+  },
+  "execution_host": "vps",
+  "remote_folder": "/home/ubuntu/experiments/sparse_hypergraph_interactions/2026-07-27_codex_vps_fixed-c-cost-sensitivity",
+  "resource_policy": "max_3_single_thread_workers_on_cores_0_1_2_nice10_ionice7",
+  "promotion_boundary": "complete_verified_result_integrated_into_formal_S1",
+  "github_sync": "deferred_to_G11_no_push_in_this_run",
+  "completed_at_remote": "2026-07-27 21:38:10 +03:00",
+  "verified_at_local": "2026-07-28 09:31 +03:00",
+  "remote_archive_sha256": "BCB7EADD99968CF15DDAC7D60DA607370C1CA5D501507B43056E22FA8187569B",
+  "pullback_validation": {
+    "status": "passed",
+    "effective_checks": "253/253",
+    "report": "verification/pullback_validation_reconciled.json",
+    "sha256": "1E4D12898B23230B2DB0E801DC5C190A563774CBD0A7970A71F453A6388D21D2"
+  },
+  "local_locked_analysis": {
+    "status": "passed",
+    "checks": "14/14",
+    "report": "verification/locked_analysis_comparison.json",
+    "sha256": "C3177479E2E57DF5BB345B036DF1191BD2353B0D8C9AECFA4EF7D24B51BCD39A"
+  },
+  "primary_result": {
+    "decision": "RESIDUAL_FIXED_C_L1_SLOWER",
+    "mean_paired_time_ratio": 14.694430159604599,
+    "paired_bootstrap_95_ci": [
+      14.289241334184807,
+      15.16152196147356
+    ],
+    "claim_boundary": "recorded_procedure_level_cost_only"
+  }
+}

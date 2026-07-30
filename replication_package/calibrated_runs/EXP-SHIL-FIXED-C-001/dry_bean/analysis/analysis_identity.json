@@ -1,0 +1,8 @@
+{
+  "analysis_source_sha256": "CB46B10B2AA04C3EA3DA9EE76AE815D1C095053A147F8D064944F0148B252FB2",
+  "combined_metrics_sha256": "73449E3FA07E9AAE717EDD17F84598E87591457972E47C46F6791AC9656F06FC",
+  "combined_output": "/home/ubuntu/experiments/sparse_hypergraph_interactions/2026-07-27_codex_vps_fixed-c-cost-sensitivity/outputs/full-real-combined",
+  "historical_metrics": "/home/ubuntu/experiments/sparse_hypergraph_interactions/2026-07-27_codex_vps_fixed-c-cost-sensitivity/inputs/historical_tuned_metrics.csv",
+  "historical_metrics_sha256": "BB70E74763F9574DD22BC97E5753CE240B5317732996661F299D9A37A1E75326",
+  "protocol_sha256": "39EBFB027CA08DDB18BC65D91DAD11B3C6524C175193D796C35E031FDA1F713A"
+}

@@ -1,0 +1,166 @@
+{
+  "status": "PASS",
+  "comparison_scope": "Locked analysis rerun from downloaded combined outputs; heavy experiment not rerun.",
+  "remote_analysis": "C:\\DOCS\\AKADEMIK\\CALISMALAR\\40_AKTIF_CALISMALAR\\SCI-sparse_hypergraph_interactions\\experiments\\2026-07-27_codex_vps_fixed-c-cost-sensitivity\\analysis\\full-real-combined",
+  "local_analysis": "C:\\DOCS\\AKADEMIK\\CALISMALAR\\40_AKTIF_CALISMALAR\\SCI-sparse_hypergraph_interactions\\experiments\\2026-07-27_codex_vps_fixed-c-cost-sensitivity\\analysis\\local-rerun-20260728",
+  "check_count": 14,
+  "passed_count": 14,
+  "failed_count": 0,
+  "checks": [
+    {
+      "check": "analysis_summary_semantic_identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "method_summary_semantic_identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "paired_timing_and_metrics_semantic_identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "analysis_input_identity",
+      "passed": true,
+      "details": {
+        "protocol_sha256": {
+          "remote": "39EBFB027CA08DDB18BC65D91DAD11B3C6524C175193D796C35E031FDA1F713A",
+          "local": "39EBFB027CA08DDB18BC65D91DAD11B3C6524C175193D796C35E031FDA1F713A"
+        },
+        "combined_metrics_sha256": {
+          "remote": "73449E3FA07E9AAE717EDD17F84598E87591457972E47C46F6791AC9656F06FC",
+          "local": "73449E3FA07E9AAE717EDD17F84598E87591457972E47C46F6791AC9656F06FC"
+        },
+        "historical_metrics_sha256": {
+          "remote": "BB70E74763F9574DD22BC97E5753CE240B5317732996661F299D9A37A1E75326",
+          "local": "BB70E74763F9574DD22BC97E5753CE240B5317732996661F299D9A37A1E75326"
+        },
+        "analysis_source_sha256": {
+          "remote": "CB46B10B2AA04C3EA3DA9EE76AE815D1C095053A147F8D064944F0148B252FB2",
+          "local": "CB46B10B2AA04C3EA3DA9EE76AE815D1C095053A147F8D064944F0148B252FB2"
+        }
+      }
+    },
+    {
+      "check": "environment_path_difference_only",
+      "passed": true,
+      "details": {
+        "remote_combined_output": "/home/ubuntu/experiments/sparse_hypergraph_interactions/2026-07-27_codex_vps_fixed-c-cost-sensitivity/outputs/full-real-combined",
+        "local_combined_output": "C:\\DOCS\\AKADEMIK\\CALISMALAR\\40_AKTIF_CALISMALAR\\SCI-sparse_hypergraph_interactions\\experiments\\2026-07-27_codex_vps_fixed-c-cost-sensitivity\\outputs\\full-real-combined",
+        "remote_historical_metrics": "/home/ubuntu/experiments/sparse_hypergraph_interactions/2026-07-27_codex_vps_fixed-c-cost-sensitivity/inputs/historical_tuned_metrics.csv",
+        "local_historical_metrics": "C:\\DOCS\\AKADEMIK\\CALISMALAR\\40_AKTIF_CALISMALAR\\SCI-sparse_hypergraph_interactions\\experiments\\2026-07-27_codex_vps_fixed-c-cost-sensitivity\\inputs\\historical_tuned_metrics.csv"
+      }
+    },
+    {
+      "check": "remote_recorded_output_hash::analysis_identity.json",
+      "passed": true,
+      "details": {
+        "expected": "B5F1B002DCD308FAA129E51005A2736F7C0EE93BCAE6CA5F081EE6FCAC65A015",
+        "actual": "B5F1B002DCD308FAA129E51005A2736F7C0EE93BCAE6CA5F081EE6FCAC65A015"
+      }
+    },
+    {
+      "check": "remote_recorded_output_hash::analysis_summary.json",
+      "passed": true,
+      "details": {
+        "expected": "7EE5204BBDE9CDB9A3E654C0C26A3FA3625D096918FA3E949B08B98D3696EF87",
+        "actual": "7EE5204BBDE9CDB9A3E654C0C26A3FA3625D096918FA3E949B08B98D3696EF87"
+      }
+    },
+    {
+      "check": "remote_recorded_output_hash::method_summary.csv",
+      "passed": true,
+      "details": {
+        "expected": "7D46AC4A82FF163F9B110763D1DE2D17179A5CC767BB1FD156BA769BB88B1613",
+        "actual": "7D46AC4A82FF163F9B110763D1DE2D17179A5CC767BB1FD156BA769BB88B1613"
+      }
+    },
+    {
+      "check": "remote_recorded_output_hash::paired_timing_and_metrics.csv",
+      "passed": true,
+      "details": {
+        "expected": "F355EB01894F0E66ECF70DD8E4E80B83F6A3DCA6BC9850D64D8598141F1DFCB9",
+        "actual": "F355EB01894F0E66ECF70DD8E4E80B83F6A3DCA6BC9850D64D8598141F1DFCB9"
+      }
+    },
+    {
+      "check": "local_recorded_output_hash::analysis_identity.json",
+      "passed": true,
+      "details": {
+        "expected": "0F234EA65B7EC1A2665AA210A7411A8E801381EB6CAC4D7B710C767140721EAA",
+        "actual": "0F234EA65B7EC1A2665AA210A7411A8E801381EB6CAC4D7B710C767140721EAA"
+      }
+    },
+    {
+      "check": "local_recorded_output_hash::analysis_summary.json",
+      "passed": true,
+      "details": {
+        "expected": "F98E8771C5B83C203C909A293F0DA6BD09065A1348845699D54AC5D66D83E897",
+        "actual": "F98E8771C5B83C203C909A293F0DA6BD09065A1348845699D54AC5D66D83E897"
+      }
+    },
+    {
+      "check": "local_recorded_output_hash::method_summary.csv",
+      "passed": true,
+      "details": {
+        "expected": "9DDA2E409AB75E451148C72033EA5D1B3CB775E21A1534DBD4CDD20AD0165196",
+        "actual": "9DDA2E409AB75E451148C72033EA5D1B3CB775E21A1534DBD4CDD20AD0165196"
+      }
+    },
+    {
+      "check": "local_recorded_output_hash::paired_timing_and_metrics.csv",
+      "passed": true,
+      "details": {
+        "expected": "E6ADD98AB2A82564FAFBCD386336BCBE9E11BB9D6EBBF20E53D4AE618D1ECE18",
+        "actual": "E6ADD98AB2A82564FAFBCD386336BCBE9E11BB9D6EBBF20E53D4AE618D1ECE18"
+      }
+    },
+    {
+      "check": "nonidentity_is_newline_serialization_only",
+      "passed": true,
+      "details": {
+        "analysis_summary.json": {
+          "exact": false,
+          "remote_sha256": "7EE5204BBDE9CDB9A3E654C0C26A3FA3625D096918FA3E949B08B98D3696EF87",
+          "local_sha256": "F98E8771C5B83C203C909A293F0DA6BD09065A1348845699D54AC5D66D83E897",
+          "newline_normalized_exact": true
+        },
+        "method_summary.csv": {
+          "exact": false,
+          "remote_sha256": "7D46AC4A82FF163F9B110763D1DE2D17179A5CC767BB1FD156BA769BB88B1613",
+          "local_sha256": "9DDA2E409AB75E451148C72033EA5D1B3CB775E21A1534DBD4CDD20AD0165196",
+          "newline_normalized_exact": true
+        },
+        "paired_timing_and_metrics.csv": {
+          "exact": false,
+          "remote_sha256": "F355EB01894F0E66ECF70DD8E4E80B83F6A3DCA6BC9850D64D8598141F1DFCB9",
+          "local_sha256": "E6ADD98AB2A82564FAFBCD386336BCBE9E11BB9D6EBBF20E53D4AE618D1ECE18",
+          "newline_normalized_exact": true
+        }
+      }
+    }
+  ],
+  "bytewise_comparison": {
+    "analysis_summary.json": {
+      "exact": false,
+      "remote_sha256": "7EE5204BBDE9CDB9A3E654C0C26A3FA3625D096918FA3E949B08B98D3696EF87",
+      "local_sha256": "F98E8771C5B83C203C909A293F0DA6BD09065A1348845699D54AC5D66D83E897",
+      "newline_normalized_exact": true
+    },
+    "method_summary.csv": {
+      "exact": false,
+      "remote_sha256": "7D46AC4A82FF163F9B110763D1DE2D17179A5CC767BB1FD156BA769BB88B1613",
+      "local_sha256": "9DDA2E409AB75E451148C72033EA5D1B3CB775E21A1534DBD4CDD20AD0165196",
+      "newline_normalized_exact": true
+    },
+    "paired_timing_and_metrics.csv": {
+      "exact": false,
+      "remote_sha256": "F355EB01894F0E66ECF70DD8E4E80B83F6A3DCA6BC9850D64D8598141F1DFCB9",
+      "local_sha256": "E6ADD98AB2A82564FAFBCD386336BCBE9E11BB9D6EBBF20E53D4AE618D1ECE18",
+      "newline_normalized_exact": true
+    }
+  }
+}

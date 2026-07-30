@@ -1,0 +1,17 @@
+{
+  "executable": "/home/ubuntu/experiments/sparse_hypergraph_interactions/2026-07-17_codex_vps_stability-calibrated-shil/.venv/bin/python",
+  "hostname": "instance-20260404-2117",
+  "initial_rss_bytes": 150892544,
+  "logical_cpu_count": 4,
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "physical_cpu_count": 4,
+  "platform": "Linux-6.17.0-1018-oracle-aarch64-with-glibc2.39",
+  "predecessor_source_sha256": "48528D1B52D57EFD3344DD0745775AE58C317DB0C50FBC20882711FCDAA1C64E",
+  "processor": "aarch64",
+  "psutil": "7.2.2",
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "runner_source_sha256": "2458A1C7F80CF08BB61B227B5525E798A923C78C150AF3419FE900313162DD27",
+  "scikit_learn": "1.8.0",
+  "total_memory_bytes": 25139523584
+}

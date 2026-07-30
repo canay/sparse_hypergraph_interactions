@@ -1,0 +1,34 @@
+{
+  "experiment_id": "EXP-SHIL-SC-001",
+  "status": "completed_verified_public_artifact_set",
+  "recorded_at": "2026-07-30 19:53 +03:00",
+  "tool": "Codex",
+  "model": "GPT-5.6 Extra High (xhigh, user-attested)",
+  "operation_id": "shil-ijmlc-public-repo-sync-20260730-1953",
+  "protocol": {
+    "path": "protocol/method_extension_protocol_20260717.md",
+    "sha256": "0D4826686126386AA35BB8975C33B1CADAE6C74CAA0A2DD425F5AFF2062053DC"
+  },
+  "synthetic": {
+    "status": "completed_verified",
+    "scenario_count": 12,
+    "dataset_runs": 120,
+    "method_rows": 720,
+    "decision": "PROTOCOL_ONLY",
+    "outputs": "synthetic/outputs",
+    "analysis": "synthetic/analysis"
+  },
+  "dry_bean": {
+    "status": "completed_verified",
+    "dataset": "UCI dataset 602",
+    "archive_sha256": "0A64EFF5BE87F48C3DBBFC0A12A56C5D5B5167EF8E61CD45D69B3E7C7130C06F",
+    "split_seeds": [11, 23, 37, 53, 71, 89, 101, 131, 157, 181],
+    "completed_seed_count": 10,
+    "method_rows": 60,
+    "analysis_decision": "NON_PROMOTED_OR_REAL_ONLY",
+    "combined_outputs": "dry_bean/outputs/full-real-combined",
+    "per_seed_outputs": "dry_bean/outputs/full-real-partitions",
+    "analysis": "dry_bean/analysis"
+  },
+  "raw_public_datasets_redistributed": false
+}

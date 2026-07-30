@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "raw_report": "C:\\DOCS\\AKADEMIK\\CALISMALAR\\40_AKTIF_CALISMALAR\\SCI-sparse_hypergraph_interactions\\experiments\\2026-07-27_codex_vps_fixed-c-cost-sensitivity\\verification\\pullback_validation.json",
+  "raw_check_count": 253,
+  "raw_passed_count": 250,
+  "raw_failed_count": 3,
+  "reconciliations": [
+    {
+      "raw_check": "source_manifest_self_hash",
+      "classification": "validator_contract_error",
+      "replacement_check": "source_manifest_sha256_listing_matches_json_manifest",
+      "passed": true,
+      "reason": "source_manifest.sha256 is a per-file checksum listing, not a self-hash."
+    },
+    {
+      "raw_check": "exactly_one_attempt_per_seed",
+      "classification": "ordering_only_false_positive",
+      "replacement_check": "exactly_one_attempt_01_directory_per_locked_seed",
+      "passed": true,
+      "reason": "The raw validator compared lexicographic path order with numeric seed order."
+    },
+    {
+      "raw_check": "combined_metrics_matches_partition_rows",
+      "classification": "serialization_precision_only",
+      "replacement_check": "combined_metrics_semantically_match_partition_rows_at_1e-12",
+      "passed": true,
+      "reason": "The reducer shortened decimal serialization without changing numeric values."
+    }
+  ],
+  "unresolved_raw_failures": [],
+  "failed_reconciliations": [],
+  "effective_passed_checks": 253,
+  "effective_failed_checks": 0
+}

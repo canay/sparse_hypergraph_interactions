@@ -1,0 +1,9 @@
+{
+  "completed_at_local": "2026-07-19 21:30:35 +0300",
+  "dataset_runs": 10,
+  "execution_mode": "partitioned_locked_seeds",
+  "experiment_id": "EXP-SHIL-SC-001",
+  "method_rows": 60,
+  "mode": "full-real",
+  "status": "completed"
+}

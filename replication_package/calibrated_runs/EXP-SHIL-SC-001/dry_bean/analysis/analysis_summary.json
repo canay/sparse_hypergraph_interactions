@@ -1,0 +1,9 @@
+{
+  "all_preregistered_rows_present": true,
+  "decision": "NON_PROMOTED_OR_REAL_ONLY",
+  "experiment_id": "EXP-SHIL-SC-001",
+  "input_method_rows": 60,
+  "input_selected_edge_rows": 6618,
+  "mode": "full-real",
+  "verification_status": "ANALYZED"
+}

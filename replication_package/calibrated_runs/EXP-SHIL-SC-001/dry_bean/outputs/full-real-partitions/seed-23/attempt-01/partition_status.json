@@ -1,0 +1,25 @@
+{
+  "attempt": "outputs/full-real-partitions/seed-23/attempt-01",
+  "command": [
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=10m",
+    "24h",
+    "taskset",
+    "-c",
+    "1",
+    "/home/ubuntu/experiments/sparse_hypergraph_interactions/2026-07-17_codex_vps_stability-calibrated-shil/.venv/bin/python",
+    "src/sc_shil_experiment.py",
+    "--config",
+    "config/partitioned_full_real/full_real_seed_23.json",
+    "--mode",
+    "full-real",
+    "--output",
+    "outputs/full-real-partitions/seed-23/attempt-01"
+  ],
+  "core": 1,
+  "exit_code": 0,
+  "finished_epoch": 1784411647.2202241,
+  "seed": 23,
+  "started_epoch": 1784386932.6321316
+}

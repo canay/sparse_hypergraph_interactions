@@ -1,0 +1,78 @@
+{
+  "base_config": "/home/ubuntu/experiments/sparse_hypergraph_interactions/2026-07-18_codex_vps_stability-calibrated-shil-recovery/config/full_config.json",
+  "base_config_sha256": "FF6B50F0A33231D965D66E37DD85AB2E11B50FF768CD39E78DDD74244067C535",
+  "partitions": [
+    {
+      "attempt": "outputs/full-real-partitions/seed-11/attempt-01",
+      "metrics_rows": 6,
+      "output_hashes_sha256": "98F98D0CE4240CD61E268F99D3914DDF9695928DE47AC1BA66C7F928BB92F84F",
+      "protocol_sha256": "0D4826686126386AA35BB8975C33B1CADAE6C74CAA0A2DD425F5AFF2062053DC",
+      "seed": 11
+    },
+    {
+      "attempt": "outputs/full-real-partitions/seed-23/attempt-01",
+      "metrics_rows": 6,
+      "output_hashes_sha256": "29BDA1AD59014C076651CC52B14D8451CAA65835C2E370F3B5B18D5708183E36",
+      "protocol_sha256": "0D4826686126386AA35BB8975C33B1CADAE6C74CAA0A2DD425F5AFF2062053DC",
+      "seed": 23
+    },
+    {
+      "attempt": "outputs/full-real-partitions/seed-37/attempt-01",
+      "metrics_rows": 6,
+      "output_hashes_sha256": "B05D42AFA789955E2199F2E7B15E101E2FE64F55B8E3FED0519E065095DA7752",
+      "protocol_sha256": "0D4826686126386AA35BB8975C33B1CADAE6C74CAA0A2DD425F5AFF2062053DC",
+      "seed": 37
+    },
+    {
+      "attempt": "outputs/full-real-partitions/seed-53/attempt-01",
+      "metrics_rows": 6,
+      "output_hashes_sha256": "BF5F9C4109B2D63CC90C4197D83EFE38E89DFD64093BF65B51F1729AAC900686",
+      "protocol_sha256": "0D4826686126386AA35BB8975C33B1CADAE6C74CAA0A2DD425F5AFF2062053DC",
+      "seed": 53
+    },
+    {
+      "attempt": "outputs/full-real-partitions/seed-71/attempt-01",
+      "metrics_rows": 6,
+      "output_hashes_sha256": "10578F2EED25D5949F643F42D3D6E6F35F34A68FC7FF48EE6C87BF088F6F824F",
+      "protocol_sha256": "0D4826686126386AA35BB8975C33B1CADAE6C74CAA0A2DD425F5AFF2062053DC",
+      "seed": 71
+    },
+    {
+      "attempt": "outputs/full-real-partitions/seed-89/attempt-01",
+      "metrics_rows": 6,
+      "output_hashes_sha256": "044CAAAA480ABF76E6B54F660E7CB3733717178CEF7909C9CE59672D5F346CCF",
+      "protocol_sha256": "0D4826686126386AA35BB8975C33B1CADAE6C74CAA0A2DD425F5AFF2062053DC",
+      "seed": 89
+    },
+    {
+      "attempt": "outputs/full-real-partitions/seed-101/attempt-01",
+      "metrics_rows": 6,
+      "output_hashes_sha256": "B62F4E700EDB81886FC9C4B8044ACAE5BB9C36127A9960894DEEE7C2A9C53229",
+      "protocol_sha256": "0D4826686126386AA35BB8975C33B1CADAE6C74CAA0A2DD425F5AFF2062053DC",
+      "seed": 101
+    },
+    {
+      "attempt": "outputs/full-real-partitions/seed-131/attempt-01",
+      "metrics_rows": 6,
+      "output_hashes_sha256": "F8D7BBA724EA8B5B11504B4295FE2830927ED3884590735FF4D348E01F9FD1C6",
+      "protocol_sha256": "0D4826686126386AA35BB8975C33B1CADAE6C74CAA0A2DD425F5AFF2062053DC",
+      "seed": 131
+    },
+    {
+      "attempt": "outputs/full-real-partitions/seed-157/attempt-01",
+      "metrics_rows": 6,
+      "output_hashes_sha256": "7692BD8C00CD14C11B2325D44A8ECF8A511ECCDE3B751129E1C02BA79534250B",
+      "protocol_sha256": "0D4826686126386AA35BB8975C33B1CADAE6C74CAA0A2DD425F5AFF2062053DC",
+      "seed": 157
+    },
+    {
+      "attempt": "outputs/full-real-partitions/seed-181/attempt-01",
+      "metrics_rows": 6,
+      "output_hashes_sha256": "6E606BCAC27B4B64D1EBE09D58CFDA27A23562FB07E78AE23C759A44353A28F9",
+      "protocol_sha256": "0D4826686126386AA35BB8975C33B1CADAE6C74CAA0A2DD425F5AFF2062053DC",
+      "seed": 181
+    }
+  ],
+  "protocol_sha256": "0D4826686126386AA35BB8975C33B1CADAE6C74CAA0A2DD425F5AFF2062053DC",
+  "scientific_protocol_changed": false
+}

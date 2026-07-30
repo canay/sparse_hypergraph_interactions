@@ -1,0 +1,15 @@
+{
+  "executable": "C:\\Users\\root\\miniforge3\\python.exe",
+  "hostname": "CNY-PC-Lenovo",
+  "initial_rss_bytes": 162566144,
+  "logical_cpu_count": 12,
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "physical_cpu_count": 6,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+  "psutil": "7.2.2",
+  "python": "3.12.12 | packaged by conda-forge | (main, Oct 22 2025, 23:13:34) [MSC v.1944 64 bit (AMD64)]",
+  "scikit_learn": "1.8.0",
+  "total_memory_bytes": 16839692288
+}

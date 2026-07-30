@@ -1,0 +1,18 @@
+{
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20260727,
+  "bootstrap_statistic": "arithmetic mean of paired per-seed time ratios",
+  "decision": "RESIDUAL_FIXED_C_L1_SLOWER",
+  "experiment_id": "EXP-SHIL-FIXED-C-001",
+  "fixed_c": 1.0,
+  "fixed_c_l1_over_sc_shil_ci95_high": 15.16152196147356,
+  "fixed_c_l1_over_sc_shil_ci95_low": 14.289241334184807,
+  "fixed_c_l1_over_sc_shil_mean": 14.694430159604599,
+  "fixed_c_l1_over_sc_shil_median": 14.520765313260735,
+  "historical_tuned_over_fixed_c_l1_mean": 4.634584228169183,
+  "log_loss_mean_difference_fixed_minus_shil": -0.004708344330861147,
+  "macro_f1_mean_difference_fixed_minus_shil": 0.0016344905474375837,
+  "paired_seed_count": 10,
+  "protocol_only_method_verdict_unchanged": true,
+  "status": "ANALYZED"
+}

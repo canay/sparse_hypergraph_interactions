@@ -1,0 +1,10 @@
+{
+  "config_path": "C:\\DOCS\\AKADEMIK\\CALISMALAR\\40_AKTIF_CALISMALAR\\SCI-sparse_hypergraph_interactions\\experiments\\2026-07-17_codex_local_stability-calibrated-shil\\config\\full_config.json",
+  "config_sha256": "FF6B50F0A33231D965D66E37DD85AB2E11B50FF768CD39E78DDD74244067C535",
+  "experiment_id": "EXP-SHIL-SC-001",
+  "mode": "full-synthetic",
+  "protocol_path": "C:\\DOCS\\AKADEMIK\\CALISMALAR\\40_AKTIF_CALISMALAR\\SCI-sparse_hypergraph_interactions\\MD\\02_design\\method_extension_protocol_20260717.md",
+  "protocol_sha256": "0D4826686126386AA35BB8975C33B1CADAE6C74CAA0A2DD425F5AFF2062053DC",
+  "source_sha256": "48528D1B52D57EFD3344DD0745775AE58C317DB0C50FBC20882711FCDAA1C64E",
+  "started_at_local": "2026-07-17 10:36:44 +0300"
+}

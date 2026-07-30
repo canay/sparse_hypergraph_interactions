@@ -1,0 +1,126 @@
+{
+  "base_seed_order": [
+    11,
+    23,
+    37,
+    53,
+    71,
+    89,
+    101,
+    131,
+    157,
+    181
+  ],
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20260727,
+  "candidate_orders": [
+    2,
+    3
+  ],
+  "comparison_methods": [
+    "SC-L1-fixed-C",
+    "SC-SHIL-contemporary"
+  ],
+  "execution_partition": {
+    "base_seed_order": [
+      11,
+      23,
+      37,
+      53,
+      71,
+      89,
+      101,
+      131,
+      157,
+      181
+    ],
+    "kind": "single_locked_real_split",
+    "methodology_change_id": "MCH-SHIL-002",
+    "scientific_protocol_changed": true,
+    "seed": 53
+  },
+  "experiment_id": "EXP-SHIL-FIXED-C-001",
+  "fixed_c": 1.0,
+  "historical_l1_c_grid": [
+    0.02,
+    0.05,
+    0.25,
+    1.0
+  ],
+  "historical_metrics_sha256": "BB70E74763F9574DD22BC97E5753CE240B5317732996661F299D9A37A1E75326",
+  "interaction_clip": 12.0,
+  "methodology_change_id": "MCH-SHIL-002",
+  "n_pairs_full": 20,
+  "n_pairs_smoke": 1,
+  "pi_grid": [
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "predecessor_experiment_id": "EXP-SHIL-SC-001",
+  "predecessor_source_sha256": "48528D1B52D57EFD3344DD0745775AE58C317DB0C50FBC20882711FCDAA1C64E",
+  "protocol_sha256": "39EBFB027CA08DDB18BC65D91DAD11B3C6524C175193D796C35E031FDA1F713A",
+  "q_grid": [
+    4,
+    8,
+    16
+  ],
+  "real_dataset": {
+    "archive_member": "DryBeanDataset/Dry_Bean_Dataset.arff",
+    "archive_sha256": "0A64EFF5BE87F48C3DBBFC0A12A56C5D5B5167EF8E61CD45D69B3E7C7130C06F",
+    "arff_sha256": "B2A4A76A2AEDFB8ED415ADFC1BFC70B5F202CB00CB72E500766E364C14834014",
+    "download_timeout_seconds": 60,
+    "expected_classes": 7,
+    "expected_feature_names": [
+      "Area",
+      "Perimeter",
+      "MajorAxisLength",
+      "MinorAxisLength",
+      "AspectRation",
+      "Eccentricity",
+      "ConvexArea",
+      "EquivDiameter",
+      "Extent",
+      "Solidity",
+      "roundness",
+      "Compactness",
+      "ShapeFactor1",
+      "ShapeFactor2",
+      "ShapeFactor3",
+      "ShapeFactor4"
+    ],
+    "expected_features": 16,
+    "expected_rows": 13611,
+    "license": "CC BY 4.0",
+    "name": "dry_bean_uci",
+    "source_url": "https://archive.ics.uci.edu/static/public/602/dry+bean+dataset.zip",
+    "target_column": "Class",
+    "uci_dataset_id": 602,
+    "uci_doi": "10.24432/C50S4B"
+  },
+  "real_split_seeds": [
+    53
+  ],
+  "scenarios": [
+    {
+      "d": 16,
+      "density": "sparse",
+      "heredity": "violated",
+      "id": "S01",
+      "kind": "pair",
+      "n": 2800,
+      "noise_sd": 0.65,
+      "rho": 0.0,
+      "signal_scale": 1.0,
+      "threshold_quantile": 0.5
+    }
+  ],
+  "shil": {
+    "epochs": 180,
+    "gate_l1": 0.0008,
+    "l2": 0.0002,
+    "learning_rate": 0.025,
+    "patience": 28
+  }
+}

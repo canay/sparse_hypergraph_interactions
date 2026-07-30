@@ -1,0 +1,113 @@
+{
+  "run_id": "EXP-SHIL-SC-001",
+  "record_type": "method_extension_run_tree",
+  "created_at": "2026-07-17 09:58:00 +03:00",
+  "last_updated_at": "2026-07-17 16:47:12 +03:00",
+  "tool": "Codex",
+  "model": "GPT-5",
+  "operation_id": "shil-vps-fullreal-live-20260717-1647",
+  "protocol": "MD/02_design/method_extension_protocol_20260717.md",
+  "protocol_sha256": "0D4826686126386AA35BB8975C33B1CADAE6C74CAA0A2DD425F5AFF2062053DC",
+  "new_experiment_executed": true,
+  "status": "full_synthetic_complete_full_real_v2_superseded_by_active_vps_run",
+  "unit_tests": {
+    "passed": 12,
+    "failed": 0,
+    "log": "tests_cli.log",
+    "log_sha256": "DEEC79740F042BFFD1A5B55FAE3673F9F49156F8AFDA6C36A958FA61A5AC05AA"
+  },
+  "existing_evidence_audit": {
+    "passed": 286,
+    "failed": 0,
+    "script": "MD/09_audit_revision/provenance_tools/verify_existing_evidence.py"
+  },
+  "source_manifest": "source_manifest.json",
+  "smoke": {
+    "invalidated_attempt": {
+      "output": "outputs/smoke",
+      "analysis": "analysis/smoke",
+      "reason": "split_seed field incorrectly held the L2 refit RNG seed; preserved as non-evidence"
+    },
+    "validated_attempt": {
+      "output": "outputs/smoke-v2",
+      "analysis": "analysis/smoke-v2",
+      "elapsed_seconds": 0.41054110002005473,
+      "peak_rss_bytes": 167104512,
+      "method_rows": 6,
+      "schema_assertions": "passed",
+      "deterministic_scientific_match_to_invalidated_attempt": true,
+      "promotion_status": "non-promoted"
+    }
+  },
+  "pilot": {
+    "superseded_diagnostic_attempt": {
+      "output": "outputs/pilot",
+      "analysis": "analysis/pilot",
+      "reason": "scientifically valid but emitted scikit-learn 1.8 API-deprecation warnings; preserved as non-evidence"
+    },
+    "validated_attempt": {
+      "output": "outputs/pilot-v2",
+      "analysis": "analysis/pilot-v2",
+      "dataset_runs": 6,
+      "method_rows": 36,
+      "elapsed_seconds": 56.415177799994126,
+      "peak_rss_bytes": 298164224,
+      "captured_warnings": 0,
+      "scientific_match_to_superseded_attempt": "exact",
+      "promotion_status": "non-promoted"
+    }
+  },
+  "full_run": {
+    "synthetic": {
+      "output": "outputs/full-synthetic",
+      "analysis": "analysis/full-synthetic",
+      "dataset_runs_completed": 120,
+      "dataset_runs_expected": 120,
+      "method_rows": 720,
+      "analysis_decision": "PROTOCOL_ONLY",
+      "promotion_status": "preliminary_not_promoted_without_full_real"
+    },
+    "real": {
+      "output": "outputs/full-real",
+      "dataset_runs_completed": 0,
+      "dataset_runs_expected": 10,
+      "last_event": "dataset_started",
+      "last_split_seed": 11,
+      "interrupted_for": "central manuscript validator state-safety revalidation",
+      "partial_output_status": "preserved_non_evidence",
+      "automatic_retry_authorized": false,
+      "manual_restart_authorized_by_author": true,
+      "restart_output": "experiments/2026-07-17_codex_vps_stability-calibrated-shil/outputs/full-real-v2",
+      "restart_analysis": "experiments/2026-07-17_codex_vps_stability-calibrated-shil/analysis/full-real-v2",
+      "restart_location": "vps_cpu",
+      "cuda_applicable": false,
+      "workplace_runtime_threshold_result": "exceeds_one_hour",
+      "vps_preflight": "canonical_bat_connected_hashes_match_remote_smoke_passed",
+      "restart_status": "running_remote",
+      "remote_run_folder": "/home/ubuntu/experiments/sparse_hypergraph_interactions/2026-07-17_codex_vps_stability-calibrated-shil",
+      "remote_pid": 616389,
+      "remote_started_at": "2026-07-17 16:44:34 +03:00"
+    }
+  },
+  "real_data_preflight": {
+    "rejected_openml_id": 42193,
+    "rejected_shape": [5278, 13],
+    "canonical_source": "UCI dataset 602",
+    "doi": "10.24432/C50S4B",
+    "verified_shape": [13611, 16],
+    "verified_classes": 7,
+    "missing_values": 0,
+    "archive_sha256": "0A64EFF5BE87F48C3DBBFC0A12A56C5D5B5167EF8E61CD45D69B3E7C7130C06F",
+    "arff_sha256": "B2A4A76A2AEDFB8ED415ADFC1BFC70B5F202CB00CB72E500766E364C14834014",
+    "content_hash": "1FB830DBB4DC96003E27E4D30FE0B730581221B9EE00B93789995C5567D558BC"
+  },
+  "author_publication_decisions": {
+    "funding": "no_specific_project_or_grant",
+    "competing_interests": "none",
+    "acknowledgements": "none",
+    "tsang2017detecting_pages": "leave_empty_no_fabrication",
+    "archive_doi": "none_by_default_unless_selected_journal_requests",
+    "publishing_model": "subscription_non_OA"
+  },
+  "historical_outputs_overwritten": false
+}

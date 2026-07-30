@@ -1,0 +1,27 @@
+{
+  "completed_count": 10,
+  "completed_seeds": [
+    11,
+    23,
+    37,
+    53,
+    71,
+    89,
+    101,
+    131,
+    157,
+    181
+  ],
+  "status": "completed",
+  "summary": {
+    "completed_at_local": "2026-07-27 21:38:09 +0300",
+    "dataset_runs": 10,
+    "execution_mode": "partitioned_locked_seeds",
+    "experiment_id": "EXP-SHIL-FIXED-C-001",
+    "method_rows": 20,
+    "mode": "full-real",
+    "status": "completed"
+  },
+  "time": "2026-07-27 21:38:09 +0300",
+  "total": 10
+}
