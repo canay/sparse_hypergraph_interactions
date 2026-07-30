@@ -1,8 +1,9 @@
-# Preserve the curated calibrated-run artifacts byte for byte.
-replication_package/calibrated_runs/** -text
-
 # Keep source and documentation files readable across platforms.
 *.py text eol=lf
 *.sh text eol=lf
 *.md text eol=lf
 *.ps1 text eol=crlf
+
+# Preserve the curated calibrated-run artifacts byte for byte.
+# This final rule overrides extension rules inside the artifact subtree.
+replication_package/calibrated_runs/** -text
