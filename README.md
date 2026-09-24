@@ -13,6 +13,24 @@ artifacts used by the manuscript. It also provides pinned requirements, source
 and output hashes, per-seed completion records, citation metadata, licensing
 notices, and non-compute integrity checks.
 
+## Two bundles live here
+
+Date/time: 2026-09-22 01:40 +03:00
+Tool: Cowork-Claude
+Model, if known: claude-opus-5 (effort max)
+Operation ID: `shil-informatica-retarget-20260921`
+
+- `replication_package/` — the earlier implementation, described by an earlier
+  submission. It was **not** modified when the second bundle was added; every one
+  of its files is byte-identical to what this repository already published.
+- `ranker_policy_benchmark/` — the experiment bundles behind the current
+  manuscript, *A Transparent Ranker–Policy Benchmark for Pair and Triple
+  Interaction-Support Selection*: the original frozen benchmark, the
+  ranker-family follow-up, the controlled extension, and the cross-environment
+  check, with a SHA-256 for every file. Its own `README.md` states what those
+  records do and do not establish, and records the two files that are stored
+  gzipped here because of GitHub's single-file size limit.
+
 ## Author
 
 **Özkan Canay** is the sole and corresponding author. He is affiliated with the
@@ -32,6 +50,9 @@ This package supports the narrowed diagnostic claim: SHIL is evaluated as a fixe
 - `replication_package/calibrated_runs/`: the hash-locked stability-calibration
   protocol, twelve-scenario synthetic artifacts, Dry Bean artifacts, fixed-`C`
   sensitivity artifacts, source/configuration files, and per-seed records.
+- `ranker_policy_benchmark/`: the current manuscript's bundles — original frozen
+  benchmark, ranker-family follow-up, controlled extension, cross-environment
+  check, figure sources, and `SOURCE_MAP.json` hashes. See its own `README.md`.
 - `docs/`: claim boundary and release boundary.
 - `data_sample/`: no raw benchmark data are bundled; public datasets are reconstructed through loaders.
 - `requirements.txt`: pinned environment from the verified local run.

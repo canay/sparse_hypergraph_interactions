@@ -1,0 +1,47 @@
+{
+ "cell_id": "S01-1151",
+ "scenario": "S01",
+ "seed": 1151,
+ "kind": "pair",
+ "rows": [
+  {
+   "scenario": "S01",
+   "seed": 1151,
+   "ranker": "l1",
+   "k": 3,
+   "comparable": true,
+   "identical": true,
+   "symdiff": 0
+  },
+  {
+   "scenario": "S01",
+   "seed": 1151,
+   "ranker": "screen",
+   "k": 3,
+   "comparable": true,
+   "identical": true,
+   "symdiff": 0
+  },
+  {
+   "scenario": "S01",
+   "seed": 1151,
+   "ranker": "shil",
+   "k": 3,
+   "comparable": true,
+   "identical": true,
+   "symdiff": 0
+  },
+  {
+   "scenario": "S01",
+   "seed": 1151,
+   "ranker": "tree",
+   "k": 3,
+   "comparable": true,
+   "identical": true,
+   "symdiff": 0
+  }
+ ],
+ "control_ok": 20,
+ "control_fail": 0,
+ "elapsed_seconds": 305.25908086728305
+}

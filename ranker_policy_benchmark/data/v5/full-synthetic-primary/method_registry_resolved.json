@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "canonical_sha256": "37991B636B952023DC230A6B0CD790C127F864874C7C07C5F712267E10C32515",
+  "config_keys": [
+    "rankers.shil",
+    "rankers.l1",
+    "policies.fixed_k",
+    "policies.validation_one_se",
+    "policies.cpss_one_se"
+  ],
+  "cell_metadata_schema": {
+    "allowed_cell_types": ["synthetic", "real", "structured_pairwise"],
+    "allowed_candidate_orders": [2, 3]
+  },
+  "rankers": [
+    {
+      "ranker_id": "shil",
+      "adapter_id": "shil_v1",
+      "display_name": "SHIL",
+      "config_key": "rankers.shil",
+      "score_source": "gate_probability_x_edge_coefficient_l2",
+      "score_direction": "higher_is_better",
+      "zero_score_semantics": "dense",
+      "seed_namespace": "ranker.shil",
+      "supported_orders": [2, 3]
+    },
+    {
+      "ranker_id": "l1",
+      "adapter_id": "l1_logistic_v1",
+      "display_name": "L1 logistic",
+      "config_key": "rankers.l1",
+      "score_source": "edge_class_coefficient_l2",
+      "score_direction": "higher_is_better",
+      "zero_score_semantics": "inactive_is_zero",
+      "seed_namespace": "ranker.l1",
+      "supported_orders": [2, 3]
+    }
+  ],
+  "policies": [
+    {
+      "policy_id": "fixed_k",
+      "config_key": "policies.fixed_k",
+      "score_source": "final_ranker_score",
+      "required_parameters": ["k"],
+      "allowed_k": [1, 2, 4, 8, 16]
+    },
+    {
+      "policy_id": "validation_one_se",
+      "config_key": "policies.validation_one_se",
+      "score_source": "final_ranker_score",
+      "required_parameters": [],
+      "allowed_k": []
+    },
+    {
+      "policy_id": "cpss_one_se",
+      "config_key": "policies.cpss_one_se",
+      "score_source": "final_development_selection_frequency",
+      "required_parameters": [],
+      "allowed_k": []
+    }
+  ],
+  "applicability_rules": [
+    {
+      "applicability_key": "pair_triple_full_grid",
+      "allowed_cell_types": ["synthetic", "real"],
+      "required_candidate_orders": [2, 3]
+    }
+  ],
+  "methods": [
+    {"method_id": "shil.fixed_k.k01", "display_name": "SHIL fixed K=1", "ranker_id": "shil", "policy_id": "fixed_k", "config_key": "policies.fixed_k", "policy_parameters": {"k": 1}, "score_source": "final_ranker_score", "score_family_id": "shil.final_ranker_score", "applicability_key": "pair_triple_full_grid"},
+    {"method_id": "shil.fixed_k.k02", "display_name": "SHIL fixed K=2", "ranker_id": "shil", "policy_id": "fixed_k", "config_key": "policies.fixed_k", "policy_parameters": {"k": 2}, "score_source": "final_ranker_score", "score_family_id": "shil.final_ranker_score", "applicability_key": "pair_triple_full_grid"},
+    {"method_id": "shil.fixed_k.k04", "display_name": "SHIL fixed K=4", "ranker_id": "shil", "policy_id": "fixed_k", "config_key": "policies.fixed_k", "policy_parameters": {"k": 4}, "score_source": "final_ranker_score", "score_family_id": "shil.final_ranker_score", "applicability_key": "pair_triple_full_grid"},
+    {"method_id": "shil.fixed_k.k08", "display_name": "SHIL fixed K=8", "ranker_id": "shil", "policy_id": "fixed_k", "config_key": "policies.fixed_k", "policy_parameters": {"k": 8}, "score_source": "final_ranker_score", "score_family_id": "shil.final_ranker_score", "applicability_key": "pair_triple_full_grid"},
+    {"method_id": "shil.fixed_k.k16", "display_name": "SHIL fixed K=16", "ranker_id": "shil", "policy_id": "fixed_k", "config_key": "policies.fixed_k", "policy_parameters": {"k": 16}, "score_source": "final_ranker_score", "score_family_id": "shil.final_ranker_score", "applicability_key": "pair_triple_full_grid"},
+    {"method_id": "shil.validation_one_se", "display_name": "SHIL validation one-SE", "ranker_id": "shil", "policy_id": "validation_one_se", "config_key": "policies.validation_one_se", "policy_parameters": {}, "score_source": "final_ranker_score", "score_family_id": "shil.final_ranker_score", "applicability_key": "pair_triple_full_grid"},
+    {"method_id": "shil.cpss_one_se", "display_name": "SHIL CPSS one-SE", "ranker_id": "shil", "policy_id": "cpss_one_se", "config_key": "policies.cpss_one_se", "policy_parameters": {}, "score_source": "final_development_selection_frequency", "score_family_id": "shil.final_development_selection_frequency", "applicability_key": "pair_triple_full_grid"},
+    {"method_id": "l1.fixed_k.k01", "display_name": "L1 fixed K=1", "ranker_id": "l1", "policy_id": "fixed_k", "config_key": "policies.fixed_k", "policy_parameters": {"k": 1}, "score_source": "final_ranker_score", "score_family_id": "l1.final_ranker_score", "applicability_key": "pair_triple_full_grid"},
+    {"method_id": "l1.fixed_k.k02", "display_name": "L1 fixed K=2", "ranker_id": "l1", "policy_id": "fixed_k", "config_key": "policies.fixed_k", "policy_parameters": {"k": 2}, "score_source": "final_ranker_score", "score_family_id": "l1.final_ranker_score", "applicability_key": "pair_triple_full_grid"},
+    {"method_id": "l1.fixed_k.k04", "display_name": "L1 fixed K=4", "ranker_id": "l1", "policy_id": "fixed_k", "config_key": "policies.fixed_k", "policy_parameters": {"k": 4}, "score_source": "final_ranker_score", "score_family_id": "l1.final_ranker_score", "applicability_key": "pair_triple_full_grid"},
+    {"method_id": "l1.fixed_k.k08", "display_name": "L1 fixed K=8", "ranker_id": "l1", "policy_id": "fixed_k", "config_key": "policies.fixed_k", "policy_parameters": {"k": 8}, "score_source": "final_ranker_score", "score_family_id": "l1.final_ranker_score", "applicability_key": "pair_triple_full_grid"},
+    {"method_id": "l1.fixed_k.k16", "display_name": "L1 fixed K=16", "ranker_id": "l1", "policy_id": "fixed_k", "config_key": "policies.fixed_k", "policy_parameters": {"k": 16}, "score_source": "final_ranker_score", "score_family_id": "l1.final_ranker_score", "applicability_key": "pair_triple_full_grid"},
+    {"method_id": "l1.validation_one_se", "display_name": "L1 validation one-SE", "ranker_id": "l1", "policy_id": "validation_one_se", "config_key": "policies.validation_one_se", "policy_parameters": {}, "score_source": "final_ranker_score", "score_family_id": "l1.final_ranker_score", "applicability_key": "pair_triple_full_grid"},
+    {"method_id": "l1.cpss_one_se", "display_name": "L1 CPSS one-SE", "ranker_id": "l1", "policy_id": "cpss_one_se", "config_key": "policies.cpss_one_se", "policy_parameters": {}, "score_source": "final_development_selection_frequency", "score_family_id": "l1.final_development_selection_frequency", "applicability_key": "pair_triple_full_grid"}
+  ]
+}

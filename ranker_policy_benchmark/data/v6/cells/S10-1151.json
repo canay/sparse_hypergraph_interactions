@@ -1,0 +1,47 @@
+{
+ "cell_id": "S10-1151",
+ "scenario": "S10",
+ "seed": 1151,
+ "kind": "dense_mixed",
+ "rows": [
+  {
+   "scenario": "S10",
+   "seed": 1151,
+   "ranker": "l1",
+   "k": 8,
+   "comparable": true,
+   "identical": true,
+   "symdiff": 0
+  },
+  {
+   "scenario": "S10",
+   "seed": 1151,
+   "ranker": "screen",
+   "k": 8,
+   "comparable": true,
+   "identical": true,
+   "symdiff": 0
+  },
+  {
+   "scenario": "S10",
+   "seed": 1151,
+   "ranker": "shil",
+   "k": 8,
+   "comparable": true,
+   "identical": true,
+   "symdiff": 0
+  },
+  {
+   "scenario": "S10",
+   "seed": 1151,
+   "ranker": "tree",
+   "k": 8,
+   "comparable": true,
+   "identical": true,
+   "symdiff": 0
+  }
+ ],
+ "control_ok": 20,
+ "control_fail": 0,
+ "elapsed_seconds": 910.773029698059
+}

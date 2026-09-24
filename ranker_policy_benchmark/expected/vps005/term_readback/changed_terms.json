@@ -1,0 +1,524 @@
+[
+  {
+    "unit_id": "E01_2017",
+    "condition": "E01",
+    "seed": 2017,
+    "ranker_id": "shil",
+    "k": 2,
+    "category": "different_groups_same_count",
+    "removed": [
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          2,
+          3
+        ],
+        "exact_truth": true,
+        "oracle_group": 1
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.028912448159936842,
+    "source_result_sha256": "4f5d09f01433ff03a7315e6b6468f48c333d0f59bdb42f38105ee04307765939"
+  },
+  {
+    "unit_id": "E02_2017",
+    "condition": "E02",
+    "seed": 2017,
+    "ranker_id": "shil",
+    "k": 5,
+    "category": "different_groups_same_count",
+    "removed": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      },
+      {
+        "term": [
+          6,
+          18,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          2,
+          3
+        ],
+        "exact_truth": true,
+        "oracle_group": 1
+      },
+      {
+        "term": [
+          16,
+          17
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.22222222222222224,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.07611415185987479,
+    "source_result_sha256": "38ed6b2dae2181ab65d87e7ab0e514287da495ef33376d71f6a0f85a96aaa985"
+  },
+  {
+    "unit_id": "E02_2017",
+    "condition": "E02",
+    "seed": 2017,
+    "ranker_id": "screen",
+    "k": 5,
+    "category": "different_groups_same_count",
+    "removed": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      },
+      {
+        "term": [
+          6,
+          18,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          2,
+          3
+        ],
+        "exact_truth": true,
+        "oracle_group": 1
+      },
+      {
+        "term": [
+          16,
+          17
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.22222222222222224,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.07611415185987479,
+    "source_result_sha256": "38ed6b2dae2181ab65d87e7ab0e514287da495ef33376d71f6a0f85a96aaa985"
+  },
+  {
+    "unit_id": "E04_2003",
+    "condition": "E04",
+    "seed": 2003,
+    "ranker_id": "tree",
+    "k": 7,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          5,
+          6
+        ],
+        "exact_truth": true,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.18181818181818188,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.0010596042872212837,
+    "source_result_sha256": "9eea5c3c8eb36be76a95270bf8d02358a3f5323a3be06badc3963b6d2ecec1b6"
+  },
+  {
+    "unit_id": "E04_2029",
+    "condition": "E04",
+    "seed": 2029,
+    "ranker_id": "shil",
+    "k": 6,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.00043890181208551977,
+    "source_result_sha256": "bcb37f7a2b010919d73e5a0c79915c63b06be1175f3abdbc6e920c18bbcd15ab"
+  },
+  {
+    "unit_id": "E04_2029",
+    "condition": "E04",
+    "seed": 2029,
+    "ranker_id": "l1",
+    "k": 4,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          0,
+          1
+        ],
+        "exact_truth": true,
+        "oracle_group": 0
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          0,
+          17
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": -0.25,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.005870609304471344,
+    "source_result_sha256": "bcb37f7a2b010919d73e5a0c79915c63b06be1175f3abdbc6e920c18bbcd15ab"
+  },
+  {
+    "unit_id": "E04_2029",
+    "condition": "E04",
+    "seed": 2029,
+    "ranker_id": "screen",
+    "k": 6,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.00043890181208551977,
+    "source_result_sha256": "bcb37f7a2b010919d73e5a0c79915c63b06be1175f3abdbc6e920c18bbcd15ab"
+  },
+  {
+    "unit_id": "E06_2011",
+    "condition": "E06",
+    "seed": 2011,
+    "ranker_id": "tree",
+    "k": 7,
+    "category": "covered_group_count_changed",
+    "removed": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.18181818181818188,
+    "delta_group_f1": 0.18181818181818188,
+    "delta_log_loss": -0.0488666754958331,
+    "source_result_sha256": "bba0694276a9ea16c98ee5fb5b9f7015e4a6bf3e48f38f5ffc7780058e268ff7"
+  },
+  {
+    "unit_id": "E06_2027",
+    "condition": "E06",
+    "seed": 2027,
+    "ranker_id": "l1",
+    "k": 3,
+    "category": "different_groups_same_count",
+    "removed": [
+      {
+        "term": [
+          4,
+          5,
+          6
+        ],
+        "exact_truth": true,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      3
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.04164212600265665,
+    "source_result_sha256": "7cc87e15d8a9c4f789019d762af8ee9ed8e899db3f658839957b41d2560eab5b"
+  },
+  {
+    "unit_id": "E06_2027",
+    "condition": "E06",
+    "seed": 2027,
+    "ranker_id": "tree",
+    "k": 7,
+    "category": "covered_group_count_changed",
+    "removed": [
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          5,
+          6
+        ],
+        "exact_truth": true,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": -0.18181818181818188,
+    "delta_log_loss": 0.02488703029065563,
+    "source_result_sha256": "7cc87e15d8a9c4f789019d762af8ee9ed8e899db3f658839957b41d2560eab5b"
+  },
+  {
+    "unit_id": "E08_2003",
+    "condition": "E08",
+    "seed": 2003,
+    "ranker_id": "tree",
+    "k": 7,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          5,
+          6
+        ],
+        "exact_truth": true,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.18181818181818188,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.03850011929400506,
+    "source_result_sha256": "5600cf0defda318cf59f7fdf66a67818b303d9654f2fb7d37d3b84da61ec65c0"
+  }
+]

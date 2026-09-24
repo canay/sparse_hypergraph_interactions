@@ -1,0 +1,565 @@
+{
+  "at": "2026-09-04T12:36:49.384699+00:00",
+  "operation_id": "shil-novelty-evidence-expansion-20260904",
+  "host": "vps",
+  "source_csv_sha256": "d2aae455e7ef7f74237f9f3cc16352c3d08293bbe6cb7ec90a54d1d706246315",
+  "script_sha256": "7a6889e065c8d246e9acdd24f7d7c94f0d0656f41505e98ec8b7026474e6a9d5",
+  "scope": "pointwise descriptive seed-bootstrap; joint seed index matrix shared by all groups; no superiority/equivalence inference",
+  "missingness_rule": "do not discard undefined ratio-bootstrap replicates; if any denominator is zero, withhold interval and retain counts/point summary",
+  "groups": [
+    {
+      "ranker_id": "l1",
+      "condition": "E01",
+      "seeds": 5,
+      "eligible_nonempty": 0,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 10000,
+      "ci_status": "UNAVAILABLE_ZERO_BOOTSTRAP_DENOMINATOR",
+      "composition_change_fraction": null,
+      "movement_mean": null,
+      "composition_ci95": null,
+      "movement_ci95": null
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E02",
+      "seeds": 5,
+      "eligible_nonempty": 0,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 10000,
+      "ci_status": "UNAVAILABLE_ZERO_BOOTSTRAP_DENOMINATOR",
+      "composition_change_fraction": null,
+      "movement_mean": null,
+      "composition_ci95": null,
+      "movement_ci95": null
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E03",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.0,
+      "movement_mean": 0.0,
+      "composition_ci95": [
+        0.0,
+        0.0
+      ],
+      "movement_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E04",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.2,
+      "movement_mean": 0.05,
+      "composition_ci95": [
+        0.0,
+        0.6
+      ],
+      "movement_ci95": [
+        0.0,
+        0.15
+      ]
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E05",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.0,
+      "movement_mean": 0.0,
+      "composition_ci95": [
+        0.0,
+        0.0
+      ],
+      "movement_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E06",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.2,
+      "movement_mean": 0.06666666666666667,
+      "composition_ci95": [
+        0.0,
+        0.6
+      ],
+      "movement_ci95": [
+        0.0,
+        0.2
+      ]
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E07",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.0,
+      "movement_mean": 0.0,
+      "composition_ci95": [
+        0.0,
+        0.0
+      ],
+      "movement_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E08",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.0,
+      "movement_mean": 0.0,
+      "composition_ci95": [
+        0.0,
+        0.0
+      ],
+      "movement_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E01",
+      "seeds": 5,
+      "eligible_nonempty": 1,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 3292,
+      "ci_status": "UNAVAILABLE_ZERO_BOOTSTRAP_DENOMINATOR",
+      "composition_change_fraction": 0.0,
+      "movement_mean": 0.0,
+      "composition_ci95": null,
+      "movement_ci95": null
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E02",
+      "seeds": 5,
+      "eligible_nonempty": 1,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 3292,
+      "ci_status": "UNAVAILABLE_ZERO_BOOTSTRAP_DENOMINATOR",
+      "composition_change_fraction": 1.0,
+      "movement_mean": 0.4,
+      "composition_ci95": null,
+      "movement_ci95": null
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E03",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.0,
+      "movement_mean": 0.0,
+      "composition_ci95": [
+        0.0,
+        0.0
+      ],
+      "movement_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E04",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.2,
+      "movement_mean": 0.03333333333333333,
+      "composition_ci95": [
+        0.0,
+        0.6
+      ],
+      "movement_ci95": [
+        0.0,
+        0.1
+      ]
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E05",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.0,
+      "movement_mean": 0.0,
+      "composition_ci95": [
+        0.0,
+        0.0
+      ],
+      "movement_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E06",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.0,
+      "movement_mean": 0.0,
+      "composition_ci95": [
+        0.0,
+        0.0
+      ],
+      "movement_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E07",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.0,
+      "movement_mean": 0.0,
+      "composition_ci95": [
+        0.0,
+        0.0
+      ],
+      "movement_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E08",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.0,
+      "movement_mean": 0.0,
+      "composition_ci95": [
+        0.0,
+        0.0
+      ],
+      "movement_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E01",
+      "seeds": 5,
+      "eligible_nonempty": 2,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 767,
+      "ci_status": "UNAVAILABLE_ZERO_BOOTSTRAP_DENOMINATOR",
+      "composition_change_fraction": 0.5,
+      "movement_mean": 0.25,
+      "composition_ci95": null,
+      "movement_ci95": null
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E02",
+      "seeds": 5,
+      "eligible_nonempty": 1,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 3292,
+      "ci_status": "UNAVAILABLE_ZERO_BOOTSTRAP_DENOMINATOR",
+      "composition_change_fraction": 1.0,
+      "movement_mean": 0.4,
+      "composition_ci95": null,
+      "movement_ci95": null
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E03",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.0,
+      "movement_mean": 0.0,
+      "composition_ci95": [
+        0.0,
+        0.0
+      ],
+      "movement_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E04",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.2,
+      "movement_mean": 0.03333333333333333,
+      "composition_ci95": [
+        0.0,
+        0.6
+      ],
+      "movement_ci95": [
+        0.0,
+        0.1
+      ]
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E05",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.0,
+      "movement_mean": 0.0,
+      "composition_ci95": [
+        0.0,
+        0.0
+      ],
+      "movement_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E06",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.0,
+      "movement_mean": 0.0,
+      "composition_ci95": [
+        0.0,
+        0.0
+      ],
+      "movement_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E07",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.0,
+      "movement_mean": 0.0,
+      "composition_ci95": [
+        0.0,
+        0.0
+      ],
+      "movement_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E08",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.0,
+      "movement_mean": 0.0,
+      "composition_ci95": [
+        0.0,
+        0.0
+      ],
+      "movement_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E01",
+      "seeds": 5,
+      "eligible_nonempty": 0,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 10000,
+      "ci_status": "UNAVAILABLE_ZERO_BOOTSTRAP_DENOMINATOR",
+      "composition_change_fraction": null,
+      "movement_mean": null,
+      "composition_ci95": null,
+      "movement_ci95": null
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E02",
+      "seeds": 5,
+      "eligible_nonempty": 0,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 10000,
+      "ci_status": "UNAVAILABLE_ZERO_BOOTSTRAP_DENOMINATOR",
+      "composition_change_fraction": null,
+      "movement_mean": null,
+      "composition_ci95": null,
+      "movement_ci95": null
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E03",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.0,
+      "movement_mean": 0.0,
+      "composition_ci95": [
+        0.0,
+        0.0
+      ],
+      "movement_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E04",
+      "seeds": 5,
+      "eligible_nonempty": 3,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 96,
+      "ci_status": "UNAVAILABLE_ZERO_BOOTSTRAP_DENOMINATOR",
+      "composition_change_fraction": 0.3333333333333333,
+      "movement_mean": 0.047619047619047616,
+      "composition_ci95": null,
+      "movement_ci95": null
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E05",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.0,
+      "movement_mean": 0.0,
+      "composition_ci95": [
+        0.0,
+        0.0
+      ],
+      "movement_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E06",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.4,
+      "movement_mean": 0.05714285714285714,
+      "composition_ci95": [
+        0.0,
+        0.8
+      ],
+      "movement_ci95": [
+        0.0,
+        0.11428571428571428
+      ]
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E07",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.0,
+      "movement_mean": 0.0,
+      "composition_ci95": [
+        0.0,
+        0.0
+      ],
+      "movement_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E08",
+      "seeds": 5,
+      "eligible_nonempty": 5,
+      "bootstrap_replicates": 10000,
+      "undefined_denominator_resamples": 0,
+      "ci_status": "available",
+      "composition_change_fraction": 0.2,
+      "movement_mean": 0.02857142857142857,
+      "composition_ci95": [
+        0.0,
+        0.6
+      ],
+      "movement_ci95": [
+        0.0,
+        0.08571428571428572
+      ]
+    }
+  ]
+}

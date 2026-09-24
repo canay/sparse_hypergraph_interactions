@@ -1,0 +1,47 @@
+{
+  "operation_id": "shil-claude-mch004-v6-ranker-menu-20260903",
+  "change_id": "MCH-SHIL-004",
+  "predeclared_threshold": 0.1,
+  "v5_reference_movement_rate": 0.007692307692307693,
+  "internal_control": {
+    "matched": 840,
+    "mismatched": 0
+  },
+  "cells_executed": 42,
+  "n_pairs": 20,
+  "seeds": [
+    1103,
+    1129,
+    1151
+  ],
+  "null_scenarios_excluded_from_rate": [
+    "S00"
+  ],
+  "per_ranker": {
+    "l1": {
+      "comparable_cells": 39,
+      "moved_cells": 0,
+      "set_movement_rate": 0.0,
+      "median_symdiff_when_moved": 0.0
+    },
+    "screen": {
+      "comparable_cells": 39,
+      "moved_cells": 0,
+      "set_movement_rate": 0.0,
+      "median_symdiff_when_moved": 0.0
+    },
+    "shil": {
+      "comparable_cells": 39,
+      "moved_cells": 0,
+      "set_movement_rate": 0.0,
+      "median_symdiff_when_moved": 0.0
+    },
+    "tree": {
+      "comparable_cells": 39,
+      "moved_cells": 1,
+      "set_movement_rate": 0.02564102564102564,
+      "median_symdiff_when_moved": 2.0
+    }
+  },
+  "elapsed_seconds": 0.02
+}

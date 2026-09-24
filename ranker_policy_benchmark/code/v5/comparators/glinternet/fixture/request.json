@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "adapter_id": "glinternet-r-file-v1",
+  "fixture_id": "glinternet-tiny-binomial-v1",
+  "task": "pairwise_strong_hierarchy_screening",
+  "family": "binomial",
+  "index_base": 0,
+  "seed": 260826,
+  "n_lambda": 12,
+  "lambda_min_ratio": 0.05,
+  "tolerance": 1e-05,
+  "max_iter": 2000,
+  "num_cores": 1,
+  "feature_names": ["f0", "f1", "f2", "f3"],
+  "candidate_pair_ids": [
+    "f0__f1",
+    "f0__f2",
+    "f0__f3",
+    "f1__f2",
+    "f1__f3",
+    "f2__f3"
+  ],
+  "files": {
+    "train_x": {
+      "path": "train_x.csv",
+      "sha256": "3F3ABFE680B9676C975F5BE89E3CD09D8F6E68EDB5B4D8BBB9476FE7528A4349",
+      "rows": 24,
+      "columns": 4
+    },
+    "train_y": {
+      "path": "train_y.csv",
+      "sha256": "BC7A6A3FF40C504C09AE097FD49B4DE464F2FBDF0DFED0D3A8C1B2437BEF6C57",
+      "rows": 24,
+      "columns": 1
+    },
+    "validation_x": {
+      "path": "validation_x.csv",
+      "sha256": "8382D08720487C4C253F90B26A84E823DB649776C881085A6A11134C461DE098",
+      "rows": 8,
+      "columns": 4
+    },
+    "validation_y": {
+      "path": "validation_y.csv",
+      "sha256": "2FB6CF2571ED823794203703304975DD3DC49785C8AE1A43F20C37FE89D09537",
+      "rows": 8,
+      "columns": 1
+    },
+    "test_x": {
+      "path": "test_x.csv",
+      "sha256": "9D31B590D88FFBCF0B84061AD289EA27E4D3BA8DC46E87A3D747D1A362B24E20",
+      "rows": 8,
+      "columns": 4
+    },
+    "candidate_pairs": {
+      "path": "candidate_pairs.csv",
+      "sha256": "E65C93ED10B41BFBA54D5CBEFA5D73C75CF50371AEE6E4F53E0985884DF408E3",
+      "rows": 6,
+      "columns": 3
+    }
+  },
+  "expected_package": {
+    "name": "glinternet",
+    "version": "1.0.13",
+    "source_sha256": "316C5973FF55DEA0BA0BEBB6930449B12DDC21EBD77B32714BEC665643DBC076",
+    "rocker_arm64_digest": "sha256:f7e09f3032a60a6446328448f458d5f47189d83d7776ac2f0c33073cd781edda"
+  }
+}

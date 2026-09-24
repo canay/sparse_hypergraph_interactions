@@ -1,0 +1,13 @@
+{
+  "initial_rss_bytes": 177242112,
+  "logical_cpu_count": 4,
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "physical_cpu_count": 4,
+  "platform": "Linux-6.17.0-1018-oracle-aarch64-with-glibc2.39",
+  "processor": "aarch64",
+  "psutil": "7.2.2",
+  "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+  "scikit_learn": "1.8.0",
+  "total_memory_bytes": 25139523584
+}

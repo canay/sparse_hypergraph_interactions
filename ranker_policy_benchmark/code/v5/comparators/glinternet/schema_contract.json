@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "adapter_id": "glinternet-r-file-v1",
+  "transport": "hash-bound CSV files plus a Python-validated request JSON",
+  "index_base": 0,
+  "family": "binomial",
+  "score_direction": "higher_is_better",
+  "input": {
+    "feature_files": {
+      "keys": ["train_x", "validation_x", "test_x"],
+      "requirements": [
+        "identical ordered feature headers",
+        "finite numeric values",
+        "declared SHA-256 and exact shape"
+      ]
+    },
+    "response_files": {
+      "keys": ["train_y", "validation_y"],
+      "header": ["y"],
+      "requirements": ["0/1 labels", "both classes in each split"]
+    },
+    "candidate_pairs": {
+      "header": ["pair_id", "left_index", "right_index"],
+      "requirements": [
+        "unique pair IDs",
+        "unique ordered left_index < right_index pairs",
+        "exact request order",
+        "no implicit or package-generated candidates"
+      ]
+    }
+  },
+  "output": {
+    "adapter_meta.csv": [
+      "schema_version",
+      "adapter_id",
+      "fixture_id",
+      "package",
+      "package_version",
+      "package_source_sha256",
+      "rocker_arm64_digest",
+      "family",
+      "index_base",
+      "num_cores",
+      "fit_path_calls",
+      "chosen_lambda_index",
+      "candidate_pair_count",
+      "test_row_count"
+    ],
+    "validation_path.csv": [
+      "lambda_index",
+      "lambda",
+      "validation_log_loss",
+      "chosen"
+    ],
+    "pair_scores.csv": [
+      "pair_id",
+      "left_index",
+      "right_index",
+      "score",
+      "selected",
+      "score_direction"
+    ],
+    "predictions.csv": ["row_id", "probability_class_1"]
+  },
+  "selection_boundary": {
+    "path_fit_data": "train only",
+    "lambda_selection_data": "validation only",
+    "held_out_prediction_data": "test only",
+    "lambda_rule": "minimum validation log loss; first path index within 1e-12 tie",
+    "fit_path_calls": 1,
+    "num_cores": 1
+  },
+  "scientific_applicability": {
+    "candidate_orders": [2],
+    "hierarchy": "strong",
+    "triple_cells": "N/A",
+    "heredity_violating_cells": "N/A",
+    "full_pair_triple_registry_member": false
+  }
+}

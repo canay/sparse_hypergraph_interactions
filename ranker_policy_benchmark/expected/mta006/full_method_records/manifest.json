@@ -1,0 +1,205 @@
+{
+  "at": "2026-09-04T14:21:59.988732+00:00",
+  "operation_id": "shil-novelty-evidence-expansion-20260904",
+  "host": "mta",
+  "rows": 4480,
+  "status_counts": {
+    "OK": 4480
+  },
+  "shortfall_rows": [
+    {
+      "unit_id": "E01_2011",
+      "method_id": "l1.fixed_k.k08",
+      "requested_k": 8,
+      "selected_edge_count": 5,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E01_2011",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 5,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E01_2039",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 9,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E01_2053",
+      "method_id": "l1.fixed_k.k08",
+      "requested_k": 8,
+      "selected_edge_count": 4,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E01_2053",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 4,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E01_2081",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 8,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E01_2099",
+      "method_id": "l1.fixed_k.k08",
+      "requested_k": 8,
+      "selected_edge_count": 5,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E01_2099",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 5,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E01_2113",
+      "method_id": "l1.fixed_k.k08",
+      "requested_k": 8,
+      "selected_edge_count": 6,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E01_2113",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 6,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E01_2129",
+      "method_id": "l1.fixed_k.k08",
+      "requested_k": 8,
+      "selected_edge_count": 4,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E01_2129",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 4,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E01_2141",
+      "method_id": "l1.fixed_k.k08",
+      "requested_k": 8,
+      "selected_edge_count": 5,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E01_2141",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 5,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E02_2003",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 8,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E02_2027",
+      "method_id": "l1.fixed_k.k08",
+      "requested_k": 8,
+      "selected_edge_count": 6,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E02_2027",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 6,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E02_2063",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 9,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E02_2069",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 14,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E02_2081",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 11,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E02_2087",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 8,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E02_2089",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 11,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E02_2141",
+      "method_id": "l1.fixed_k.k08",
+      "requested_k": 8,
+      "selected_edge_count": 7,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E02_2141",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 7,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E05_2003",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 8,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E05_2027",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 11,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E05_2089",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 11,
+      "status": "OK"
+    }
+  ],
+  "zero_padding_rows": 0,
+  "provenance_sha256": "18340a36d9c97ab0faf52191da2843947c12d1310499cc4323787e669737903e",
+  "csv_sha256": "8a26b82954fe481e71398131040661bd528e77ea711155e7dbb4c6fb7e6e909a",
+  "script_sha256": "e1b30cad2a966b47b8b17d061c09595b7b4ef1efd2002225a5d033c221d4cbf8",
+  "scope": "full frozen registry metrics as logged; all exact/group F1 checked by provenance verifier; 28-method prediction vectors are not retained/re-predicted; separate paired CPSS/raw probabilities are independently checked"
+}

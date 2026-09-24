@@ -1,0 +1,1566 @@
+{
+  "schema_version": 1,
+  "at": "2026-09-04T14:16:38.394027+00:00",
+  "host": "mta",
+  "phase": "science",
+  "status": "complete_verified_descriptive",
+  "planned_cells": 160,
+  "observed_cells": 160,
+  "paired_rows": 640,
+  "grid_rows": 15360,
+  "warning_count": 0,
+  "bound_freeze_sha256": "81b7230f5f18b32ea1d5eeebc4f0315ff6fa14718b97b6ecbe043a7e90b0b9fc",
+  "groups": [
+    {
+      "ranker_id": "l1",
+      "condition": "E01",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 3,
+      "eligible_nonempty": 3,
+      "changed_nonempty": 0,
+      "empty": 17,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        }
+      },
+      "composition_change_fraction": 0.0,
+      "normalized_symmetric_difference": {
+        "n": 3,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E02",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 3,
+      "eligible_nonempty": 3,
+      "changed_nonempty": 1,
+      "empty": 17,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": -0.004134628670905238,
+          "median": 0.0,
+          "ci95": [
+            -0.012403886012715715,
+            0.0
+          ],
+          "constant_observed": false
+        }
+      },
+      "composition_change_fraction": 0.3333333333333333,
+      "normalized_symmetric_difference": {
+        "n": 3,
+        "mean": 0.3333333333333333,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E03",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 0,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        }
+      },
+      "composition_change_fraction": 0.0,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E04",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 3,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": -0.0125,
+          "median": 0.0,
+          "ci95": [
+            -0.0375,
+            0.0
+          ],
+          "constant_observed": false
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": -0.00022691726392431722,
+          "median": 0.0,
+          "ci95": [
+            -0.0040179011553617226,
+            0.0027500884331416397
+          ],
+          "constant_observed": false
+        }
+      },
+      "composition_change_fraction": 0.15,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.05416666666666666,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E05",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 0,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        }
+      },
+      "composition_change_fraction": 0.0,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E06",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 1,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.002082106300132824,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0062463189003984735
+          ],
+          "constant_observed": false
+        }
+      },
+      "composition_change_fraction": 0.05,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.016666666666666666,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E07",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 0,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        }
+      },
+      "composition_change_fraction": 0.0,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E08",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 0,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        }
+      },
+      "composition_change_fraction": 0.0,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E01",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 9,
+      "eligible_nonempty": 9,
+      "changed_nonempty": 0,
+      "empty": 11,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        }
+      },
+      "composition_change_fraction": 0.0,
+      "normalized_symmetric_difference": {
+        "n": 9,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E02",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 12,
+      "eligible_nonempty": 12,
+      "changed_nonempty": 5,
+      "empty": 8,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": -0.0125,
+          "median": 0.0,
+          "ci95": [
+            -0.06646825396825397,
+            0.04285714285714286
+          ],
+          "constant_observed": false
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": -0.0013888888888888896,
+          "median": 0.0,
+          "ci95": [
+            -0.05357142857142857,
+            0.050793650793650794
+          ],
+          "constant_observed": false
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": -0.01079665257564626,
+          "median": 0.0,
+          "ci95": [
+            -0.021414566161217747,
+            -0.002046323628805996
+          ],
+          "constant_observed": false
+        }
+      },
+      "composition_change_fraction": 0.4166666666666667,
+      "normalized_symmetric_difference": {
+        "n": 12,
+        "mean": 0.12638888888888888,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E03",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 1,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.0017343779443038053,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0052031338329114165
+          ],
+          "constant_observed": false
+        }
+      },
+      "composition_change_fraction": 0.05,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.016666666666666666,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E04",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 7,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": -0.0016666666666666635,
+          "median": 0.0,
+          "ci95": [
+            -0.029999999999999992,
+            0.025
+          ],
+          "constant_observed": false
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.008333333333333335,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.025
+          ],
+          "constant_observed": false
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": -0.0027217606936834867,
+          "median": 0.0,
+          "ci95": [
+            -0.010857408050761805,
+            0.0028661850633491157
+          ],
+          "constant_observed": false
+        }
+      },
+      "composition_change_fraction": 0.35,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.0501984126984127,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E05",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 0,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        }
+      },
+      "composition_change_fraction": 0.0,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E06",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 1,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": -0.008333333333333331,
+          "median": 0.0,
+          "ci95": [
+            -0.024999999999999994,
+            0.0
+          ],
+          "constant_observed": false
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": -0.008333333333333331,
+          "median": 0.0,
+          "ci95": [
+            -0.024999999999999994,
+            0.0
+          ],
+          "constant_observed": false
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.003848371508569509,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.011545114525708527
+          ],
+          "constant_observed": false
+        }
+      },
+      "composition_change_fraction": 0.05,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.00625,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E07",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 0,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        }
+      },
+      "composition_change_fraction": 0.0,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E08",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 0,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        }
+      },
+      "composition_change_fraction": 0.0,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E01",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 10,
+      "eligible_nonempty": 10,
+      "changed_nonempty": 1,
+      "empty": 10,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.001445622407996844,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.004336867223990531
+          ],
+          "constant_observed": false
+        }
+      },
+      "composition_change_fraction": 0.1,
+      "normalized_symmetric_difference": {
+        "n": 10,
+        "mean": 0.05,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E02",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 12,
+      "eligible_nonempty": 12,
+      "changed_nonempty": 5,
+      "empty": 8,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": -0.01626984126984127,
+          "median": 0.0,
+          "ci95": [
+            -0.075,
+            0.04146825396825397
+          ],
+          "constant_observed": false
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": -0.0023809523809523807,
+          "median": 0.0,
+          "ci95": [
+            -0.05833333333333333,
+            0.05357142857142857
+          ],
+          "constant_observed": false
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": -0.009896944878715525,
+          "median": 0.0,
+          "ci95": [
+            -0.02032844591490861,
+            -0.001051543983735942
+          ],
+          "constant_observed": false
+        }
+      },
+      "composition_change_fraction": 0.4166666666666667,
+      "normalized_symmetric_difference": {
+        "n": 12,
+        "mean": 0.16527777777777777,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E03",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 1,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.0017343779443038053,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0052031338329114165
+          ],
+          "constant_observed": false
+        }
+      },
+      "composition_change_fraction": 0.05,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.016666666666666666,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E04",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 7,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": -0.0016666666666666635,
+          "median": 0.0,
+          "ci95": [
+            -0.029999999999999992,
+            0.025
+          ],
+          "constant_observed": false
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.008333333333333335,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.025
+          ],
+          "constant_observed": false
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": -0.0027217606936834867,
+          "median": 0.0,
+          "ci95": [
+            -0.010857408050761805,
+            0.0028661850633491157
+          ],
+          "constant_observed": false
+        }
+      },
+      "composition_change_fraction": 0.35,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.0501984126984127,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E05",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 0,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        }
+      },
+      "composition_change_fraction": 0.0,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E06",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 1,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": -0.008333333333333331,
+          "median": 0.0,
+          "ci95": [
+            -0.024999999999999994,
+            0.0
+          ],
+          "constant_observed": false
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": -0.008333333333333331,
+          "median": 0.0,
+          "ci95": [
+            -0.024999999999999994,
+            0.0
+          ],
+          "constant_observed": false
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.003848371508569509,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.011545114525708527
+          ],
+          "constant_observed": false
+        }
+      },
+      "composition_change_fraction": 0.05,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.00625,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E07",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 0,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        }
+      },
+      "composition_change_fraction": 0.0,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E08",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 0,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        }
+      },
+      "composition_change_fraction": 0.0,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E01",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 3,
+      "eligible_nonempty": 3,
+      "changed_nonempty": 0,
+      "empty": 17,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        }
+      },
+      "composition_change_fraction": 0.0,
+      "normalized_symmetric_difference": {
+        "n": 3,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E02",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 3,
+      "eligible_nonempty": 3,
+      "changed_nonempty": 1,
+      "empty": 17,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": -0.0017647386151184552,
+          "median": 0.0,
+          "ci95": [
+            -0.005294215845355365,
+            0.0
+          ],
+          "constant_observed": false
+        }
+      },
+      "composition_change_fraction": 0.3333333333333333,
+      "normalized_symmetric_difference": {
+        "n": 3,
+        "mean": 0.3333333333333333,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E03",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 1,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.0017343779443038053,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0052031338329114165
+          ],
+          "constant_observed": false
+        }
+      },
+      "composition_change_fraction": 0.05,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.016666666666666666,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E04",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 18,
+      "eligible_nonempty": 18,
+      "changed_nonempty": 6,
+      "empty": 2,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": -0.009242424242424236,
+          "median": 0.0,
+          "ci95": [
+            -0.04168939393939391,
+            0.01893939393939395
+          ],
+          "constant_observed": false
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": -0.008333333333333331,
+          "median": 0.0,
+          "ci95": [
+            -0.024999999999999994,
+            0.0
+          ],
+          "constant_observed": false
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.0033463116070463817,
+          "median": 0.0,
+          "ci95": [
+            -0.0014309271470770407,
+            0.010007869169427083
+          ],
+          "constant_observed": false
+        }
+      },
+      "composition_change_fraction": 0.3333333333333333,
+      "normalized_symmetric_difference": {
+        "n": 18,
+        "mean": 0.062103174603174605,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E05",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 0,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        }
+      },
+      "composition_change_fraction": 0.0,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E06",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 8,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.01833333333333333,
+          "median": 0.0,
+          "ci95": [
+            -0.018181818181818188,
+            0.05499999999999998
+          ],
+          "constant_observed": false
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": -0.0007575757575757625,
+          "median": 0.0,
+          "ci95": [
+            -0.036363636363636376,
+            0.03484848484848485
+          ],
+          "constant_observed": false
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": -0.0015112994140735274,
+          "median": 0.0,
+          "ci95": [
+            -0.011401981579665212,
+            0.00818469046697207
+          ],
+          "constant_observed": false
+        }
+      },
+      "composition_change_fraction": 0.4,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.05863095238095238,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E07",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 0,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": 0.0,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "constant_observed": true
+        }
+      },
+      "composition_change_fraction": 0.0,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E08",
+      "cells": 20,
+      "eligible": 20,
+      "nonempty": 20,
+      "eligible_nonempty": 20,
+      "changed_nonempty": 4,
+      "empty": 0,
+      "endpoints": {
+        "delta_exact_f1": {
+          "n": 20,
+          "mean": 0.03727272727272728,
+          "median": 0.0,
+          "ci95": [
+            0.009090909090909089,
+            0.07454545454545455
+          ],
+          "constant_observed": false
+        },
+        "delta_group_f1": {
+          "n": 20,
+          "mean": 0.010000000000000004,
+          "median": 0.0,
+          "ci95": [
+            0.0,
+            0.03000000000000001
+          ],
+          "constant_observed": false
+        },
+        "delta_log_loss": {
+          "n": 20,
+          "mean": -0.011253457365308072,
+          "median": 0.0,
+          "ci95": [
+            -0.028843365311313728,
+            -0.0006906241041990918
+          ],
+          "constant_observed": false
+        }
+      },
+      "composition_change_fraction": 0.2,
+      "normalized_symmetric_difference": {
+        "n": 20,
+        "mean": 0.0369047619047619,
+        "median": 0.0
+      }
+    }
+  ],
+  "uncertainty": "pointwise descriptive seed-bootstrap; no superiority/equivalence inference",
+  "environments": [
+    {
+      "architecture": "x86_64",
+      "os": "Linux",
+      "packages": {
+        "numpy": "2.5.2",
+        "pandas": "2.3.3",
+        "psutil": "7.2.2",
+        "scikit-learn": "1.7.2",
+        "scipy": "1.18.0"
+      },
+      "python": "3.12.3"
+    }
+  ]
+}

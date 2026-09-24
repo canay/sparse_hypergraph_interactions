@@ -1,0 +1,31 @@
+{
+  "condition": {
+    "d": 20,
+    "heredity": "violated",
+    "id": "E03",
+    "kind": "mixed",
+    "n": 900,
+    "noise_sd": 1.1,
+    "proxy_correlation": 0.95,
+    "rho": 0.0,
+    "signal_scale": 0.55,
+    "threshold_quantile": 0.5
+  },
+  "dataset_sha256": "12cd5bd40a8d03d51790af92a32cdcca640af9f5ad2dacdcc33070da0db2c65b",
+  "environment": {
+    "architecture": "aarch64",
+    "os": "Linux",
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "psutil": "7.2.2",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.17.1"
+    },
+    "python": "3.12.3"
+  },
+  "fingerprint": "f2db797bd020f1bbed6a3a0cbfe1bb35a56e6c94c744b30a4552c1afa6471254",
+  "freeze_sha256": "cf643b385bed9195a9d35bfed88ce1442a17ed8e7d8c5d538f406646e08e0bf9",
+  "phase": "science",
+  "seed": 2027
+}

@@ -1,0 +1,23 @@
+{
+  "status": "VERIFIED_DESCRIPTIVE_READBACK",
+  "at": "2026-09-04T13:16:52.953961+00:00",
+  "operation_id": "shil-novelty-evidence-expansion-20260904",
+  "host": "vps",
+  "changed_comparisons": 11,
+  "category_counts": {
+    "different_groups_same_count": 4,
+    "same_covered_groups": 5,
+    "covered_group_count_changed": 2
+  },
+  "changed_terms_outside_oracle_groups": 0,
+  "provenance_sha256": "a1af283061a2dda4e307e3623abb68704dc02574c24b6d27d5d1ffc1eeaea0cb",
+  "data_sha256": "ce6873c17588d7aadf3f64d215251a365ab5743fb56903246b1cf5f7b1a21e6d",
+  "script_sha256": "e16c6ab0f2debceda6c24be7137e342bd6dd50980133ba49a9a30e5be62ecf38",
+  "timing": "Taxonomy developed after VPS005 outcome inspection, before MTA006 aggregate inspection; post hoc explanatory description, not an additional primary endpoint or hypothesis test.",
+  "limits": [
+    "Equal group counts do not imply the same covered groups or selected terms.",
+    "A proxy-group member can be an exact false inclusion, and a redundant same-group member can be a group false inclusion under one-to-one scoring.",
+    "same_covered_groups describes the entire selected support; it need not mean a single pure proxy-for-proxy swap.",
+    "No causal or predictive equivalence follows from oracle grouping."
+  ]
+}

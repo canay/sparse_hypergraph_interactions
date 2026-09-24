@@ -1,0 +1,268 @@
+{
+  "at": "2026-09-04T14:18:19.511832+00:00",
+  "operation_id": "shil-novelty-evidence-expansion-20260904",
+  "host": "mta",
+  "groups": [
+    {
+      "ranker_id": "shil",
+      "condition": "E01",
+      "cells": 20,
+      "any_changed_final_grid_point": 11,
+      "selected_support_changed": 1,
+      "unchosen_changed_but_selected_unchanged_or_empty": 10
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E02",
+      "cells": 20,
+      "any_changed_final_grid_point": 13,
+      "selected_support_changed": 5,
+      "unchosen_changed_but_selected_unchanged_or_empty": 8
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E03",
+      "cells": 20,
+      "any_changed_final_grid_point": 5,
+      "selected_support_changed": 1,
+      "unchosen_changed_but_selected_unchanged_or_empty": 4
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E04",
+      "cells": 20,
+      "any_changed_final_grid_point": 18,
+      "selected_support_changed": 7,
+      "unchosen_changed_but_selected_unchanged_or_empty": 11
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E05",
+      "cells": 20,
+      "any_changed_final_grid_point": 0,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 0
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E06",
+      "cells": 20,
+      "any_changed_final_grid_point": 15,
+      "selected_support_changed": 1,
+      "unchosen_changed_but_selected_unchanged_or_empty": 14
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E07",
+      "cells": 20,
+      "any_changed_final_grid_point": 0,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 0
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E08",
+      "cells": 20,
+      "any_changed_final_grid_point": 9,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 9
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E01",
+      "cells": 20,
+      "any_changed_final_grid_point": 4,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 4
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E02",
+      "cells": 20,
+      "any_changed_final_grid_point": 5,
+      "selected_support_changed": 1,
+      "unchosen_changed_but_selected_unchanged_or_empty": 4
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E03",
+      "cells": 20,
+      "any_changed_final_grid_point": 0,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 0
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E04",
+      "cells": 20,
+      "any_changed_final_grid_point": 10,
+      "selected_support_changed": 3,
+      "unchosen_changed_but_selected_unchanged_or_empty": 7
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E05",
+      "cells": 20,
+      "any_changed_final_grid_point": 0,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 0
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E06",
+      "cells": 20,
+      "any_changed_final_grid_point": 4,
+      "selected_support_changed": 1,
+      "unchosen_changed_but_selected_unchanged_or_empty": 3
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E07",
+      "cells": 20,
+      "any_changed_final_grid_point": 0,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 0
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E08",
+      "cells": 20,
+      "any_changed_final_grid_point": 3,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 3
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E01",
+      "cells": 20,
+      "any_changed_final_grid_point": 1,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 1
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E02",
+      "cells": 20,
+      "any_changed_final_grid_point": 8,
+      "selected_support_changed": 1,
+      "unchosen_changed_but_selected_unchanged_or_empty": 7
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E03",
+      "cells": 20,
+      "any_changed_final_grid_point": 8,
+      "selected_support_changed": 1,
+      "unchosen_changed_but_selected_unchanged_or_empty": 7
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E04",
+      "cells": 20,
+      "any_changed_final_grid_point": 20,
+      "selected_support_changed": 6,
+      "unchosen_changed_but_selected_unchanged_or_empty": 14
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E05",
+      "cells": 20,
+      "any_changed_final_grid_point": 0,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 0
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E06",
+      "cells": 20,
+      "any_changed_final_grid_point": 18,
+      "selected_support_changed": 8,
+      "unchosen_changed_but_selected_unchanged_or_empty": 10
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E07",
+      "cells": 20,
+      "any_changed_final_grid_point": 0,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 0
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E08",
+      "cells": 20,
+      "any_changed_final_grid_point": 18,
+      "selected_support_changed": 4,
+      "unchosen_changed_but_selected_unchanged_or_empty": 14
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E01",
+      "cells": 20,
+      "any_changed_final_grid_point": 11,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 11
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E02",
+      "cells": 20,
+      "any_changed_final_grid_point": 14,
+      "selected_support_changed": 5,
+      "unchosen_changed_but_selected_unchanged_or_empty": 9
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E03",
+      "cells": 20,
+      "any_changed_final_grid_point": 5,
+      "selected_support_changed": 1,
+      "unchosen_changed_but_selected_unchanged_or_empty": 4
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E04",
+      "cells": 20,
+      "any_changed_final_grid_point": 18,
+      "selected_support_changed": 7,
+      "unchosen_changed_but_selected_unchanged_or_empty": 11
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E05",
+      "cells": 20,
+      "any_changed_final_grid_point": 0,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 0
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E06",
+      "cells": 20,
+      "any_changed_final_grid_point": 15,
+      "selected_support_changed": 1,
+      "unchosen_changed_but_selected_unchanged_or_empty": 14
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E07",
+      "cells": 20,
+      "any_changed_final_grid_point": 0,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 0
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E08",
+      "cells": 20,
+      "any_changed_final_grid_point": 9,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 9
+    }
+  ],
+  "grid_points": "all12 q/pi combinations, both phases, every frozen seed/condition/ranker",
+  "interpretation": "counts describe whether selected-point identity extends to the evaluated grid; no test-optimal q/pi chosen and no unselected-grid predictive benefit claimed",
+  "script_sha256": "eb31a7655e37ea646ac208c44499d6579fc00baa4207774efaf854ded93ed3db",
+  "grid_csv_sha256": "2842421c6aac02e6bd115b0894ee6da6cee40bdf09153f93270a0e843f8c954b",
+  "paired_csv_sha256": "53d3c553f3e8de9d942dbeef19797bb47e704cb81177d68926a0c07a190ec41c"
+}

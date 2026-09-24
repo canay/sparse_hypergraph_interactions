@@ -1,0 +1,13 @@
+{
+  "analysis_role": "sensitivity_only",
+  "applicability": "S13_PAIRWISE_STRONG_HIERARCHY_ONLY",
+  "artifact_role": "DESCRIPTIVE_NO_INFERENCE",
+  "excluded_from_main_method_registry": true,
+  "excluded_from_primary_estimand": true,
+  "registry_active": true,
+  "registry_sha256": "04072E5A3B80BED77A144361AC429D0B1478285CDCD449306787EB5B5F52C584",
+  "status_counts": {
+    "DISABLED": 10,
+    "N/A": 130
+  }
+}

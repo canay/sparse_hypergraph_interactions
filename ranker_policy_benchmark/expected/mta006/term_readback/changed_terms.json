@@ -1,0 +1,2472 @@
+[
+  {
+    "unit_id": "E01_2017",
+    "condition": "E01",
+    "seed": 2017,
+    "ranker_id": "shil",
+    "k": 2,
+    "category": "different_groups_same_count",
+    "removed": [
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          2,
+          3
+        ],
+        "exact_truth": true,
+        "oracle_group": 1
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.028912448159936866,
+    "source_result_sha256": "0101ed9fb8742920c1bc50e9f7cd7b1eea3fd645474a5115a464ad4f9e72d929"
+  },
+  {
+    "unit_id": "E02_2017",
+    "condition": "E02",
+    "seed": 2017,
+    "ranker_id": "shil",
+    "k": 5,
+    "category": "different_groups_same_count",
+    "removed": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      },
+      {
+        "term": [
+          6,
+          18,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          2,
+          3
+        ],
+        "exact_truth": true,
+        "oracle_group": 1
+      },
+      {
+        "term": [
+          16,
+          17
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.22222222222222224,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.07611415185987533,
+    "source_result_sha256": "e7065a7dbac5a2d47165d77e80cb3114493d907f13ab211d3ad69aee8eaca64d"
+  },
+  {
+    "unit_id": "E02_2017",
+    "condition": "E02",
+    "seed": 2017,
+    "ranker_id": "screen",
+    "k": 5,
+    "category": "different_groups_same_count",
+    "removed": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      },
+      {
+        "term": [
+          6,
+          18,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          2,
+          3
+        ],
+        "exact_truth": true,
+        "oracle_group": 1
+      },
+      {
+        "term": [
+          16,
+          17
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.22222222222222224,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.07611415185987533,
+    "source_result_sha256": "e7065a7dbac5a2d47165d77e80cb3114493d907f13ab211d3ad69aee8eaca64d"
+  },
+  {
+    "unit_id": "E02_2039",
+    "condition": "E02",
+    "seed": 2039,
+    "ranker_id": "shil",
+    "k": 4,
+    "category": "covered_group_count_changed",
+    "removed": [
+      {
+        "term": [
+          4,
+          5,
+          6
+        ],
+        "exact_truth": true,
+        "oracle_group": 2
+      },
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          6,
+          18,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      },
+      {
+        "term": [
+          16,
+          17
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "raw_covered_groups": [
+      1,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": -0.25,
+    "delta_group_f1": 0.25,
+    "delta_log_loss": -0.00207515806968656,
+    "source_result_sha256": "5cfa40f9a9d535fff046497d9bab5fe212890feff22f4cce40d9d570ef1a600e"
+  },
+  {
+    "unit_id": "E02_2039",
+    "condition": "E02",
+    "seed": 2039,
+    "ranker_id": "screen",
+    "k": 5,
+    "category": "covered_group_count_changed",
+    "removed": [
+      {
+        "term": [
+          4,
+          5,
+          6
+        ],
+        "exact_truth": true,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          16,
+          17
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "raw_covered_groups": [
+      1,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": -0.22222222222222224,
+    "delta_group_f1": 0.22222222222222204,
+    "delta_log_loss": -0.017167133751929953,
+    "source_result_sha256": "5cfa40f9a9d535fff046497d9bab5fe212890feff22f4cce40d9d570ef1a600e"
+  },
+  {
+    "unit_id": "E02_2083",
+    "condition": "E02",
+    "seed": 2083,
+    "ranker_id": "shil",
+    "k": 2,
+    "category": "covered_group_count_changed",
+    "removed": [
+      {
+        "term": [
+          2,
+          3
+        ],
+        "exact_truth": true,
+        "oracle_group": 1
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          0,
+          17
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1
+    ],
+    "cpss_covered_groups": [
+      0
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": -0.3333333333333333,
+    "delta_group_f1": -0.3333333333333333,
+    "delta_log_loss": -0.06401770960296947,
+    "source_result_sha256": "99d076efe01fc2d9635f1cb8bfe5fcf9d8e9004526dd949054ecff7a76236965"
+  },
+  {
+    "unit_id": "E02_2083",
+    "condition": "E02",
+    "seed": 2083,
+    "ranker_id": "tree",
+    "k": 1,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          1,
+          16
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          0,
+          17
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "raw_covered_groups": [
+      0
+    ],
+    "cpss_covered_groups": [
+      0
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.03529477230236902,
+    "source_result_sha256": "99d076efe01fc2d9635f1cb8bfe5fcf9d8e9004526dd949054ecff7a76236965"
+  },
+  {
+    "unit_id": "E02_2083",
+    "condition": "E02",
+    "seed": 2083,
+    "ranker_id": "screen",
+    "k": 3,
+    "category": "covered_group_count_changed",
+    "removed": [
+      {
+        "term": [
+          2,
+          3
+        ],
+        "exact_truth": true,
+        "oracle_group": 1
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          0,
+          17
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1
+    ],
+    "cpss_covered_groups": [
+      0
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": -0.28571428571428575,
+    "delta_group_f1": -0.28571428571428575,
+    "delta_log_loss": -0.06691988785934103,
+    "source_result_sha256": "99d076efe01fc2d9635f1cb8bfe5fcf9d8e9004526dd949054ecff7a76236965"
+  },
+  {
+    "unit_id": "E02_2087",
+    "condition": "E02",
+    "seed": 2087,
+    "ranker_id": "shil",
+    "k": 3,
+    "category": "covered_group_count_changed",
+    "removed": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          2,
+          3
+        ],
+        "exact_truth": true,
+        "oracle_group": 1
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.2857142857142856,
+    "delta_group_f1": 0.2857142857142856,
+    "delta_log_loss": -0.04092647257612008,
+    "source_result_sha256": "a238b63ba35e9ebf7043b115ee383dbfc128d7b16572accc6801bc69f9ddde91"
+  },
+  {
+    "unit_id": "E02_2087",
+    "condition": "E02",
+    "seed": 2087,
+    "ranker_id": "screen",
+    "k": 3,
+    "category": "covered_group_count_changed",
+    "removed": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          2,
+          3
+        ],
+        "exact_truth": true,
+        "oracle_group": 1
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.2857142857142856,
+    "delta_group_f1": 0.2857142857142856,
+    "delta_log_loss": -0.04092647257612008,
+    "source_result_sha256": "a238b63ba35e9ebf7043b115ee383dbfc128d7b16572accc6801bc69f9ddde91"
+  },
+  {
+    "unit_id": "E02_2113",
+    "condition": "E02",
+    "seed": 2113,
+    "ranker_id": "shil",
+    "k": 4,
+    "category": "covered_group_count_changed",
+    "removed": [
+      {
+        "term": [
+          2,
+          3
+        ],
+        "exact_truth": true,
+        "oracle_group": 1
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          6,
+          18,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      1,
+      2
+    ],
+    "cpss_covered_groups": [
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": -0.25,
+    "delta_group_f1": -0.25,
+    "delta_log_loss": -0.014805405465658786,
+    "source_result_sha256": "965f4dd9f71f1292294d168af5b52320d18693930b78f33824c134e66c7496d5"
+  },
+  {
+    "unit_id": "E02_2113",
+    "condition": "E02",
+    "seed": 2113,
+    "ranker_id": "screen",
+    "k": 4,
+    "category": "covered_group_count_changed",
+    "removed": [
+      {
+        "term": [
+          2,
+          3
+        ],
+        "exact_truth": true,
+        "oracle_group": 1
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          6,
+          18,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      1,
+      2
+    ],
+    "cpss_covered_groups": [
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": -0.25,
+    "delta_group_f1": -0.25,
+    "delta_log_loss": -0.014805405465658786,
+    "source_result_sha256": "965f4dd9f71f1292294d168af5b52320d18693930b78f33824c134e66c7496d5"
+  },
+  {
+    "unit_id": "E02_2137",
+    "condition": "E02",
+    "seed": 2137,
+    "ranker_id": "l1",
+    "k": 1,
+    "category": "different_groups_same_count",
+    "removed": [
+      {
+        "term": [
+          0,
+          1
+        ],
+        "exact_truth": true,
+        "oracle_group": 0
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          2,
+          3
+        ],
+        "exact_truth": true,
+        "oracle_group": 1
+      }
+    ],
+    "raw_covered_groups": [
+      0
+    ],
+    "cpss_covered_groups": [
+      1
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.08269257341810461,
+    "source_result_sha256": "d61e9ae99f68eb1602d8525024dfbc58e76d84a15205b6746f2ec3ca1fee573e"
+  },
+  {
+    "unit_id": "E03_2063",
+    "condition": "E03",
+    "seed": 2063,
+    "ranker_id": "shil",
+    "k": 3,
+    "category": "different_groups_same_count",
+    "removed": [
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          5,
+          6
+        ],
+        "exact_truth": true,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.03468755888607601,
+    "source_result_sha256": "af3e1fd713f0f388e3f576dfabc05a857a331c1c8db633cf30dd8453e623d03c"
+  },
+  {
+    "unit_id": "E03_2063",
+    "condition": "E03",
+    "seed": 2063,
+    "ranker_id": "tree",
+    "k": 3,
+    "category": "different_groups_same_count",
+    "removed": [
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          5,
+          6
+        ],
+        "exact_truth": true,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.03468755888607601,
+    "source_result_sha256": "af3e1fd713f0f388e3f576dfabc05a857a331c1c8db633cf30dd8453e623d03c"
+  },
+  {
+    "unit_id": "E03_2063",
+    "condition": "E03",
+    "seed": 2063,
+    "ranker_id": "screen",
+    "k": 3,
+    "category": "different_groups_same_count",
+    "removed": [
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          5,
+          6
+        ],
+        "exact_truth": true,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.03468755888607601,
+    "source_result_sha256": "af3e1fd713f0f388e3f576dfabc05a857a331c1c8db633cf30dd8453e623d03c"
+  },
+  {
+    "unit_id": "E04_2003",
+    "condition": "E04",
+    "seed": 2003,
+    "ranker_id": "tree",
+    "k": 7,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          5,
+          6
+        ],
+        "exact_truth": true,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.18181818181818188,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.001059604287224553,
+    "source_result_sha256": "0e729db53858e8e955fb4b651b8f5d6cd820ef54763daa02a8664c6426380f5c"
+  },
+  {
+    "unit_id": "E04_2029",
+    "condition": "E04",
+    "seed": 2029,
+    "ranker_id": "shil",
+    "k": 6,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.00043890181208545927,
+    "source_result_sha256": "f8e43c76a529858bf673cdfb482dd2cd89aa09674d4530b6377b701a85ab32a3"
+  },
+  {
+    "unit_id": "E04_2029",
+    "condition": "E04",
+    "seed": 2029,
+    "ranker_id": "l1",
+    "k": 4,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          0,
+          1
+        ],
+        "exact_truth": true,
+        "oracle_group": 0
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          0,
+          17
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": -0.25,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.005870609304471309,
+    "source_result_sha256": "f8e43c76a529858bf673cdfb482dd2cd89aa09674d4530b6377b701a85ab32a3"
+  },
+  {
+    "unit_id": "E04_2029",
+    "condition": "E04",
+    "seed": 2029,
+    "ranker_id": "screen",
+    "k": 6,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.00043890181208545927,
+    "source_result_sha256": "f8e43c76a529858bf673cdfb482dd2cd89aa09674d4530b6377b701a85ab32a3"
+  },
+  {
+    "unit_id": "E04_2053",
+    "condition": "E04",
+    "seed": 2053,
+    "ranker_id": "shil",
+    "k": 8,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          16,
+          17
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -5.0282442689664485e-05,
+    "source_result_sha256": "2980bebc8eb935bdf2245b204159e43804b92a12d4e68387a62264e927384eee"
+  },
+  {
+    "unit_id": "E04_2053",
+    "condition": "E04",
+    "seed": 2053,
+    "ranker_id": "screen",
+    "k": 8,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          16,
+          17
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -5.0282442689664485e-05,
+    "source_result_sha256": "2980bebc8eb935bdf2245b204159e43804b92a12d4e68387a62264e927384eee"
+  },
+  {
+    "unit_id": "E04_2063",
+    "condition": "E04",
+    "seed": 2063,
+    "ranker_id": "shil",
+    "k": 6,
+    "category": "different_groups_same_count",
+    "removed": [
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": -0.19999999999999996,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.02309510593826372,
+    "source_result_sha256": "3e1dad49f8ed6570dfda3c9b9c4e98c876163415b4ccdd597ad6ae0adc2f1736"
+  },
+  {
+    "unit_id": "E04_2063",
+    "condition": "E04",
+    "seed": 2063,
+    "ranker_id": "tree",
+    "k": 6,
+    "category": "different_groups_same_count",
+    "removed": [
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": -0.19999999999999996,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.02309510593826372,
+    "source_result_sha256": "3e1dad49f8ed6570dfda3c9b9c4e98c876163415b4ccdd597ad6ae0adc2f1736"
+  },
+  {
+    "unit_id": "E04_2063",
+    "condition": "E04",
+    "seed": 2063,
+    "ranker_id": "screen",
+    "k": 6,
+    "category": "different_groups_same_count",
+    "removed": [
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": -0.19999999999999996,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.02309510593826372,
+    "source_result_sha256": "3e1dad49f8ed6570dfda3c9b9c4e98c876163415b4ccdd597ad6ae0adc2f1736"
+  },
+  {
+    "unit_id": "E04_2081",
+    "condition": "E04",
+    "seed": 2081,
+    "ranker_id": "shil",
+    "k": 6,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.012480121208763937,
+    "source_result_sha256": "c9325ad43153695fbf83c07cd11ba14840e62bab04794240878b7fcf530df0f6"
+  },
+  {
+    "unit_id": "E04_2081",
+    "condition": "E04",
+    "seed": 2081,
+    "ranker_id": "screen",
+    "k": 6,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.012480121208763937,
+    "source_result_sha256": "c9325ad43153695fbf83c07cd11ba14840e62bab04794240878b7fcf530df0f6"
+  },
+  {
+    "unit_id": "E04_2083",
+    "condition": "E04",
+    "seed": 2083,
+    "ranker_id": "shil",
+    "k": 8,
+    "category": "covered_group_count_changed",
+    "removed": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          2,
+          3
+        ],
+        "exact_truth": true,
+        "oracle_group": 1
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.16666666666666669,
+    "delta_group_f1": 0.16666666666666669,
+    "delta_log_loss": -0.06980829207111769,
+    "source_result_sha256": "3c3201a83c580ec2b64df432e36dde9ca39a42cfd3984f60f93b8ea462babae3"
+  },
+  {
+    "unit_id": "E04_2083",
+    "condition": "E04",
+    "seed": 2083,
+    "ranker_id": "screen",
+    "k": 8,
+    "category": "covered_group_count_changed",
+    "removed": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          2,
+          3
+        ],
+        "exact_truth": true,
+        "oracle_group": 1
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.16666666666666669,
+    "delta_group_f1": 0.16666666666666669,
+    "delta_log_loss": -0.06980829207111769,
+    "source_result_sha256": "3c3201a83c580ec2b64df432e36dde9ca39a42cfd3984f60f93b8ea462babae3"
+  },
+  {
+    "unit_id": "E04_2087",
+    "condition": "E04",
+    "seed": 2087,
+    "ranker_id": "shil",
+    "k": 7,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.003212210652064601,
+    "source_result_sha256": "367dbade1521608fd970856416e8380a8a33cb65806b6a1fc8f76d49cc043180"
+  },
+  {
+    "unit_id": "E04_2087",
+    "condition": "E04",
+    "seed": 2087,
+    "ranker_id": "screen",
+    "k": 7,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.003212210652064601,
+    "source_result_sha256": "367dbade1521608fd970856416e8380a8a33cb65806b6a1fc8f76d49cc043180"
+  },
+  {
+    "unit_id": "E04_2089",
+    "condition": "E04",
+    "seed": 2089,
+    "ranker_id": "shil",
+    "k": 9,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          16,
+          17
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          6,
+          18,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.0020350670706586185,
+    "source_result_sha256": "3bf8c137b32adf4831be23e8466d605bb7c2d64dc7490867b1d6defa76ea0af9"
+  },
+  {
+    "unit_id": "E04_2089",
+    "condition": "E04",
+    "seed": 2089,
+    "ranker_id": "tree",
+    "k": 8,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          16,
+          17
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.006764571459835369,
+    "source_result_sha256": "3bf8c137b32adf4831be23e8466d605bb7c2d64dc7490867b1d6defa76ea0af9"
+  },
+  {
+    "unit_id": "E04_2089",
+    "condition": "E04",
+    "seed": 2089,
+    "ranker_id": "screen",
+    "k": 9,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          16,
+          17
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          6,
+          18,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.0020350670706586185,
+    "source_result_sha256": "3bf8c137b32adf4831be23e8466d605bb7c2d64dc7490867b1d6defa76ea0af9"
+  },
+  {
+    "unit_id": "E04_2099",
+    "condition": "E04",
+    "seed": 2099,
+    "ranker_id": "l1",
+    "k": 2,
+    "category": "different_groups_same_count",
+    "removed": [
+      {
+        "term": [
+          4,
+          5,
+          6
+        ],
+        "exact_truth": true,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          2,
+          3
+        ],
+        "exact_truth": true,
+        "oracle_group": 1
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.028742877470568546,
+    "source_result_sha256": "b7d953cd5c755f18d09d28663059da1a789ef706d17a06a923810bcb204819b5"
+  },
+  {
+    "unit_id": "E04_2113",
+    "condition": "E04",
+    "seed": 2113,
+    "ranker_id": "l1",
+    "k": 3,
+    "category": "different_groups_same_count",
+    "removed": [
+      {
+        "term": [
+          4,
+          5,
+          6
+        ],
+        "exact_truth": true,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      3
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.018333922887610935,
+    "source_result_sha256": "204e1d9294734280504ca10a341e317cc1e1b2645c13566984022560704ff13b"
+  },
+  {
+    "unit_id": "E04_2131",
+    "condition": "E04",
+    "seed": 2131,
+    "ranker_id": "tree",
+    "k": 3,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          0,
+          17
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          1,
+          16
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      3
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.0006489530722365491,
+    "source_result_sha256": "a384785ca83dd6344203d148c9a0d80ffbb1045e16116af6777d760518f30752"
+  },
+  {
+    "unit_id": "E04_2137",
+    "condition": "E04",
+    "seed": 2137,
+    "ranker_id": "tree",
+    "k": 8,
+    "category": "covered_group_count_changed",
+    "removed": [
+      {
+        "term": [
+          6,
+          18,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      },
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      },
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": -0.16666666666666663,
+    "delta_group_f1": -0.16666666666666663,
+    "delta_log_loss": 0.05436188748867657,
+    "source_result_sha256": "0b8f0b8fe874e854d4960bde95a2b7fa6574f4e45d15fef048d5da61b4dbf86d"
+  },
+  {
+    "unit_id": "E04_2141",
+    "condition": "E04",
+    "seed": 2141,
+    "ranker_id": "tree",
+    "k": 10,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          7,
+          11,
+          14
+        ],
+        "exact_truth": false,
+        "oracle_group": null
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          0,
+          17
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "outside_declared_groups_changed": 1,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.016884681530859882,
+    "source_result_sha256": "9b51b6a2d72b8dd1c8176fa5a6aca87464b151488e8684726a22ca9122085153"
+  },
+  {
+    "unit_id": "E06_2011",
+    "condition": "E06",
+    "seed": 2011,
+    "ranker_id": "tree",
+    "k": 7,
+    "category": "covered_group_count_changed",
+    "removed": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.18181818181818188,
+    "delta_group_f1": 0.18181818181818188,
+    "delta_log_loss": -0.04886667549583281,
+    "source_result_sha256": "32d9ca4e123a141275995b21401a638b7da085d2d2985641c9621ad0364a823b"
+  },
+  {
+    "unit_id": "E06_2027",
+    "condition": "E06",
+    "seed": 2027,
+    "ranker_id": "l1",
+    "k": 3,
+    "category": "different_groups_same_count",
+    "removed": [
+      {
+        "term": [
+          4,
+          5,
+          6
+        ],
+        "exact_truth": true,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      3
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.041642126002656675,
+    "source_result_sha256": "f2bd349f10b31c143f3596732a9ff0717e376debf60f2244b01288e1c3e803ac"
+  },
+  {
+    "unit_id": "E06_2027",
+    "condition": "E06",
+    "seed": 2027,
+    "ranker_id": "tree",
+    "k": 7,
+    "category": "covered_group_count_changed",
+    "removed": [
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          5,
+          6
+        ],
+        "exact_truth": true,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": -0.18181818181818188,
+    "delta_log_loss": 0.024887030290655827,
+    "source_result_sha256": "f2bd349f10b31c143f3596732a9ff0717e376debf60f2244b01288e1c3e803ac"
+  },
+  {
+    "unit_id": "E06_2039",
+    "condition": "E06",
+    "seed": 2039,
+    "ranker_id": "tree",
+    "k": 7,
+    "category": "covered_group_count_changed",
+    "removed": [
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": -0.18181818181818188,
+    "delta_group_f1": -0.18181818181818188,
+    "delta_log_loss": 0.05900888076879812,
+    "source_result_sha256": "4b6ad6c87a1df404b08c99ed2e967c34347e9f84d0c64f50b1b14a670087666f"
+  },
+  {
+    "unit_id": "E06_2063",
+    "condition": "E06",
+    "seed": 2063,
+    "ranker_id": "tree",
+    "k": 7,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.008244323110543449,
+    "source_result_sha256": "b56f2e5880574c0957f64c307606a0b7f5fcaeeab71655585cd27de35e94e804"
+  },
+  {
+    "unit_id": "E06_2069",
+    "condition": "E06",
+    "seed": 2069,
+    "ranker_id": "shil",
+    "k": 8,
+    "category": "covered_group_count_changed",
+    "removed": [
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": -0.16666666666666663,
+    "delta_group_f1": -0.16666666666666663,
+    "delta_log_loss": 0.07696743017139013,
+    "source_result_sha256": "1642812987949a8dd42def9669ee050fad40a6c2908f39c07509fb74053f790b"
+  },
+  {
+    "unit_id": "E06_2069",
+    "condition": "E06",
+    "seed": 2069,
+    "ranker_id": "tree",
+    "k": 6,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          5,
+          6
+        ],
+        "exact_truth": true,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.19999999999999996,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.007550018737412374,
+    "source_result_sha256": "1642812987949a8dd42def9669ee050fad40a6c2908f39c07509fb74053f790b"
+  },
+  {
+    "unit_id": "E06_2069",
+    "condition": "E06",
+    "seed": 2069,
+    "ranker_id": "screen",
+    "k": 8,
+    "category": "covered_group_count_changed",
+    "removed": [
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": -0.16666666666666663,
+    "delta_group_f1": -0.16666666666666663,
+    "delta_log_loss": 0.07696743017139013,
+    "source_result_sha256": "1642812987949a8dd42def9669ee050fad40a6c2908f39c07509fb74053f790b"
+  },
+  {
+    "unit_id": "E06_2081",
+    "condition": "E06",
+    "seed": 2081,
+    "ranker_id": "tree",
+    "k": 8,
+    "category": "covered_group_count_changed",
+    "removed": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.16666666666666663,
+    "delta_group_f1": 0.16666666666666663,
+    "delta_log_loss": -0.05656745361180195,
+    "source_result_sha256": "d0a3b8a99fe49b1ee8976e72cb05adc3a8d9e95e9c723d66ee26b63209f90b5c"
+  },
+  {
+    "unit_id": "E06_2111",
+    "condition": "E06",
+    "seed": 2111,
+    "ranker_id": "tree",
+    "k": 7,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          16,
+          17
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.00023801349653339694,
+    "source_result_sha256": "516232de61718c098c4715cf0ed7106a3fc0ed348476b3315576da3a5d9e8c29"
+  },
+  {
+    "unit_id": "E06_2129",
+    "condition": "E06",
+    "seed": 2129,
+    "ranker_id": "tree",
+    "k": 6,
+    "category": "different_groups_same_count",
+    "removed": [
+      {
+        "term": [
+          7,
+          8,
+          9
+        ],
+        "exact_truth": true,
+        "oracle_group": 3
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          5,
+          6
+        ],
+        "exact_truth": true,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.0,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": 0.0068685581181324555,
+    "source_result_sha256": "83fee717034bc63f126d3f7cf44ddad6a52b114b34f18878ad551cdc8f6a7396"
+  },
+  {
+    "unit_id": "E08_2003",
+    "condition": "E08",
+    "seed": 2003,
+    "ranker_id": "tree",
+    "k": 7,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          5,
+          6
+        ],
+        "exact_truth": true,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.18181818181818188,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.03850011929400508,
+    "source_result_sha256": "c246782721281075c6161a344353d059ddb9608098b5e1bd2f1c9a6a45541e86"
+  },
+  {
+    "unit_id": "E08_2087",
+    "condition": "E08",
+    "seed": 2087,
+    "ranker_id": "tree",
+    "k": 7,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          5,
+          6
+        ],
+        "exact_truth": true,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.18181818181818188,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.01840257014625902,
+    "source_result_sha256": "5b8f168987097c89b8f966f9741f3328c9318babf48ef26661ecafa3df2fdf04"
+  },
+  {
+    "unit_id": "E08_2111",
+    "condition": "E08",
+    "seed": 2111,
+    "ranker_id": "tree",
+    "k": 6,
+    "category": "covered_group_count_changed",
+    "removed": [
+      {
+        "term": [
+          16,
+          17
+        ],
+        "exact_truth": false,
+        "oracle_group": 0
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          5,
+          6
+        ],
+        "exact_truth": true,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      3
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.20000000000000007,
+    "delta_group_f1": 0.20000000000000007,
+    "delta_log_loss": -0.1543539757819154,
+    "source_result_sha256": "5487732deabac28e2aeedf8b7e8b8bd54a7ad97866acd245fb6be1f4c29e6090"
+  },
+  {
+    "unit_id": "E08_2113",
+    "condition": "E08",
+    "seed": 2113,
+    "ranker_id": "tree",
+    "k": 7,
+    "category": "same_covered_groups",
+    "removed": [
+      {
+        "term": [
+          5,
+          6,
+          18
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      },
+      {
+        "term": [
+          6,
+          18,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "added": [
+      {
+        "term": [
+          4,
+          5,
+          6
+        ],
+        "exact_truth": true,
+        "oracle_group": 2
+      },
+      {
+        "term": [
+          4,
+          6,
+          19
+        ],
+        "exact_truth": false,
+        "oracle_group": 2
+      }
+    ],
+    "raw_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "cpss_covered_groups": [
+      0,
+      1,
+      2
+    ],
+    "outside_declared_groups_changed": 0,
+    "delta_exact_f1": 0.18181818181818177,
+    "delta_group_f1": 0.0,
+    "delta_log_loss": -0.013812482083981835,
+    "source_result_sha256": "f5c5d3665d2d74b032388e839a54ac7d1635d3fbbf27b1fb9b3b6867013b6fa9"
+  }
+]

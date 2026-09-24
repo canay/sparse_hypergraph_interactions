@@ -1,0 +1,141 @@
+{
+  "all_registry_rows_present": true,
+  "confirmatory": {
+    "aggregate_count_scope": "available_OK_cells_only",
+    "all_policy_pairwise_spread_role": "DESCRIPTIVE_NO_INFERENCE",
+    "bootstrap_kind": "exhaustive_seed_cluster_rademacher_studentized",
+    "bootstrap_replicates": 1024,
+    "cell_weighting": "equal_13_scenarios_x_10_seeds",
+    "ci_lower": null,
+    "ci_upper": null,
+    "coincident_anchor_pair_count": 117,
+    "confirmatory_label_semantics": {
+      "DEMONSTRATED_ON_THE_FIXED_MENU": "within the frozen menu, mean absolute CPSS-versus-own-raw discrepancy exceeds mean absolute raw-ranker discrepancy at the same two CPSS-realized anchor slots",
+      "NOT_DEMONSTRATED_ON_THE_FIXED_MENU": "the frozen one-sided interval criterion was not met"
+    },
+    "confirmatory_policy": "cpss_one_se",
+    "cpss_residual_count_per_cell": 2,
+    "descriptive_artifact_role": "DESCRIPTIVE_NO_INFERENCE",
+    "descriptive_policy_levels": [
+      "fixed_k.k01",
+      "fixed_k.k02",
+      "fixed_k.k04",
+      "fixed_k.k08",
+      "fixed_k.k16",
+      "validation_one_se",
+      "cpss_one_se"
+    ],
+    "discarded_studentized_replicates": 1024,
+    "exact_zero_D_count": 119,
+    "finite_studentized_replicates": 0,
+    "invalid_cell_count": 1,
+    "invalid_status_counts": {
+      "FIXED_K_SHORTFALL": 1
+    },
+    "k_zero_reference_count": 0,
+    "metric": "group_f1",
+    "no_benefit_superiority_direction_quality_or_causal_inference": true,
+    "no_imputation_drop_or_rank_renormalization": true,
+    "policy_effect_definition": "mean CPSS-vs-same-ranker-raw-exact-k group_f1 residual",
+    "primary_method_ids": [
+      "shil.fixed_k.k01",
+      "shil.fixed_k.k02",
+      "shil.fixed_k.k04",
+      "shil.fixed_k.k08",
+      "shil.fixed_k.k16",
+      "shil.validation_one_se",
+      "shil.cpss_one_se",
+      "l1.fixed_k.k01",
+      "l1.fixed_k.k02",
+      "l1.fixed_k.k04",
+      "l1.fixed_k.k08",
+      "l1.fixed_k.k16",
+      "l1.validation_one_se",
+      "l1.cpss_one_se"
+    ],
+    "ranker_contrast_count_per_cell": 2,
+    "ranker_effect_definition": "mean SHIL-L1 raw group_f1 gap at the SHIL-CPSS and L1-CPSS realized-K anchors",
+    "rankers": [
+      "shil",
+      "l1"
+    ],
+    "raw_exact_k_reference_count_per_cell": 4,
+    "reason": "INCOMPLETE_OR_INVALID_CONFIRMATORY_CELLS",
+    "scenarios": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S10",
+      "S11",
+      "S12",
+      "S13"
+    ],
+    "seeds": [
+      1103,
+      1129,
+      1151,
+      1171,
+      1181,
+      1201,
+      1213,
+      1231,
+      1249,
+      1277
+    ],
+    "signed_component_role": "DESCRIPTIVE_NO_INFERENCE",
+    "small_bootstrap_se_replicates": 0,
+    "standard_error": null,
+    "theta_hat": null,
+    "verdict": "UNAVAILABLE"
+  },
+  "decision": "UNAVAILABLE",
+  "decision_reason": "INCOMPLETE_OR_INVALID_CONFIRMATORY_CELLS",
+  "expected_method_count": 14,
+  "expected_score_family_count": 4,
+  "experiment_id": "EXP-SHIL-TRACK-A-FULL-SYNTHETIC-PRIMARY",
+  "input_method_rows": 1960,
+  "input_ranking_metric_rows": 560,
+  "input_support_rows": 1960,
+  "mode": "full-synthetic",
+  "primary_artifact_contract": {
+    "aggregate_source": "metrics.csv",
+    "confirmatory_metric": "group_f1",
+    "confirmatory_scenarios": "S01-S13",
+    "cpss_anchor_reference_source": "cpss_anchor_raw_exact_k_references.csv",
+    "decision_source": "confirmatory_decomposition.json",
+    "descriptive_artifact_role": "DESCRIPTIVE_NO_INFERENCE",
+    "estimator": "cpss_own_raw_exact_k_residual_minus_cross_ranker_gap_at_two_cpss_k_anchors",
+    "fixed_k_descriptive_source": "fixed_k_matched_cardinality.csv",
+    "plot_source": "ranker_policy_decomposition.csv",
+    "structured_sensitivity_artifact_role": "DESCRIPTIVE_NO_INFERENCE",
+    "structured_sensitivity_excluded": true,
+    "structured_sensitivity_summary_source": "structured_sensitivity_summary.json",
+    "validation_one_se_descriptive_invariant_source": "validation_one_se_raw_invariants.csv"
+  },
+  "registry_sha256": "37991B636B952023DC230A6B0CD790C127F864874C7C07C5F712267E10C32515",
+  "structured_sensitivity_status_counts": {
+    "DISABLED": 10,
+    "N/A": 130
+  },
+  "structured_sensitivity_validation": {
+    "analysis_role": "sensitivity_only",
+    "applicability": "S13_PAIRWISE_STRONG_HIERARCHY_ONLY",
+    "artifact_role": "DESCRIPTIVE_NO_INFERENCE",
+    "excluded_from_main_method_registry": true,
+    "excluded_from_primary_estimand": true,
+    "registry_active": true,
+    "registry_sha256": "04072E5A3B80BED77A144361AC429D0B1478285CDCD449306787EB5B5F52C584",
+    "status_counts": {
+      "DISABLED": 10,
+      "N/A": 130
+    }
+  },
+  "validated_partition_count": 140,
+  "verification_status": "ANALYZED"
+}

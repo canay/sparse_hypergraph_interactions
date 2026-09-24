@@ -1,0 +1,25 @@
+{
+  "at": "2026-09-04T12:37:24.826725+00:00",
+  "operation_id": "shil-novelty-evidence-expansion-20260904",
+  "host": "vps",
+  "cells": 40,
+  "completed_at": "2026-09-04T12:13:22.301652+00:00",
+  "original_launch_at": "2026-09-04T10:28:58.000000+00:00",
+  "elapsed_wall_seconds_from_original_launch": 6264.301652,
+  "saved_wrapper_calls": 13120,
+  "saved_internal_fits": 26240,
+  "saved_fit_elapsed_seconds_sum": 9367.729692598805,
+  "cache_hits_in_successful_cell_attempts": 354,
+  "fixed_k_identity_checks": 800,
+  "warnings": {},
+  "provenance_sha256": "a1af283061a2dda4e307e3623abb68704dc02574c24b6d27d5d1ffc1eeaea0cb",
+  "script_sha256": "6850b704c3db5405d0b66261df01eca6252689014813311b1f8409ce58afb255",
+  "limitations": [
+    "saved-fit elapsed is the sum over retained completed fits, not CPU time or full hardware cost; failed partial work/refits/I/O/idle time excluded",
+    "cell receipt elapsed/cache hits cover only its successful last attempt",
+    "wall time includes operational interruption/recovery; original VPS launch rounded to second",
+    "sign tolerance 1e-12 is the existing recomputation tolerance, not practical equivalence",
+    "changed-only counts describe observed mismatches, not a selected-policy performance estimand",
+    "all paired endpoints are reported; no grid retuning or superiority test"
+  ]
+}

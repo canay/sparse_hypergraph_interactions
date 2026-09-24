@@ -1,0 +1,268 @@
+{
+  "at": "2026-09-04T12:36:56.221369+00:00",
+  "operation_id": "shil-novelty-evidence-expansion-20260904",
+  "host": "vps",
+  "groups": [
+    {
+      "ranker_id": "shil",
+      "condition": "E01",
+      "cells": 5,
+      "any_changed_final_grid_point": 4,
+      "selected_support_changed": 1,
+      "unchosen_changed_but_selected_unchanged_or_empty": 3
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E02",
+      "cells": 5,
+      "any_changed_final_grid_point": 4,
+      "selected_support_changed": 1,
+      "unchosen_changed_but_selected_unchanged_or_empty": 3
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E03",
+      "cells": 5,
+      "any_changed_final_grid_point": 1,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 1
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E04",
+      "cells": 5,
+      "any_changed_final_grid_point": 4,
+      "selected_support_changed": 1,
+      "unchosen_changed_but_selected_unchanged_or_empty": 3
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E05",
+      "cells": 5,
+      "any_changed_final_grid_point": 0,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 0
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E06",
+      "cells": 5,
+      "any_changed_final_grid_point": 3,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 3
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E07",
+      "cells": 5,
+      "any_changed_final_grid_point": 0,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 0
+    },
+    {
+      "ranker_id": "shil",
+      "condition": "E08",
+      "cells": 5,
+      "any_changed_final_grid_point": 2,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 2
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E01",
+      "cells": 5,
+      "any_changed_final_grid_point": 1,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 1
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E02",
+      "cells": 5,
+      "any_changed_final_grid_point": 0,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 0
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E03",
+      "cells": 5,
+      "any_changed_final_grid_point": 0,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 0
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E04",
+      "cells": 5,
+      "any_changed_final_grid_point": 3,
+      "selected_support_changed": 1,
+      "unchosen_changed_but_selected_unchanged_or_empty": 2
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E05",
+      "cells": 5,
+      "any_changed_final_grid_point": 0,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 0
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E06",
+      "cells": 5,
+      "any_changed_final_grid_point": 1,
+      "selected_support_changed": 1,
+      "unchosen_changed_but_selected_unchanged_or_empty": 0
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E07",
+      "cells": 5,
+      "any_changed_final_grid_point": 0,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 0
+    },
+    {
+      "ranker_id": "l1",
+      "condition": "E08",
+      "cells": 5,
+      "any_changed_final_grid_point": 1,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 1
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E01",
+      "cells": 5,
+      "any_changed_final_grid_point": 1,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 1
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E02",
+      "cells": 5,
+      "any_changed_final_grid_point": 1,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 1
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E03",
+      "cells": 5,
+      "any_changed_final_grid_point": 1,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 1
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E04",
+      "cells": 5,
+      "any_changed_final_grid_point": 5,
+      "selected_support_changed": 1,
+      "unchosen_changed_but_selected_unchanged_or_empty": 4
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E05",
+      "cells": 5,
+      "any_changed_final_grid_point": 0,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 0
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E06",
+      "cells": 5,
+      "any_changed_final_grid_point": 5,
+      "selected_support_changed": 2,
+      "unchosen_changed_but_selected_unchanged_or_empty": 3
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E07",
+      "cells": 5,
+      "any_changed_final_grid_point": 0,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 0
+    },
+    {
+      "ranker_id": "tree",
+      "condition": "E08",
+      "cells": 5,
+      "any_changed_final_grid_point": 5,
+      "selected_support_changed": 1,
+      "unchosen_changed_but_selected_unchanged_or_empty": 4
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E01",
+      "cells": 5,
+      "any_changed_final_grid_point": 4,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 4
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E02",
+      "cells": 5,
+      "any_changed_final_grid_point": 4,
+      "selected_support_changed": 1,
+      "unchosen_changed_but_selected_unchanged_or_empty": 3
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E03",
+      "cells": 5,
+      "any_changed_final_grid_point": 1,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 1
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E04",
+      "cells": 5,
+      "any_changed_final_grid_point": 4,
+      "selected_support_changed": 1,
+      "unchosen_changed_but_selected_unchanged_or_empty": 3
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E05",
+      "cells": 5,
+      "any_changed_final_grid_point": 0,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 0
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E06",
+      "cells": 5,
+      "any_changed_final_grid_point": 3,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 3
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E07",
+      "cells": 5,
+      "any_changed_final_grid_point": 0,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 0
+    },
+    {
+      "ranker_id": "screen",
+      "condition": "E08",
+      "cells": 5,
+      "any_changed_final_grid_point": 2,
+      "selected_support_changed": 0,
+      "unchosen_changed_but_selected_unchanged_or_empty": 2
+    }
+  ],
+  "grid_points": "all12 q/pi combinations, both phases, every frozen seed/condition/ranker",
+  "interpretation": "counts describe whether selected-point identity extends to the evaluated grid; no test-optimal q/pi chosen and no unselected-grid predictive benefit claimed",
+  "script_sha256": "eb31a7655e37ea646ac208c44499d6579fc00baa4207774efaf854ded93ed3db",
+  "grid_csv_sha256": "5cf93a4c2e7906cc7a2df82f2045ef564d1a96dc936e1dbaa579700a5e34371d",
+  "paired_csv_sha256": "d2aae455e7ef7f74237f9f3cc16352c3d08293bbe6cb7ec90a54d1d706246315"
+}

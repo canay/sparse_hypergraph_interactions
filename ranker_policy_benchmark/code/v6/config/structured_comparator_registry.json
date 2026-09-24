@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "canonical_sha256": "04072E5A3B80BED77A144361AC429D0B1478285CDCD449306787EB5B5F52C584",
+  "registry_id": "track-a-structured-comparator-sensitivity-v1",
+  "registry_active": true,
+  "registry_role": "sensitivity_only",
+  "activation_evidence": {
+    "path": "evidence/structured_comparator_activation_20260826/ACTIVATION_EVIDENCE.json",
+    "sha256": "C3DB98D49C1C79BFD5EE6AD5CF9B5C81268A8FCDB51A900198DE101387D940C9",
+    "required_decision": "ACTIVATE_S13_SENSITIVITY_REGISTRY_WITH_EXECUTION_DISABLED"
+  },
+  "primary_method_registry": {
+    "path": "method_registry.json",
+    "expected_method_count": 14
+  },
+  "cell_metadata_schema": {
+    "allowed_cell_types": ["synthetic", "real", "structured_pairwise"],
+    "allowed_candidate_orders": [2, 3],
+    "allowed_heredity": ["respected", "violated", "not_applicable"],
+    "allowed_hierarchy": ["strong", "not_applicable"],
+    "allowed_analysis_roles": ["primary", "sensitivity_only"]
+  },
+  "comparators": [
+    {
+      "comparator_id": "glinternet.strong_hierarchy.pairwise",
+      "adapter_id": "glinternet-r-file-v1",
+      "package": "glinternet",
+      "version": "1.0.13",
+      "source_sha256": "316C5973FF55DEA0BA0BEBB6930449B12DDC21EBD77B32714BEC665643DBC076",
+      "registry_active": true,
+      "reporting_role": "sensitivity_only",
+      "eligible_scenario_ids": ["S13"],
+      "required_cell_type": "structured_pairwise",
+      "required_candidate_orders": [2],
+      "required_heredity": "respected",
+      "required_hierarchy": "strong",
+      "excluded_from_primary_estimand": true,
+      "excluded_from_main_method_registry": true,
+      "smoke_evidence": {
+        "path": "evidence/vps_arm64_glinternet_smoke_20260826/SMOKE_RESULT.json",
+        "sha256": "D97A49CE35F215F2DD6616FE3D092FF2E568313E713292FF3263F1B9F521FAF7",
+        "required_status": "REAL_ARM64_DOUBLE_SMOKE_PASS"
+      }
+    }
+  ]
+}

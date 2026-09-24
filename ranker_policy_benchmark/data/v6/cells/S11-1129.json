@@ -1,0 +1,47 @@
+{
+ "cell_id": "S11-1129",
+ "scenario": "S11",
+ "seed": 1129,
+ "kind": "redundant_mixed",
+ "rows": [
+  {
+   "scenario": "S11",
+   "seed": 1129,
+   "ranker": "l1",
+   "k": 4,
+   "comparable": true,
+   "identical": true,
+   "symdiff": 0
+  },
+  {
+   "scenario": "S11",
+   "seed": 1129,
+   "ranker": "screen",
+   "k": 7,
+   "comparable": true,
+   "identical": true,
+   "symdiff": 0
+  },
+  {
+   "scenario": "S11",
+   "seed": 1129,
+   "ranker": "shil",
+   "k": 7,
+   "comparable": true,
+   "identical": true,
+   "symdiff": 0
+  },
+  {
+   "scenario": "S11",
+   "seed": 1129,
+   "ranker": "tree",
+   "k": 7,
+   "comparable": true,
+   "identical": true,
+   "symdiff": 0
+  }
+ ],
+ "control_ok": 20,
+ "control_fail": 0,
+ "elapsed_seconds": 426.01719100307673
+}

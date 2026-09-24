@@ -1,0 +1,28 @@
+{
+  "bundle": "ranker_policy_benchmark",
+  "source_tree": "supplement/PAA/esm_work_v1",
+  "canonical_manifest": "SOURCE_MAP.json (unchanged; it describes the canonical bundle)",
+  "note": "Two files are stored gzipped in this repository. SOURCE_MAP.json still lists them under their original .csv paths with their original digests, so a hash check against it must decompress these two first.",
+  "repacked": [
+    {
+      "original_path": "data/v5/full-real-descriptive/fit_calls.csv",
+      "original_bytes": 41691457,
+      "original_sha256": "4CEEBE5856D3B473D5470BF4161235A17DB96D9FA0659A80592B8B79360743B0",
+      "stored_path": "data/v5/full-real-descriptive/fit_calls.csv.gz",
+      "stored_bytes": 17785760,
+      "stored_sha256": "344EBEB7864E3739B4EE22B3842975C9BEA84A9E6BA62F0BFFCC620F032E26BB",
+      "reason": "GitHub rejects a single file above 100 MB without Git LFS; both fit_calls.csv files are stored the same way for consistency with the 400 records in this bundle that are already gzipped",
+      "restore": "gzip -d data/v5/full-real-descriptive/fit_calls.csv.gz"
+    },
+    {
+      "original_path": "data/v5/full-synthetic-primary/fit_calls.csv",
+      "original_bytes": 115453809,
+      "original_sha256": "F52858297DAEB40FDD5EAFF2D475FFF419B7E77E7FE67B3FBA564C3D5AD6299E",
+      "stored_path": "data/v5/full-synthetic-primary/fit_calls.csv.gz",
+      "stored_bytes": 31872443,
+      "stored_sha256": "64E508BEEF9A0E6F80AEA2424AF5C2A703B32AF2D6E23D2D9676913BB17A4823",
+      "reason": "GitHub rejects a single file above 100 MB without Git LFS; both fit_calls.csv files are stored the same way for consistency with the 400 records in this bundle that are already gzipped",
+      "restore": "gzip -d data/v5/full-synthetic-primary/fit_calls.csv.gz"
+    }
+  ]
+}

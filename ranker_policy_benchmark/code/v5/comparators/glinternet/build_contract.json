@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "contract_id": "track-a-glinternet-arm64-smoke-build-v1",
+  "status": "SCOPED_SUBPROCESS_AUTHORIZED_BY_FROZEN_EVIDENCE",
+  "registry_active": true,
+  "scientific_compute_authorized": false,
+  "scoped_subprocess_authorized": true,
+  "authorization_evidence": {
+    "path": "evidence/glinternet_build_authorization_20260826/BUILD_AUTHORIZATION_EVIDENCE.json",
+    "sha256": "1629B59CD27D193B70E33701045BA0EA42DC8733C06551C00D6A28E1BB07EC3B",
+    "required_decision": "AUTHORIZE_EVIDENCE_BOUND_SCOPED_GLINTERNET_SUBPROCESS"
+  },
+  "authorization_scope": {
+    "allowed_scopes": [
+      "masked_timing_s00_s11_s13",
+      "separately_frozen_pilot_or_full"
+    ],
+    "global_scientific_execution_authorized": false
+  },
+  "target_platform": "linux/arm64",
+  "base_image": {
+    "repository": "rocker/r-ver",
+    "tag": "4.6.1",
+    "platform_digest": "sha256:f7e09f3032a60a6446328448f458d5f47189d83d7776ac2f0c33073cd781edda",
+    "reference": "rocker/r-ver:4.6.1@sha256:f7e09f3032a60a6446328448f458d5f47189d83d7776ac2f0c33073cd781edda",
+    "registry_probe": "Docker Registry HTTP API V2 manifest index; no image pull",
+    "verified_at_utc": "2026-08-26T12:31:22Z"
+  },
+  "package": {
+    "name": "glinternet",
+    "version": "1.0.13",
+    "license": "GPL-2",
+    "source_url": "https://cran.r-project.org/src/contrib/glinternet_1.0.13.tar.gz",
+    "source_bytes": 23118,
+    "source_sha256": "316C5973FF55DEA0BA0BEBB6930449B12DDC21EBD77B32714BEC665643DBC076",
+    "install_command": "R CMD INSTALL --no-multiarch --clean /tmp/glinternet_1.0.13.tar.gz"
+  },
+  "container": {
+    "dockerfile": "Dockerfile",
+    "local_image_tag": "track-a-glinternet-smoke:1.0.13-r4.6.1-arm64",
+    "build_context": ".",
+    "build_command": [
+      "docker",
+      "build",
+      "--platform=linux/arm64",
+      "--pull=false",
+      "--file=Dockerfile",
+      "--tag=track-a-glinternet-smoke:1.0.13-r4.6.1-arm64",
+      "."
+    ],
+    "runtime_network": "none",
+    "runtime_cpu_limit": 1,
+    "runtime_memory_limit": "2g",
+    "runtime_root_filesystem": "read-only",
+    "nested_numeric_threads": 1,
+    "built_image_id": "sha256:f20fc7e80ccaaaf06292d91e5cf94247f3cad56576e9ee6f5dca755194b49164",
+    "build_executed": true
+  },
+  "adapter": {
+    "adapter_id": "glinternet-r-file-v1",
+    "python_bridge": "python_adapter.py",
+    "r_entrypoint": "r/glinternet_adapter.R",
+    "schema_contract": "schema_contract.json",
+    "request_fixture": "fixture/request.json",
+    "mock_response": "fixture/mock_response",
+    "uses_package_cv": false,
+    "path_fit_calls": 1,
+    "selection_split": "validation",
+    "prediction_split": "test",
+    "pair_universe_argument": "interactionPairs",
+    "candidate_orders": [2],
+    "hierarchy": "strong"
+  },
+  "source_bindings": {
+    "Dockerfile": "60E1DA1BE7228927B225099B0F8C72C92BF91BC290217861EC1C14B16431EE27",
+    "r/glinternet_adapter.R": "6BD84E84DFD1A07A75B4DD98FDE88FE8E54B6EC1C18D2BDAE47AF50146E643A4",
+    "python_adapter.py": "053663F0CBFE7C16B86D2CD11017FFD5ABE70E72210254EE2365FC11FD0D82ED",
+    "schema_contract.json": "B4E2E8552AA6CB9DBDE727CEE6B1E6FD4A8F865AAF2ABA1480FB9C2F5BC3D043",
+    "fixture/request.json": "7994254F71CC8F6BBAD974E626B8267468EA80E5115EB854CACA5F63E6209B5F",
+    "fixture/train_x.csv": "3F3ABFE680B9676C975F5BE89E3CD09D8F6E68EDB5B4D8BBB9476FE7528A4349",
+    "fixture/train_y.csv": "BC7A6A3FF40C504C09AE097FD49B4DE464F2FBDF0DFED0D3A8C1B2437BEF6C57",
+    "fixture/validation_x.csv": "8382D08720487C4C253F90B26A84E823DB649776C881085A6A11134C461DE098",
+    "fixture/validation_y.csv": "2FB6CF2571ED823794203703304975DD3DC49785C8AE1A43F20C37FE89D09537",
+    "fixture/test_x.csv": "9D31B590D88FFBCF0B84061AD289EA27E4D3BA8DC46E87A3D747D1A362B24E20",
+    "fixture/candidate_pairs.csv": "E65C93ED10B41BFBA54D5CBEFA5D73C75CF50371AEE6E4F53E0985884DF408E3",
+    "fixture/mock_response/adapter_meta.csv": "D45369BDE3F624678F245E23226AE7CED044A2BF5E3809792A17D81EF4CC23B0",
+    "fixture/mock_response/validation_path.csv": "10BAC0A8E0EF59EA0E6605002C6E30095B127B7E2936CB16F94BBBE28C7049AA",
+    "fixture/mock_response/pair_scores.csv": "ECAB3006C77FA0A0191D3564EF08323B987F2BEAF42CB6F8B64228FC64126D68",
+    "fixture/mock_response/predictions.csv": "2E9048FDBFDC8896095F4671EEACD161C205E8043C751BBFD6F3E660E6554B6D"
+  },
+  "gates": {
+    "python_request_schema": "PASS_STATIC_TEST",
+    "python_mock_response_schema": "PASS_STATIC_TEST",
+    "container_build_arm64": "PASS_BOUND_ARM64_SMOKE",
+    "container_package_identity": "PASS_BOUND_ARM64_SMOKE",
+    "real_r_fixture_smoke": "PASS_DOUBLE_RUN_DETERMINISTIC",
+    "real_response_schema": "PASS_BOUND_ARM64_SMOKE",
+    "registry_activation": "PASS_EVIDENCE_BOUND_S13_SENSITIVITY_ONLY",
+    "scoped_subprocess_authorization": "PASS_CONDITIONAL_RUNTIME_PREDICATES",
+    "global_scientific_execution": "NOT_AUTHORIZED"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "experiment_id": "EXP-SHIL-FULL-ENVELOPE-TIMING-ENGINEERING",
+  "candidate_status": "ENGINEERING_ONLY_MASKED_FULL_ENVELOPE_TIMING_SEALED_NO_MAGNITUDE_EXPORT",
+  "execution_enabled": true,
+  "execution_class": "engineering_only_full_envelope_timing",
+  "full_envelope_timing_authorization": {
+    "scope": "masked_full_envelope_timing_s05_s06_s10",
+    "engineering_only": true,
+    "reserved_seed": 887,
+    "scenario_package": ["S05", "S06", "S10"],
+    "n_pairs": 20,
+    "comparator_execution_scenarios": [],
+    "sealed_output": true,
+    "scientific_magnitudes_exported": false,
+    "scientific_inference": "PROHIBITED"
+  },
+  "protocol_path": "MD/02_design/track_a_benchmark_protocol_20260826.md",
+  "protocol_sha256": "2E233357300FC66091CD66D24AA57BFEEC6FD1DE58D6139A18D86599F61836B8",
+  "track_a_registry": {
+    "path": "method_registry.json",
+    "canonical_sha256": "37991B636B952023DC230A6B0CD790C127F864874C7C07C5F712267E10C32515",
+    "expected_method_count": 14,
+    "expected_score_family_count": 4
+  },
+  "track_a_resolved_config": {
+    "rankers.shil": {
+      "epochs": 180,
+      "learning_rate": 0.025,
+      "gate_l1": 0.0008,
+      "l2": 0.0002,
+      "patience": 28
+    },
+    "rankers.l1": {
+      "c_grid": [0.02, 0.05, 0.25, 1.0]
+    },
+    "policies.fixed_k": {},
+    "policies.validation_one_se": {},
+    "policies.cpss_one_se": {
+      "q_grid": [4, 8, 16],
+      "pi_grid": [0.6, 0.7, 0.8, 0.9]
+    }
+  },
+  "candidate_orders": [2, 3],
+  "interaction_clip": 12.0,
+  "outer_seeds": [887],
+  "pilot_seeds": [901, 907],
+  "pilot_reentry_seeds": [929, 937],
+  "pilot_scenario_ids": ["S00", "S11", "S13"],
+  "confirmatory_scenario_ids": ["S01", "S02", "S03", "S04", "S05", "S06", "S07", "S08", "S09", "S10", "S11", "S12", "S13"],
+  "confirmatory_metric": "group_f1",
+  "real_split_seeds": [11, 23, 37, 53, 71, 89, 101, 131, 157, 181],
+  "q_grid": [4, 8, 16],
+  "pi_grid": [0.6, 0.7, 0.8, 0.9],
+  "l1_c_grid": [0.02, 0.05, 0.25, 1.0],
+  "n_pairs_full": 20,
+  "n_pairs_pilot": 4,
+  "n_pairs_smoke": 1,
+  "log_loss_noninferiority_margin": 0.01,
+  "bootstrap_resamples": 1024,
+  "bootstrap_kind": "exhaustive_seed_cluster_rademacher_studentized",
+  "per_unit_timeout_seconds": 3600,
+  "whole_run_watchdog_seconds": 14400,
+  "max_parallel_units": 3,
+  "max_attempts_per_unit": 2,
+  "shil": {
+    "epochs": 180,
+    "learning_rate": 0.025,
+    "gate_l1": 0.0008,
+    "l2": 0.0002,
+    "patience": 28
+  },
+  "structured_comparator_candidate": {
+    "status": "ACTIVE_S13_SENSITIVITY_ONLY_NOT_APPLICABLE_TO_ENVELOPE_TIMING",
+    "package": "glinternet",
+    "version": "1.0.13",
+    "license": "GPL-2",
+    "source_sha256": "316C5973FF55DEA0BA0BEBB6930449B12DDC21EBD77B32714BEC665643DBC076",
+    "applicability": "pairwise_strong_hierarchy_only",
+    "registry_active": true
+  },
+  "scenarios": [
+    {"id": "S05", "kind": "mixed", "n": 6000, "d": 16, "noise_sd": 0.65, "rho": 0.0, "signal_scale": 1.0, "threshold_quantile": 0.5, "heredity": "violated", "density": "sparse"},
+    {"id": "S06", "kind": "mixed", "n": 2800, "d": 32, "noise_sd": 0.65, "rho": 0.0, "signal_scale": 1.0, "threshold_quantile": 0.5, "heredity": "violated", "density": "sparse"},
+    {"id": "S10", "kind": "dense_mixed", "n": 4000, "d": 24, "noise_sd": 0.75, "rho": 0.0, "signal_scale": 1.0, "threshold_quantile": 0.5, "heredity": "violated", "density": "dense"}
+  ],
+  "real_dataset": {
+    "name": "dry_bean_uci",
+    "uci_dataset_id": 602,
+    "source_url": "https://archive.ics.uci.edu/static/public/602/dry+bean+dataset.zip",
+    "archive_member": "DryBeanDataset/Dry_Bean_Dataset.arff",
+    "archive_sha256": "0A64EFF5BE87F48C3DBBFC0A12A56C5D5B5167EF8E61CD45D69B3E7C7130C06F",
+    "arff_sha256": "B2A4A76A2AEDFB8ED415ADFC1BFC70B5F202CB00CB72E500766E364C14834014",
+    "download_timeout_seconds": 60,
+    "target_column": "Class",
+    "expected_rows": 13611,
+    "expected_features": 16,
+    "expected_classes": 7,
+    "expected_feature_names": ["Area", "Perimeter", "MajorAxisLength", "MinorAxisLength", "AspectRation", "Eccentricity", "ConvexArea", "EquivDiameter", "Extent", "Solidity", "roundness", "Compactness", "ShapeFactor1", "ShapeFactor2", "ShapeFactor3", "ShapeFactor4"],
+    "uci_doi": "10.24432/C50S4B",
+    "license": "CC BY 4.0"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "at": "2026-09-04T14:22:58.379876+00:00",
+  "operation_id": "shil-novelty-evidence-expansion-20260904",
+  "host": "mta",
+  "summary_sha256": "2d318a7eafbe0995578b21bbc93469b8b63ec993347e27f68014294ac3884d64",
+  "provenance_sha256": "18340a36d9c97ab0faf52191da2843947c12d1310499cc4323787e669737903e",
+  "script_sha256": "b8391e3f95e1357933d25bfbbcde6e951606b82b9f3588d3b64e68f137ecf926",
+  "scope": "all32 condition/ranker groups; descriptive pointwise intervals; no superiority/equivalence decision; movement conditions on nonempty comparable supports; heatmap A prints numerator/denominator including0/0; B/C display100x F1, D1000x loss; CSV/interval plot remain unscaled",
+  "artifacts": [
+    {
+      "file": "composition_quality_mta.pdf",
+      "sha256": "b28295d2a8d17b957fff7d09cc90608f18ed25f070167694243ea5365b115680"
+    },
+    {
+      "file": "composition_quality_mta.png",
+      "sha256": "d1670bb254722fbda95db39c411c0e7cd0109dc7bbeab53f08da5532ef4f7887"
+    },
+    {
+      "file": "condition_key.csv",
+      "sha256": "8c4fe4b0630e0ce487f1ba9deec874829133fbbe936d2bc665d98dc27aad3cd1"
+    },
+    {
+      "file": "condition_ranker_summary.csv",
+      "sha256": "d0e161d42253a1042d0acc6992de640a9627cd80b5528a019c6dce6a161941d1"
+    },
+    {
+      "file": "pointwise_intervals_mta.pdf",
+      "sha256": "04e664d42ab984f7541914bf53a77b716ae25cab47f762e846d93624b75d1e15"
+    },
+    {
+      "file": "pointwise_intervals_mta.png",
+      "sha256": "fe673a77645ceac50b6e58bdb1df54cad2b95a3a01bc9d791ecfb9f238081787"
+    }
+  ]
+}

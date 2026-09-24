@@ -1,0 +1,11 @@
+{
+  "analysis_role": "DESCRIPTIVE_NO_INFERENCE",
+  "inferential_statistics_computed": false,
+  "input_terminal_closure_sha256": "629CDB674FDB294BDEDE288A614A783A8CFF8D3FBCECFF8B89343D29F5F4BB28",
+  "run_id": "EXP-SHIL-TRACK-A-FULL-REAL-DESCRIPTIVE-full-real",
+  "schema_version": 1,
+  "status": "ANALYZED_DESCRIPTIVE_ONLY",
+  "support_superiority_claim_allowed": false,
+  "validated_method_rows": 140,
+  "validated_split_count": 10
+}

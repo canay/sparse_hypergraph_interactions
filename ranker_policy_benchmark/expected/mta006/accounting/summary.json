@@ -1,0 +1,25 @@
+{
+  "at": "2026-09-04T14:21:02.290191+00:00",
+  "operation_id": "shil-novelty-evidence-expansion-20260904",
+  "host": "mta",
+  "cells": 160,
+  "completed_at": "2026-09-04T14:01:46.934110+00:00",
+  "original_launch_at": "2026-09-04T12:58:17.331463+00:00",
+  "elapsed_wall_seconds_from_original_launch": 3809.602647,
+  "saved_wrapper_calls": 52480,
+  "saved_internal_fits": 104960,
+  "saved_fit_elapsed_seconds_sum": 48416.976229342865,
+  "cache_hits_in_successful_cell_attempts": 0,
+  "fixed_k_identity_checks": 3200,
+  "warnings": {},
+  "provenance_sha256": "18340a36d9c97ab0faf52191da2843947c12d1310499cc4323787e669737903e",
+  "script_sha256": "2c8617d8ec50c2d217d2b7bcfbd7c660709a0a84b8ebc8bcbd714e9827729567",
+  "limitations": [
+    "saved-fit elapsed is the sum over retained completed fits, not CPU time or full hardware cost; failed partial work/refits/I/O/idle time excluded",
+    "cell receipt elapsed/cache hits cover only its successful last attempt",
+    "wall time starts at earliest recorded supervisor invocation; quarantined005 cost excluded",
+    "sign tolerance 1e-12 is the existing recomputation tolerance, not practical equivalence",
+    "changed-only counts describe observed mismatches, not a selected-policy performance estimand",
+    "all paired endpoints are reported; no grid retuning or superiority test"
+  ]
+}

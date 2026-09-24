@@ -1,0 +1,11 @@
+{
+  "analysis_role": "DESCRIPTIVE_NO_INFERENCE",
+  "inferential_statistics_computed": false,
+  "input_terminal_closure_sha256": "9B54D6C6DBE8EB7639345CF4450806A4AE7173F498C7763DF8E65E83F56E60A0",
+  "primary_estimand_contaminated": false,
+  "primary_identity_match": true,
+  "primary_terminal_closure_sha256": "E8AF96CEDC2A82967EED33B3101959614C4EA4DB2458782023035D65837CFEA4",
+  "schema_version": 1,
+  "status": "ANALYZED_DESCRIPTIVE_ONLY",
+  "validated_unit_count": 10
+}

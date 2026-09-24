@@ -1,0 +1,63 @@
+{
+  "analysis": {
+    "amended_real_analyzer_sha256": "24511e338cd24a9e73239d7e05e03a25656d78579aee1402c3feecdd50e46944",
+    "heavy_compute_rerun": false,
+    "original_real_analyzer_sha256": "15d980586ecf1cc822a3c943fab7830041a0f0f545acdf5feadf36170f715367",
+    "real_summary_sha256": "4598b269121c543ca85730ef408c19bc86b790bd7879371c4baa261c5f5fb5ec",
+    "repair_scope": "literal N/A status preservation only",
+    "structured_s13_summary_sha256": "cdf4098ad29d6aaea940892365dbb58f7de4c6600b99b634118f8e587c27e274",
+    "synthetic_decision_sha256": "9a69a8d49eb78c7b6ca6e18dd99253cc6bc37c6fa028e34dd6bef509922ba6e0",
+    "synthetic_summary_sha256": "67ed4f0978f5bdb30eb0d3b7b67a597e3244ad90e0547f9f05a8f2850966ffdb"
+  },
+  "independent_audit": {
+    "blind_consensus_sha256": "17b15e01b741946e030c4cc49418e49226455ae6b1d941263a44669d8b4b9213",
+    "claude_blind_stdout_sha256": "7204641ec2bf845a89e2faf141af346cc88e34a3052c5c7956aa64dd3963a5d0",
+    "codex_primary_findings_sha256": "e31c3c20d71c177f8d74964e6753e46f6ab5e62d75ba28886dbe7f2a0bf6c46d",
+    "verification_status": "ANALYZED"
+  },
+  "metadata": {
+    "date_time": "2026-08-30 05:08 +03:00",
+    "model": "GPT-5.6 Sol",
+    "operation_id": "shil-track-a-v5-scientific-audit-20260830-0504",
+    "tool": "Codex"
+  },
+  "prospective_lineage": {
+    "candidate_sha256": "712471d57049b14c11fb82d95a849c0d2801ecc8baef89cc44f13acf1f256425",
+    "decision_sha256": "af88f85baf67703e3d23338055b04fc2c5c6973454b6f5a188b1755625add2f7",
+    "results_seen_in_those_artifacts": false,
+    "review_sha256": "39310249151157db95ab078c4b2ef5615c683bbe843e42723409a31ba4de429b"
+  },
+  "route": {
+    "current_article_route": "negative_or_mixed_empirical_benchmark",
+    "future_confirmatory_rescue_requires_new_prospective_protocol_and_run": true,
+    "new_method_or_superiority_route_supported": false
+  },
+  "schema_version": 1,
+  "scientific_result": {
+    "broad_explanatory_claim_allowed": false,
+    "confirmatory_interval_computed": false,
+    "confirmatory_verdict": "UNAVAILABLE",
+    "descriptive_no_inference_reporting_allowed": true,
+    "included_ok_cells": 129,
+    "invalid_cell": {
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "scenario": "S04",
+      "selected_edge_count": 8,
+      "split_seed": 1171,
+      "status": "FIXED_K_SHORTFALL"
+    },
+    "invalid_cells": 1,
+    "planned_cells": 130,
+    "reason": "INCOMPLETE_OR_INVALID_CONFIRMATORY_CELLS"
+  },
+  "status": "VERIFIED_OFFICIAL_CONFIRMATORY_UNAVAILABLE",
+  "terminal_execution": {
+    "completed_units": 160,
+    "master_closure_sha256": "881e5892fdcb792998e33acfb2e63932ec1645c9adcdf9b06953fdfcc489e997",
+    "planned_units": 160,
+    "real_closure_sha256": "629cdb674fdb294bdede288a614a783a8cff8d3fbcecff8b89343d29f5f4bb28",
+    "structured_s13_closure_sha256": "9b54d6c6dbe8eb7639345cf4450806a4ae7173f498c7763df8e65e83f56e60a0",
+    "synthetic_closure_sha256": "e8af96cedc2a82967eed33b3101959614c4ea4db2458782023035d65837cfea4"
+  }
+}

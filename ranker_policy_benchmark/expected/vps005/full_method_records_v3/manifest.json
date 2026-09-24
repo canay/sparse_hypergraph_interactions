@@ -1,0 +1,65 @@
+{
+  "at": "2026-09-04T13:05:50.767153+00:00",
+  "operation_id": "shil-novelty-evidence-expansion-20260904",
+  "host": "vps",
+  "rows": 1120,
+  "status_counts": {
+    "OK": 1120
+  },
+  "shortfall_rows": [
+    {
+      "unit_id": "E01_2011",
+      "method_id": "l1.fixed_k.k08",
+      "requested_k": 8,
+      "selected_edge_count": 5,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E01_2011",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 5,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E02_2003",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 8,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E02_2027",
+      "method_id": "l1.fixed_k.k08",
+      "requested_k": 8,
+      "selected_edge_count": 6,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E02_2027",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 6,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E05_2003",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 8,
+      "status": "OK"
+    },
+    {
+      "unit_id": "E05_2027",
+      "method_id": "l1.fixed_k.k16",
+      "requested_k": 16,
+      "selected_edge_count": 11,
+      "status": "OK"
+    }
+  ],
+  "zero_padding_rows": 0,
+  "provenance_sha256": "a1af283061a2dda4e307e3623abb68704dc02574c24b6d27d5d1ffc1eeaea0cb",
+  "csv_sha256": "756e9a4ba2f52b6ab7e7ddeb8dcfba9aaf176cf533e800425512b0381ddcb148",
+  "script_sha256": "e1b30cad2a966b47b8b17d061c09595b7b4ef1efd2002225a5d033c221d4cbf8",
+  "scope": "full frozen registry metrics as logged; all exact/group F1 checked by provenance verifier; 28-method prediction vectors are not retained/re-predicted; separate paired CPSS/raw probabilities are independently checked"
+}

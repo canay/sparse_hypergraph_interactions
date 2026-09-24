@@ -1,0 +1,116 @@
+{
+  "experiment_id": "EXP-SHIL-PILOT-A-FROZEN",
+  "candidate_status": "SCIENTIFIC_PILOT_A_FIXED_FREEZE_PATH_DECLARED",
+  "execution_enabled": true,
+  "execution_class": "scientific_pilot_a",
+  "scientific_run_authorization": {
+    "scope": "separately_frozen_pilot_or_full",
+    "run_class": "pilot",
+    "freeze_path": "freeze/SCIENTIFIC_RUN_FROZEN_PILOT_A.json"
+  },
+  "pilot_a_contract": {
+    "scenario_ids": ["S00", "S11", "S13"],
+    "seeds": [901, 907],
+    "n_pairs": 4,
+    "ranker_call_budget_4B_plus_2": 18,
+    "planned_units": [
+      {"scenario_id": "S00", "seed": 901},
+      {"scenario_id": "S00", "seed": 907},
+      {"scenario_id": "S11", "seed": 901},
+      {"scenario_id": "S11", "seed": 907},
+      {"scenario_id": "S13", "seed": 901},
+      {"scenario_id": "S13", "seed": 907}
+    ],
+    "heartbeat_interval_seconds": 2.0,
+    "per_unit_timeout_seconds": 300,
+    "whole_run_watchdog_seconds": 3600,
+    "max_attempts_per_unit": 2,
+    "reentry_rule": "same_atomic_unit_seed_only_no_replacement_seed",
+    "authorized_reentry_seeds": [],
+    "blindness": {
+      "mode": "structural_only",
+      "scientific_metrics_visible_during_pilot": false,
+      "scientific_magnitudes_visible_during_pilot": false,
+      "allowed_live_fields": ["status", "unit_count", "artifact_count", "bytes", "sha256", "heartbeat_sequence", "failure_reason"]
+    },
+    "timing_resource_preflight": {
+      "path": "evidence/vps_masked_timing_b4_20260826/PILOT_TIMING_RESOURCE_PREFLIGHT.json",
+      "sha256": "F4B6A56B644843E1A15B7B2B6DA10EEACE0999008F190A27F86BAA33F57BF8EE",
+      "required_status": "pass"
+    }
+  },
+  "heartbeat_interval_seconds": 2.0,
+  "per_unit_timeout_seconds": 300,
+  "whole_run_watchdog_seconds": 3600,
+  "max_attempts_per_unit": 2,
+  "protocol_path": "MD/02_design/track_a_benchmark_protocol_20260826.md",
+  "protocol_sha256": "2E233357300FC66091CD66D24AA57BFEEC6FD1DE58D6139A18D86599F61836B8",
+  "track_a_registry": {
+    "path": "method_registry.json",
+    "canonical_sha256": "37991B636B952023DC230A6B0CD790C127F864874C7C07C5F712267E10C32515",
+    "expected_method_count": 14,
+    "expected_score_family_count": 4
+  },
+  "track_a_resolved_config": {
+    "rankers.shil": {"epochs": 180, "learning_rate": 0.025, "gate_l1": 0.0008, "l2": 0.0002, "patience": 28},
+    "rankers.l1": {"c_grid": [0.02, 0.05, 0.25, 1.0]},
+    "policies.fixed_k": {},
+    "policies.validation_one_se": {},
+    "policies.cpss_one_se": {"q_grid": [4, 8, 16], "pi_grid": [0.6, 0.7, 0.8, 0.9]}
+  },
+  "candidate_orders": [2, 3],
+  "interaction_clip": 12.0,
+  "outer_seeds": [1103, 1129, 1151, 1171, 1181, 1201, 1213, 1231, 1249, 1277],
+  "pilot_seeds": [901, 907],
+  "pilot_reentry_seeds": [929, 937],
+  "pilot_scenario_ids": ["S00", "S11", "S13"],
+  "confirmatory_scenario_ids": ["S01", "S02", "S03", "S04", "S05", "S06", "S07", "S08", "S09", "S10", "S11", "S12", "S13"],
+  "confirmatory_metric": "group_f1",
+  "real_split_seeds": [11, 23, 37, 53, 71, 89, 101, 131, 157, 181],
+  "q_grid": [4, 8, 16],
+  "pi_grid": [0.6, 0.7, 0.8, 0.9],
+  "l1_c_grid": [0.02, 0.05, 0.25, 1.0],
+  "n_pairs_full": 20,
+  "n_pairs_pilot": 4,
+  "n_pairs_smoke": 1,
+  "log_loss_noninferiority_margin": 0.01,
+  "bootstrap_resamples": 1024,
+  "bootstrap_kind": "exhaustive_seed_cluster_rademacher_studentized",
+  "shil": {"epochs": 180, "learning_rate": 0.025, "gate_l1": 0.0008, "l2": 0.0002, "patience": 28},
+  "structured_comparator_candidate": {
+    "status": "ACTIVE_S13_SENSITIVITY_ONLY_PILOT_A_FROZEN",
+    "package": "glinternet",
+    "version": "1.0.13",
+    "license": "GPL-2",
+    "source_sha256": "316C5973FF55DEA0BA0BEBB6930449B12DDC21EBD77B32714BEC665643DBC076",
+    "applicability": "pairwise_strong_hierarchy_only",
+    "registry_active": true
+  },
+  "scenarios": [
+    {"id": "S00", "kind": "null", "n": 2800, "d": 16, "noise_sd": 0.65, "rho": 0.0, "signal_scale": 0.0, "threshold_quantile": 0.5, "heredity": "not_applicable", "density": "null"},
+    {"id": "S01", "kind": "pair", "n": 2800, "d": 16, "noise_sd": 0.65, "rho": 0.0, "signal_scale": 1.0, "threshold_quantile": 0.5, "heredity": "violated", "density": "sparse"},
+    {"id": "S02", "kind": "triple", "n": 2800, "d": 16, "noise_sd": 0.65, "rho": 0.0, "signal_scale": 1.0, "threshold_quantile": 0.5, "heredity": "violated", "density": "sparse"},
+    {"id": "S03", "kind": "mixed", "n": 2800, "d": 16, "noise_sd": 0.65, "rho": 0.0, "signal_scale": 1.0, "threshold_quantile": 0.5, "heredity": "violated", "density": "sparse"},
+    {"id": "S04", "kind": "mixed", "n": 900, "d": 16, "noise_sd": 0.65, "rho": 0.0, "signal_scale": 1.0, "threshold_quantile": 0.5, "heredity": "violated", "density": "sparse"},
+    {"id": "S05", "kind": "mixed", "n": 6000, "d": 16, "noise_sd": 0.65, "rho": 0.0, "signal_scale": 1.0, "threshold_quantile": 0.5, "heredity": "violated", "density": "sparse"},
+    {"id": "S06", "kind": "mixed", "n": 2800, "d": 32, "noise_sd": 0.65, "rho": 0.0, "signal_scale": 1.0, "threshold_quantile": 0.5, "heredity": "violated", "density": "sparse"},
+    {"id": "S07", "kind": "mixed", "n": 2800, "d": 16, "noise_sd": 1.10, "rho": 0.0, "signal_scale": 0.55, "threshold_quantile": 0.5, "heredity": "violated", "density": "sparse"},
+    {"id": "S08", "kind": "mixed", "n": 2800, "d": 16, "noise_sd": 0.65, "rho": 0.60, "signal_scale": 1.0, "threshold_quantile": 0.5, "heredity": "violated", "density": "sparse"},
+    {"id": "S09", "kind": "mixed", "n": 2800, "d": 16, "noise_sd": 0.65, "rho": 0.0, "signal_scale": 1.0, "threshold_quantile": 0.5, "heredity": "respected", "density": "sparse"},
+    {"id": "S10", "kind": "dense_mixed", "n": 4000, "d": 24, "noise_sd": 0.75, "rho": 0.0, "signal_scale": 1.0, "threshold_quantile": 0.5, "heredity": "violated", "density": "dense"},
+    {"id": "S11", "kind": "redundant_mixed", "n": 2800, "d": 20, "noise_sd": 0.65, "rho": 0.0, "signal_scale": 1.0, "threshold_quantile": 0.5, "heredity": "violated", "density": "sparse", "proxy_correlation": 0.95},
+    {"id": "S12", "kind": "mixed", "n": 2800, "d": 16, "noise_sd": 0.65, "rho": 0.0, "signal_scale": 1.0, "threshold_quantile": 0.70, "heredity": "violated", "density": "sparse"},
+    {"id": "S13", "kind": "pair", "n": 2800, "d": 16, "noise_sd": 0.65, "rho": 0.0, "signal_scale": 1.0, "threshold_quantile": 0.5, "heredity": "respected", "density": "sparse"}
+  ],
+  "real_dataset": {
+    "name": "dry_bean_uci", "uci_dataset_id": 602,
+    "source_url": "https://archive.ics.uci.edu/static/public/602/dry+bean+dataset.zip",
+    "archive_member": "DryBeanDataset/Dry_Bean_Dataset.arff",
+    "archive_sha256": "0A64EFF5BE87F48C3DBBFC0A12A56C5D5B5167EF8E61CD45D69B3E7C7130C06F",
+    "arff_sha256": "B2A4A76A2AEDFB8ED415ADFC1BFC70B5F202CB00CB72E500766E364C14834014",
+    "download_timeout_seconds": 60, "target_column": "Class",
+    "expected_rows": 13611, "expected_features": 16, "expected_classes": 7,
+    "expected_feature_names": ["Area", "Perimeter", "MajorAxisLength", "MinorAxisLength", "AspectRation", "Eccentricity", "ConvexArea", "EquivDiameter", "Extent", "Solidity", "roundness", "Compactness", "ShapeFactor1", "ShapeFactor2", "ShapeFactor3", "ShapeFactor4"],
+    "uci_doi": "10.24432/C50S4B", "license": "CC BY 4.0"
+  }
+}

@@ -7,3 +7,8 @@
 # Preserve the curated calibrated-run artifacts byte for byte.
 # This final rule overrides extension rules inside the artifact subtree.
 replication_package/calibrated_runs/** -text
+
+# Same reason, second bundle: ranker_policy_benchmark/SOURCE_MAP.json carries a
+# SHA-256 for every path in that tree, so any line-ending conversion would make
+# those digests wrong in every clone. -text disables the conversion entirely.
+ranker_policy_benchmark/** -text

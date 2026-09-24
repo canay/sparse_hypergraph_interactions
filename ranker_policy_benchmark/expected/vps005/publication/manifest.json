@@ -1,0 +1,35 @@
+{
+  "at": "2026-09-04T13:05:59.634627+00:00",
+  "operation_id": "shil-novelty-evidence-expansion-20260904",
+  "host": "vps",
+  "summary_sha256": "f33711bb82bf2c1eafba3962d5615f5abd053c8c9fd6634c7a6202d326ff14f1",
+  "provenance_sha256": "a1af283061a2dda4e307e3623abb68704dc02574c24b6d27d5d1ffc1eeaea0cb",
+  "script_sha256": "7745930f31cd65bb4edd609fa6982fd685113dd58c123695d2acffbca894f437",
+  "scope": "all32 condition/ranker groups; descriptive pointwise intervals; no superiority/equivalence decision; movement conditions on nonempty comparable supports",
+  "artifacts": [
+    {
+      "file": "composition_quality_vps.pdf",
+      "sha256": "faf089024d9a09519fc49ae933c5d72381d460b4b404e7fbf1d38b50df24a563"
+    },
+    {
+      "file": "composition_quality_vps.png",
+      "sha256": "f53c2d68b3e48d9b87fc6d13b0e8480e61f24e59b6235df49659c62b1bec0d4b"
+    },
+    {
+      "file": "condition_key.csv",
+      "sha256": "8c4fe4b0630e0ce487f1ba9deec874829133fbbe936d2bc665d98dc27aad3cd1"
+    },
+    {
+      "file": "condition_ranker_summary.csv",
+      "sha256": "0a389002ab0b9de28fec57c0755e1d07d4c52eac95daed32484647fde5318574"
+    },
+    {
+      "file": "pointwise_intervals_vps.pdf",
+      "sha256": "c26ac529c0b325f3dd6c3c2555ac05b91e2dfbc90bc1641660738f3d2003615c"
+    },
+    {
+      "file": "pointwise_intervals_vps.png",
+      "sha256": "796a60b9cc01f53deab0c907355bf3fc8e4465abc013310596e1a0ddaf486328"
+    }
+  ]
+}

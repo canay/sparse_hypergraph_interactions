@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "change_id": "MCH-SHIL-005",
+  "run_kind": "exploratory_non_rescue",
+  "operation_id": "shil-novelty-evidence-expansion-20260904",
+  "generator": "controlled_proxy_v1",
+  "generator_nuisance_indices": [
+    14,
+    15
+  ],
+  "generator_nuisance_coefficients": [
+    0.15,
+    -0.12
+  ],
+  "seeds": [
+    2003,
+    2011,
+    2017,
+    2027,
+    2029,
+    2039,
+    2053,
+    2063,
+    2069,
+    2081,
+    2083,
+    2087,
+    2089,
+    2099,
+    2111,
+    2113,
+    2129,
+    2131,
+    2137,
+    2141
+  ],
+  "replication_seeds": [
+    2003,
+    2011,
+    2017,
+    2027,
+    2029
+  ],
+  "conditions": [
+    {
+      "id": "E01",
+      "kind": "mixed",
+      "n": 300,
+      "d": 20,
+      "rho": 0.0,
+      "proxy_correlation": 0.95,
+      "signal_scale": 0.55,
+      "noise_sd": 1.1,
+      "threshold_quantile": 0.5,
+      "heredity": "violated"
+    },
+    {
+      "id": "E02",
+      "kind": "redundant_mixed",
+      "n": 300,
+      "d": 20,
+      "rho": 0.0,
+      "proxy_correlation": 0.95,
+      "signal_scale": 0.55,
+      "noise_sd": 1.1,
+      "threshold_quantile": 0.5,
+      "heredity": "violated"
+    },
+    {
+      "id": "E03",
+      "kind": "mixed",
+      "n": 900,
+      "d": 20,
+      "rho": 0.0,
+      "proxy_correlation": 0.95,
+      "signal_scale": 0.55,
+      "noise_sd": 1.1,
+      "threshold_quantile": 0.5,
+      "heredity": "violated"
+    },
+    {
+      "id": "E04",
+      "kind": "redundant_mixed",
+      "n": 900,
+      "d": 20,
+      "rho": 0.0,
+      "proxy_correlation": 0.95,
+      "signal_scale": 0.55,
+      "noise_sd": 1.1,
+      "threshold_quantile": 0.5,
+      "heredity": "violated"
+    },
+    {
+      "id": "E05",
+      "kind": "mixed",
+      "n": 2800,
+      "d": 20,
+      "rho": 0.0,
+      "proxy_correlation": 0.95,
+      "signal_scale": 0.55,
+      "noise_sd": 1.1,
+      "threshold_quantile": 0.5,
+      "heredity": "violated"
+    },
+    {
+      "id": "E06",
+      "kind": "redundant_mixed",
+      "n": 2800,
+      "d": 20,
+      "rho": 0.0,
+      "proxy_correlation": 0.95,
+      "signal_scale": 0.55,
+      "noise_sd": 1.1,
+      "threshold_quantile": 0.5,
+      "heredity": "violated"
+    },
+    {
+      "id": "E07",
+      "kind": "mixed",
+      "n": 2800,
+      "d": 20,
+      "rho": 0.0,
+      "proxy_correlation": 0.95,
+      "signal_scale": 1.0,
+      "noise_sd": 0.65,
+      "threshold_quantile": 0.5,
+      "heredity": "violated"
+    },
+    {
+      "id": "E08",
+      "kind": "redundant_mixed",
+      "n": 2800,
+      "d": 20,
+      "rho": 0.0,
+      "proxy_correlation": 0.95,
+      "signal_scale": 1.0,
+      "noise_sd": 0.65,
+      "threshold_quantile": 0.5,
+      "heredity": "violated"
+    }
+  ],
+  "resolved_config": {
+    "rankers.shil": {
+      "epochs": 180,
+      "learning_rate": 0.025,
+      "gate_l1": 0.0008,
+      "l2": 0.0002,
+      "patience": 28
+    },
+    "rankers.l1": {
+      "c_grid": [
+        0.02,
+        0.05,
+        0.25,
+        1.0
+      ]
+    },
+    "policies.fixed_k": {},
+    "policies.validation_one_se": {},
+    "policies.cpss_one_se": {
+      "q_grid": [
+        4,
+        8,
+        16
+      ],
+      "pi_grid": [
+        0.6,
+        0.7,
+        0.8,
+        0.9
+      ]
+    },
+    "rankers.tree": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1
+    },
+    "rankers.screen": {}
+  },
+  "candidate_orders": [
+    2,
+    3
+  ],
+  "interaction_clip": 12.0,
+  "n_pairs": 20,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260904,
+  "per_unit_timeout_seconds": 1800,
+  "whole_run_timeout_seconds": 86400,
+  "heartbeat_seconds": 10,
+  "stall_seconds": 120,
+  "minimum_disk_bytes": 10000000000,
+  "minimum_available_ram_bytes": 4000000000,
+  "maximum_output_bytes": 1000000000,
+  "max_workers": {
+    "mta": 4,
+    "vps": 2
+  },
+  "smoke_seeds": [
+    90001,
+    90002
+  ]
+}
