@@ -5350,5 +5350,2741 @@
     "sha256": "53DBC808BE1D5F8E8E949DA56190D2C95B33606AF07284C070DF36B28C2A1057",
     "source_sha256": "53DBC808BE1D5F8E8E949DA56190D2C95B33606AF07284C070DF36B28C2A1057",
     "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E01_2003/result.json.gz",
+    "sha256": "861BDC582EE30D96CE1D4E3BAF2E4B2BEE4F5050E1FD6B8D756515A095AE69A0",
+    "source_sha256": "861BDC582EE30D96CE1D4E3BAF2E4B2BEE4F5050E1FD6B8D756515A095AE69A0",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E01_2003/identity.json",
+    "sha256": "BF1B280A01AC472A8767833627AFC8C84111A0E0059C428199BFAD2396DD60DD",
+    "source_sha256": "F3F8A5E65297CC772611B902557FCE6EBB0AEB973A7E527092767AC829F7862B",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E01_2003/rank_records.json.gz",
+    "sha256": "904D853368180675517C5BE450598CDAC364FA09396227CC33058A51C327B0D5",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E01_2011/result.json.gz",
+    "sha256": "F1322EE89850F50FBC59ADE9BD835281FB429349E765F0298F0F57E7FC694B35",
+    "source_sha256": "F1322EE89850F50FBC59ADE9BD835281FB429349E765F0298F0F57E7FC694B35",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E01_2011/identity.json",
+    "sha256": "E2BA938360FBD2168D3F883DEE161A857B1BA1B6DFA1DDD503CB4A1FD8A31314",
+    "source_sha256": "005EB3BB0089624B44EB68B2B15ECC6A8FB3CB2CBDD6A7B9AE306EDCF02D7275",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E01_2011/rank_records.json.gz",
+    "sha256": "D7DC147CD1519FE93522502EE1F188C924ED0DA5ECCDCC4CAE30D3E89E297271",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E01_2017/result.json.gz",
+    "sha256": "CD9ABC2A44D36942A58EB128E881C8535B1B18C3BD526601F54E1DCA84B145B1",
+    "source_sha256": "CD9ABC2A44D36942A58EB128E881C8535B1B18C3BD526601F54E1DCA84B145B1",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E01_2017/identity.json",
+    "sha256": "52BDB4025F6740783F005915475191DEF644D6B4AD249789EC90CB7FC96D36C9",
+    "source_sha256": "551AAEFBA84C5055D11FA06510493442A60D32D95E0593650341E82B8341272E",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E01_2017/rank_records.json.gz",
+    "sha256": "97860BD62233C7FA90E9FE076CD6B5894575C8CDACC76109ADA8012BAB66DA26",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E01_2027/result.json.gz",
+    "sha256": "2BD7CAFF337D907B8E8F876A7C408FCBC5D2007644278D3CB4AAA71361CF35CB",
+    "source_sha256": "2BD7CAFF337D907B8E8F876A7C408FCBC5D2007644278D3CB4AAA71361CF35CB",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E01_2027/identity.json",
+    "sha256": "9633F4812AC06F4C1935017A643B237D30997F66B7082242EB507ADD2CA139CC",
+    "source_sha256": "81FD3BD4AF2534BC6F5FA4F58302A92F451667431FD22A543A3A2CDD7049EF01",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E01_2027/rank_records.json.gz",
+    "sha256": "208A14D8D6E3C6229E249BD07B38BFB88BEB482939ECFCE318C005CFCCB9A1FA",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E01_2029/result.json.gz",
+    "sha256": "11A14999E5C071D34B8B7C2EA82E0989745A2BB2A3971897C3C82426E4A8B42E",
+    "source_sha256": "11A14999E5C071D34B8B7C2EA82E0989745A2BB2A3971897C3C82426E4A8B42E",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E01_2029/identity.json",
+    "sha256": "7666E2DC47A3DF5BF9C7B02488D80C8C49A2E0458DD77AA3E917FB6839B09929",
+    "source_sha256": "FB3311C94E7F6935B8871AB406FAA20F0522BF08B4149A263FC0F3994B93D9A5",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E01_2029/rank_records.json.gz",
+    "sha256": "0B09F510674F8E0A6CB0E0E5AB89B8FBCABB662782B356D2E88EFED1F29D91FE",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E01_2039/result.json.gz",
+    "sha256": "3342DEC18EB46C543D75BCDEFA9DC473A5245BF060B8674CCFF0D2471A0B6151",
+    "source_sha256": "3342DEC18EB46C543D75BCDEFA9DC473A5245BF060B8674CCFF0D2471A0B6151",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E01_2039/identity.json",
+    "sha256": "6BCCAF92C17AFAD651F67B54B514F696B6E93AD0A46EA51287769A3920FFE15A",
+    "source_sha256": "8A9DC5222444FC0D62666DBBF6B5C7CD1F7C37FBB3C2F4DAF556512B1F9F8C60",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E01_2039/rank_records.json.gz",
+    "sha256": "64B3ABE5FBAD7E38DE8E1A0D59A0E668088014BE75C3B8A220D911C33E1C1529",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E01_2053/result.json.gz",
+    "sha256": "E041F98636295B2C221B2D28F2D9B10F2EB7F69A22C6CB9726CDC1FC8A116BD8",
+    "source_sha256": "E041F98636295B2C221B2D28F2D9B10F2EB7F69A22C6CB9726CDC1FC8A116BD8",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E01_2053/identity.json",
+    "sha256": "864659E07A9E82D0CA018823EBDB0223B1B0C62350C0E77177D6CD4CDA017BFC",
+    "source_sha256": "5F3B84A2C7596029C4EE431EF79DEF793DE5C78B732CEDF7FE9F2B0DDC65FB98",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E01_2053/rank_records.json.gz",
+    "sha256": "F437005BA1AA6784BE81C63C0811BF3C0D5D252E1B4F480C08BCA34BE1499C12",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E01_2063/result.json.gz",
+    "sha256": "CEDFECBCA98345F10CEF9AAC295EE05F81E65FF53FFF8D6C16AD8B5637632B8F",
+    "source_sha256": "CEDFECBCA98345F10CEF9AAC295EE05F81E65FF53FFF8D6C16AD8B5637632B8F",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E01_2063/identity.json",
+    "sha256": "25D8641C709A40C0A6D2BFCBD6C3480909DD1D9B2C969C604E397F6D55650221",
+    "source_sha256": "BE7AE280068EFDE5CCD1E89955E5C1E3FE6A2BFE78C848A9B9E325EBBA863FD9",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E01_2063/rank_records.json.gz",
+    "sha256": "66576745E34DDC072E95C0C88B9D020AFE0D86B782C2CE600122451A4E43848A",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E01_2069/result.json.gz",
+    "sha256": "1043F94248B2EE0363086179997FF90C365878ED436BBC6EEED5C3954A15BC82",
+    "source_sha256": "1043F94248B2EE0363086179997FF90C365878ED436BBC6EEED5C3954A15BC82",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E01_2069/identity.json",
+    "sha256": "4A4C4A43CB2DE594D1E333E721883BEED4DDD49367BE2BAD442B850B442608A7",
+    "source_sha256": "E03E4DF531E0825E75D3ECDF99585236643B91A8DA26D36BF7452DC6938BBE2A",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E01_2069/rank_records.json.gz",
+    "sha256": "BACF04CED1E666E0A756F599575A793E5FF6658B12B538A2018D2ED483FE7757",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E01_2081/result.json.gz",
+    "sha256": "2F51C86C1F1FD2F761A8329B0F3E7143C044E2B3DD93E07E6178A68713E50944",
+    "source_sha256": "2F51C86C1F1FD2F761A8329B0F3E7143C044E2B3DD93E07E6178A68713E50944",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E01_2081/identity.json",
+    "sha256": "BC0716179E247261C51D4ADA244BF0BCE4DA337450377A3295F6F7CBBD9D9C7B",
+    "source_sha256": "382A372ADFDEAA97EF45F02A2383D50B5BC89F0713EEB09EADE7A3EB3DD3857D",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E01_2081/rank_records.json.gz",
+    "sha256": "9B614F93109976DE223CAEF4BE0B6110EB002B77C89D2D678C2E2A61CE6EC8F4",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E01_2083/result.json.gz",
+    "sha256": "3710E72C5D6ED1A81BE5992E064D5F6D3A14A2711335CFDC83B52F7D7DD6C212",
+    "source_sha256": "3710E72C5D6ED1A81BE5992E064D5F6D3A14A2711335CFDC83B52F7D7DD6C212",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E01_2083/identity.json",
+    "sha256": "D7FF03B34FA99A08023CFAE345FEE55C6B17642499CDEC440E524FCD70CC8A48",
+    "source_sha256": "387A1C24786E8FAAEA2C9DAD8AE9242B3E9FFACA80859C9C8FEA71E3A6BE3B1D",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E01_2083/rank_records.json.gz",
+    "sha256": "D01180312C2EEE5AF53AC52F6F290A5BFB01AA50145DB7174B30733C425FD7CC",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E01_2087/result.json.gz",
+    "sha256": "A11E65DF9D0C2FCAFB78AF5E44412F9A06E390BBE9EEC69373D8E1733AA143EB",
+    "source_sha256": "A11E65DF9D0C2FCAFB78AF5E44412F9A06E390BBE9EEC69373D8E1733AA143EB",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E01_2087/identity.json",
+    "sha256": "2835C8D08C1620D97CD5D268F4D4100D07F3459DB359376BEA33BCBE7CBEBDB3",
+    "source_sha256": "9BDFA1374552452AC8020CBCABC0F8F53322F322382F50E4C1C187EBCAB0E4C4",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E01_2087/rank_records.json.gz",
+    "sha256": "EE7CA0F3E981D48A919C01D101E9B6552443B68920CF14E2651632FDCD3826C8",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E01_2089/result.json.gz",
+    "sha256": "F48B1487CE95452D7D56E805FF84010368B4911EE2E6B9FEBD0D10DF4D17D91A",
+    "source_sha256": "F48B1487CE95452D7D56E805FF84010368B4911EE2E6B9FEBD0D10DF4D17D91A",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E01_2089/identity.json",
+    "sha256": "24B7A213A8536DAC1353BF4C2B3CBA8C80D68E17EB72CE31B2A58EEF03D23A1A",
+    "source_sha256": "F2DF7EE188872C6A708C06641A222C67952D2A106B8E7D4BF01155B389F66192",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E01_2089/rank_records.json.gz",
+    "sha256": "122E32378897B410FD496871D52F08A95F48C9E6B5CAA9993F0CE3E406EAE3DD",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E01_2099/result.json.gz",
+    "sha256": "8AB5F551F3C35B1901E8EECAAA9DE2A8ADCA6384E9B1EB6E438E1B80BE57D3C1",
+    "source_sha256": "8AB5F551F3C35B1901E8EECAAA9DE2A8ADCA6384E9B1EB6E438E1B80BE57D3C1",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E01_2099/identity.json",
+    "sha256": "49DE0917D75EF62CF3A123CA6BF6AE21A53447A886EA7A840893F52F3910D290",
+    "source_sha256": "E116B0B06FE9A3D1CE6BA1E63875E2D5DD3A9C6787B8FDA2CE384DED43EEF855",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E01_2099/rank_records.json.gz",
+    "sha256": "7320C4F94123B75BFF5E4406A156B04B2A24B5266DFB71D135169DDDF5E92FE4",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E01_2111/result.json.gz",
+    "sha256": "3256B43AAAC9E23A5547C8CAC17777FF09FB42B8CDC94F7BA62AFFFCFDA0FEE0",
+    "source_sha256": "3256B43AAAC9E23A5547C8CAC17777FF09FB42B8CDC94F7BA62AFFFCFDA0FEE0",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E01_2111/identity.json",
+    "sha256": "82ED2875C8E885775AE70D2A4F1BA349DC59A2AC0B47908287FEF65F1219C2AB",
+    "source_sha256": "F4DFB687DA68DAF3BE4B31E16219E719E652FF49D1F7D0EB679C3F3988650F0E",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E01_2111/rank_records.json.gz",
+    "sha256": "F497BC821D9F8C28B186B02FB6AF4EDBC060BB2C3791CEBB132A2549BEFF80C0",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E01_2113/result.json.gz",
+    "sha256": "323F43A08C3821C9BB1B156C48B4D6EA350D8A7E4B4A50171FEB5BCF0AB6A22C",
+    "source_sha256": "323F43A08C3821C9BB1B156C48B4D6EA350D8A7E4B4A50171FEB5BCF0AB6A22C",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E01_2113/identity.json",
+    "sha256": "46686ABFB34B0B5D26D4354BA244D28B655E3172C1C3E8EAB8BAB7D3140A2E7E",
+    "source_sha256": "27FF17A44E1D3B26443B74D199A18EB6784B7526F73FC80FBD2485A54A0BC59C",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E01_2113/rank_records.json.gz",
+    "sha256": "B9A3BF10B7797D20C31C557555766CF809790980BC8301362B944C0D4061B306",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E01_2129/result.json.gz",
+    "sha256": "A23CEE30BBF3214CA9E403CE70D88225BFE85A2961494243730D6D4DF787D151",
+    "source_sha256": "A23CEE30BBF3214CA9E403CE70D88225BFE85A2961494243730D6D4DF787D151",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E01_2129/identity.json",
+    "sha256": "3F886D16C327AAC8F1A5361E1B3418B2C2F6B9D7E223C72E14217C26FE9632D4",
+    "source_sha256": "D7D97F48B432109113A204086E70F19A01731458E5C18205DFD9B548EAC65ED6",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E01_2129/rank_records.json.gz",
+    "sha256": "CB1A774257BC3CA8270782E070EFE07442B7AF2C076A7008326CAFF5740DD61A",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E01_2131/result.json.gz",
+    "sha256": "F1284CA9282F7D907FF2A9A46922D4F3CA14232C136DF3EEA3302B534C65F607",
+    "source_sha256": "F1284CA9282F7D907FF2A9A46922D4F3CA14232C136DF3EEA3302B534C65F607",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E01_2131/identity.json",
+    "sha256": "D03AF2534CE7363F94989E2EF93DF2CB38820970D18F6061A1665A1D90E3988A",
+    "source_sha256": "812630214F49C097027185D0D7BDA304EE5D2D62BA325DDBE3949FB39F4248FB",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E01_2131/rank_records.json.gz",
+    "sha256": "7D76FF7977E9B3215E4049DFEE9872EBED1E14411A38B72AB0533EB4EC3E939F",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E01_2137/result.json.gz",
+    "sha256": "912DDB03AD5B88D72144C73EB2E1916A737FD7C81EB7F3B9CCDB315B98DC1F01",
+    "source_sha256": "912DDB03AD5B88D72144C73EB2E1916A737FD7C81EB7F3B9CCDB315B98DC1F01",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E01_2137/identity.json",
+    "sha256": "4A6426FF35DF4EC68815C703F18D46CA417DCE5039458E63C5F3F186A10337B4",
+    "source_sha256": "892C30D0C769DD4E3FE47260B2FD088BA46C056EF326D47DDFB76231D6B6BEE6",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E01_2137/rank_records.json.gz",
+    "sha256": "2FA51930F2A28FC95A2DC5D0462B9A011029EFCF4FC688240973252C665376D9",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E01_2141/identity.json",
+    "sha256": "7C66738C01DE6A1D247C0EC41316D68692E56B87B4EAF13F1355B55A82D0490D",
+    "source_sha256": "0D4AC9B50C77DD10B2ADEDBB52E195ECBB1C6045DFE1D59DDAEF0B00FAEFAE64",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E01_2141/progress.json",
+    "sha256": "48D8CD515A85BA667B7E8F47B3BC2FB5580FFA240542E6527AA8E5122DF36201",
+    "source_sha256": "9E19FFE4EC6CC820DE49202021668E0791B71E49D65263FA58C9DF90E6768815",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2003/result.json.gz",
+    "sha256": "B90A641BB4DD58EFCB0888EC5270BD8CD27B644A426BBCCAD90F8BE369A9E11C",
+    "source_sha256": "B90A641BB4DD58EFCB0888EC5270BD8CD27B644A426BBCCAD90F8BE369A9E11C",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E02_2003/identity.json",
+    "sha256": "84B700D3141027462F606BD3CCFD6BE59B41C16B9931C83FDBBC7B7543ED850E",
+    "source_sha256": "2890FA4BDFD5C85034C04A1DDDE6D18DCEC53627B1C2659A71C31E54826DE976",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2003/rank_records.json.gz",
+    "sha256": "DA94952FFFD55E33E0E5F538094E0B31BB8990C008D5C480ECE7BF8BFEAAD713",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E02_2011/result.json.gz",
+    "sha256": "268C015289D5D31689B95122DBDE69BED12090F0FA82B64AE92F4BB6BE72EE4E",
+    "source_sha256": "268C015289D5D31689B95122DBDE69BED12090F0FA82B64AE92F4BB6BE72EE4E",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E02_2011/identity.json",
+    "sha256": "11D039D2BA402AFDAB260C734FCE1FD1BC13DC102CE2584DCD3542B342743CA5",
+    "source_sha256": "BB4E9A3529C5175909C6EC50D2668FB911634CC00B02C2800530D6F564436C75",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2011/rank_records.json.gz",
+    "sha256": "AE3EF1BA3E9B58A0FBD967FC30EADF52BD07874708CC4E31C63B3EFC5433579C",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E02_2017/result.json.gz",
+    "sha256": "C217F3B9FB03AB689EAB225F89F4C1BF0C4DB2113E2659B1A8ACC70874CEBB72",
+    "source_sha256": "C217F3B9FB03AB689EAB225F89F4C1BF0C4DB2113E2659B1A8ACC70874CEBB72",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E02_2017/identity.json",
+    "sha256": "B4FC024F947E6D8D639E4328C48DB37142B50494A2A0980A62AEF1F338E2DA24",
+    "source_sha256": "4DC00261910783ECB7ACDDFC8813185E799AF6D21D0EF6295E98EEBDAC930E96",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2017/rank_records.json.gz",
+    "sha256": "D419629BFD708A14E559184CC8BA8746D9DA1E0BAA6002580C2C2D3583A6D572",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E02_2027/result.json.gz",
+    "sha256": "7D81B6401F5D4127F5020CAA149F4A78AACAEAFA3FADACDB351488C43D67747A",
+    "source_sha256": "7D81B6401F5D4127F5020CAA149F4A78AACAEAFA3FADACDB351488C43D67747A",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E02_2027/identity.json",
+    "sha256": "365F771376107BAC3C499CB949AA20D9DA0737423D1B731F414BF1E9A0226EC9",
+    "source_sha256": "4B94C9226D34D6831A01458B48B5ED1E801D89108FD0A98F886EAEE150993BC6",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2027/rank_records.json.gz",
+    "sha256": "F4AA1E4C70ECF341B7F82BF0BC04FC5A4E6A6FF9F03BEC23F78D7F3F52BD68B0",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E02_2029/result.json.gz",
+    "sha256": "A09B86A8C1836432A74927D8315FF8DC0E5D5300F2405094942AE34641B42C99",
+    "source_sha256": "A09B86A8C1836432A74927D8315FF8DC0E5D5300F2405094942AE34641B42C99",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E02_2029/identity.json",
+    "sha256": "2430379653EEF11D5E039DC28A9D9AE4C66DE9B34834E4FD32783BC508EC31F3",
+    "source_sha256": "852E5CFB9E455C9791FB0599997F8FC697516B1423507ECF13161FA1E281048B",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2029/rank_records.json.gz",
+    "sha256": "FEB73A9ECF3DAB56147FE4EB29586EF1D90956FA834AE8AFD37B509F25C53005",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E02_2039/result.json.gz",
+    "sha256": "D8FAA802027C41C866F2794D8D215785AC0E701DAC7074B3EC3A7B9E4BC93281",
+    "source_sha256": "D8FAA802027C41C866F2794D8D215785AC0E701DAC7074B3EC3A7B9E4BC93281",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E02_2039/identity.json",
+    "sha256": "7371D7385C4E77DFA79F441B26700A051DDCF688AC147A4CFE95A5763B0EA7F6",
+    "source_sha256": "657C60E817179A23600E12A0F4C0795C8EF6277BC000C9A7AF46CE5297537D18",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2039/rank_records.json.gz",
+    "sha256": "3FD8C301612C0D5AF83122361D87BDF8344C77DA0F46E4566A662AD925A772EF",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E02_2053/result.json.gz",
+    "sha256": "59F94B5967F91F47A627A8DBFCC966C8ACC438FEEB0FB3D8EDD3C06DB8A147C1",
+    "source_sha256": "59F94B5967F91F47A627A8DBFCC966C8ACC438FEEB0FB3D8EDD3C06DB8A147C1",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E02_2053/identity.json",
+    "sha256": "A3F3002910296DB9D8BAF9857C4271974BC119D5E944722DC8BC63590F1251BE",
+    "source_sha256": "84343144FBCDDD9B0933E7AA98F6465194AF1854D29A9DD0B5CAF352A46254A7",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2053/rank_records.json.gz",
+    "sha256": "17977914B0BBCA47CB94D0DD9D13BA48C9AB52484CFA32D539E5E437CE780D44",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E02_2063/result.json.gz",
+    "sha256": "7841D515B598794D2D20457EAC7BF9D7CE376042D1A7EA9A9DFC500637BF2E3C",
+    "source_sha256": "7841D515B598794D2D20457EAC7BF9D7CE376042D1A7EA9A9DFC500637BF2E3C",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E02_2063/identity.json",
+    "sha256": "65639F3D90F7DB231B41897BADA0BE4235CBAD80543DE5F87DCDAFB79AC54D5E",
+    "source_sha256": "68244947D42F3784D6EC5477A9D5988DA566C526CE1839B64F3E3FD33D5B3718",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2063/rank_records.json.gz",
+    "sha256": "1660D2885A2C97CC63D7F2331D7113678535483C817759A83A694135C0F68B29",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E02_2069/result.json.gz",
+    "sha256": "D60E80C413F3045BAE14C5949C8F1DB7DB47CC9DB372F17E1BF2257C425BF411",
+    "source_sha256": "D60E80C413F3045BAE14C5949C8F1DB7DB47CC9DB372F17E1BF2257C425BF411",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E02_2069/identity.json",
+    "sha256": "8C8B736FFC736392C64C41401630BDBB235F19E6E4B9B281F1E7DD92ECFDC1D7",
+    "source_sha256": "9FFF408FCD8BB21FA0F1CF3797441D7A94AB87D6825A96FD7F54C46517B084CC",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2069/rank_records.json.gz",
+    "sha256": "D0F64764BB3296483FB8B93FD7B3ABA258E1F804004F5BEE727B6326B39D8CCD",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E02_2081/result.json.gz",
+    "sha256": "1A5113D602665A790975E094B3F18BF0A8ABBA34B0B663BA3FA074832D0379C7",
+    "source_sha256": "1A5113D602665A790975E094B3F18BF0A8ABBA34B0B663BA3FA074832D0379C7",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E02_2081/identity.json",
+    "sha256": "29CCFAD43CE72EA4BEDC77C65B249507D24324B54DEDC4B9240C5484351A0181",
+    "source_sha256": "78AA49CA243CB3806A3C961F2F0B795E7310D47157397C6C27105FD9FA0F99F7",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2081/rank_records.json.gz",
+    "sha256": "12316422BB8746E0CE3A8CF5630A224213D7775E69C433AAFC4E4AAAA3921D30",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E02_2083/result.json.gz",
+    "sha256": "BBCE799515168A744279646F70EF14E9E868253FC881B419784007428348565D",
+    "source_sha256": "BBCE799515168A744279646F70EF14E9E868253FC881B419784007428348565D",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E02_2083/identity.json",
+    "sha256": "C97D6486BF6AF89ED4DEA33E17B98C353F66A21E05A99429FB12DB04F4FAD0DD",
+    "source_sha256": "89BED18FDFD06CD8E6DDA1F77C5EC320E61163F833B3BD757C24712BACF17C09",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2083/rank_records.json.gz",
+    "sha256": "B20059261D39621514C3ED2383B1294A12F805C48BC1534D44926F4384F9FDCD",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E02_2087/result.json.gz",
+    "sha256": "C1299D0CE8782918BB6DE289811EFF7D2B87D8DCDEE9EBED0128AE4ED768548E",
+    "source_sha256": "C1299D0CE8782918BB6DE289811EFF7D2B87D8DCDEE9EBED0128AE4ED768548E",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E02_2087/identity.json",
+    "sha256": "E06A29523794BF148709F7430102E253D1D68B3AF5E640690A26EB267747082F",
+    "source_sha256": "5BF711FB89BAE5FC9F738DE4FB4E913A06BCE41DA31C4A3AC8B4E93C2395C550",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2087/rank_records.json.gz",
+    "sha256": "2A8B132DFB74EBD8BBD2B2014EDFAF4990FE3EBDDD8320AD9E8B88F287E06050",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E02_2089/result.json.gz",
+    "sha256": "75596F76DA7FEE70E5C6F83941181D8FBC3B26ACF0F768A1A91172C9525D2C49",
+    "source_sha256": "75596F76DA7FEE70E5C6F83941181D8FBC3B26ACF0F768A1A91172C9525D2C49",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E02_2089/identity.json",
+    "sha256": "F89C1C58336A42CA63CD56B0BF0CF3C32C74CAB372A9577AE25C1276BE637591",
+    "source_sha256": "732010B877DEAE7760AF6D6DE6677750623BA193AD4283D491D46DA3AF9E9D6C",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2089/rank_records.json.gz",
+    "sha256": "5D6B1BCDA4E8C0C9631D8FC5D676368E55A7D4C653350C534CAB77DCC333AFE9",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E02_2099/result.json.gz",
+    "sha256": "1D61B95E04AB782BEFC0A8F742CC0A25960E5AADA4417E787BAFEF3E32513D03",
+    "source_sha256": "1D61B95E04AB782BEFC0A8F742CC0A25960E5AADA4417E787BAFEF3E32513D03",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E02_2099/identity.json",
+    "sha256": "644F6420A88589E4FEF6A34C53CECE7B0B1EFF7B54EDF64A6D86588A8927997A",
+    "source_sha256": "91323AFFD2A0E1A62C54006D49578FEF4B56BE765365C2274BEA381E104A96FF",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2099/rank_records.json.gz",
+    "sha256": "64FA907E4E057A92A5E1693DEF174A833D26A1664ADCFB42A14D879F1D055D1A",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E02_2111/result.json.gz",
+    "sha256": "1FBB31E437DAD99C5B68FC5EB5C08A634348A03182044909E4E8CF127A619FBF",
+    "source_sha256": "1FBB31E437DAD99C5B68FC5EB5C08A634348A03182044909E4E8CF127A619FBF",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E02_2111/identity.json",
+    "sha256": "4B1C2A9B2CDAC60620E43E7F7D5337668E80BD02F53505083152D7755499F039",
+    "source_sha256": "DF84C1F7B37B384ADD49586DD81B1EB32EDF9A056A4AFAB326FB4E613F4065A7",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2111/rank_records.json.gz",
+    "sha256": "4A0F2CC7751536262BD1E03DFE2A304D4587B3448CD726FE4BE97CE2D614B4D6",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E02_2113/result.json.gz",
+    "sha256": "1DFE3BCD35CEBCB589BC42D0CF4AE919C351D32B3D6384DBBB38C6597968B74F",
+    "source_sha256": "1DFE3BCD35CEBCB589BC42D0CF4AE919C351D32B3D6384DBBB38C6597968B74F",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E02_2113/identity.json",
+    "sha256": "3C804FDBA4AABC9FFA34CD3DB3A130892B961D210036CBF37A077308D98C1B2B",
+    "source_sha256": "75F1A37F4C9BA97A8F32904B9E71AE7C808A220D6F4205DA4BC75E157425D627",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2113/rank_records.json.gz",
+    "sha256": "7F3CEB4533148A82B4A5CD91A71E4A5E3D2B889E7219BC82A40643392BD051AC",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E02_2129/result.json.gz",
+    "sha256": "A4BFD8C7F85B1A86E1E27888E30D4F9E2345C52E19FFA1CD54FCC6A4905391AF",
+    "source_sha256": "A4BFD8C7F85B1A86E1E27888E30D4F9E2345C52E19FFA1CD54FCC6A4905391AF",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E02_2129/identity.json",
+    "sha256": "38CFC86AE51C58B7D05B9D32D25A36608FF6ECDC3F6CBE76E202978C5E32369C",
+    "source_sha256": "BBE397E3C1B4992EC675A5089CF67B0C5F518AC63C309FFD8DA46A99301A6E96",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2129/rank_records.json.gz",
+    "sha256": "DEEA0C6382871046F41F6574CB6F34D5FC8D691663143FB18C280124C5368A4B",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E02_2131/result.json.gz",
+    "sha256": "CCE9625CDF5E0951563A9B35ADB299F867929F37AD50D0174C62978449E9F575",
+    "source_sha256": "CCE9625CDF5E0951563A9B35ADB299F867929F37AD50D0174C62978449E9F575",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E02_2131/identity.json",
+    "sha256": "E0E987F25B39034663513246F20FC21877203C5B62C24E1B8274AF1674329F65",
+    "source_sha256": "6CD4C51F056DA3EA250A58A513022738BCACC56F1F45B46F93FBDAF90B90E192",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2131/rank_records.json.gz",
+    "sha256": "942629F83760FC7F6C9120FD0584627550D349BA2B88FAC7611C0E5EF358CD82",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E02_2137/result.json.gz",
+    "sha256": "07CF81DEAB5AF2FDFA452318BAE32E528EA89C79B62362B3A6E68910A1055A8D",
+    "source_sha256": "07CF81DEAB5AF2FDFA452318BAE32E528EA89C79B62362B3A6E68910A1055A8D",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E02_2137/identity.json",
+    "sha256": "A6D9D2D785C79A02F727FF1F6528073338B96BC5DA4A002CCDFAEDF05BEEBF4C",
+    "source_sha256": "B5079E29F0619A6E362C87115127EC24398CB0E5F00E11D858D9D2809DEA2987",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2137/rank_records.json.gz",
+    "sha256": "0E4982A425B859CB0A0EBA66D078CC2B9E7710EB7D0AFF48FD9384AA65D9AAC9",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E02_2141/identity.json",
+    "sha256": "C6E2C0DB0DE90375239908F3265E80B5FDF5B3CC4B29161F12F2697300ABAD04",
+    "source_sha256": "F4F1D75BC6234F07A0A6B2AE6CB8F56AEA9767AFA654EE9923463B984F14670C",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E02_2141/progress.json",
+    "sha256": "CE385653CD80BAFA04461EBC75A5065FB03EAD7FA44DB995B383AD176AAB8F42",
+    "source_sha256": "A18D9B6A024A7835BCE2AE4D533BE8BD27B19A696D86BB8914B19A7CEC9BF74F",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E03_2003/result.json.gz",
+    "sha256": "F3717C2BFE5734641DCD4B7C8F72215FC4CFBD4E9E50D0CF1BC86BED316C1ECB",
+    "source_sha256": "F3717C2BFE5734641DCD4B7C8F72215FC4CFBD4E9E50D0CF1BC86BED316C1ECB",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E03_2003/identity.json",
+    "sha256": "CEB120E1E46BC6F1F473DECCA9A4453B765B7C80C88509D944C5EC146B8E9424",
+    "source_sha256": "6F75C1680F66DB1E09D975BC7839D51642A8CB265DF11FF24E57996F7A67395C",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E03_2003/rank_records.json.gz",
+    "sha256": "5B15E951F3FDF7E26A8A15E95FE7E6B8EE443978467FBB0FF9672D1F16F51728",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E03_2011/result.json.gz",
+    "sha256": "B3C72377B8F551683F6B928F8E739735A118494F8F408A8F98C8B59705A347A5",
+    "source_sha256": "B3C72377B8F551683F6B928F8E739735A118494F8F408A8F98C8B59705A347A5",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E03_2011/identity.json",
+    "sha256": "C8A3F80DFBC81D8CD236ABF80082AA2B51FE58B884D72F9A2AE4E304808BFC7D",
+    "source_sha256": "03141E60AC9E6ADE308788AC20639F5ACECB85FC39D57C63C51CE387229EE8AE",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E03_2011/rank_records.json.gz",
+    "sha256": "77EDA3187279FA817B0F922DBD85BF1C68CED42738720214772C98884B66107F",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E03_2017/result.json.gz",
+    "sha256": "4CC14A0D23E06A9A0DACA64A6792C08B08A480475D879B06A998997A4F25CF24",
+    "source_sha256": "4CC14A0D23E06A9A0DACA64A6792C08B08A480475D879B06A998997A4F25CF24",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E03_2017/identity.json",
+    "sha256": "5E4C8B3F0CFE3A9B8AEED77A010DFBE79DCF61853999F186F9D5ABE74766A0EC",
+    "source_sha256": "AD57FA84E52C6721095E6B0D43A6640D399B708280DD7135F0B397A39AC27751",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E03_2017/rank_records.json.gz",
+    "sha256": "572A534CCBCF46EE4F850CC0B3E95519789AEC3FA870038702BB50FFD92A558A",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E03_2027/result.json.gz",
+    "sha256": "4CFC3E5B8D24BA78E45FEEC63472DA2DED942970A2C3809A49FAB5EF5147DA0C",
+    "source_sha256": "4CFC3E5B8D24BA78E45FEEC63472DA2DED942970A2C3809A49FAB5EF5147DA0C",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E03_2027/identity.json",
+    "sha256": "A6BB9B45954D862E7478DC9D377B69828B130C7AD632FF38E5DCB2BDFB1CAA26",
+    "source_sha256": "EB36C45FF620A75E43F931C788DFC34113BAA1BBC403F499DC5E216C8AE9ABD8",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E03_2027/rank_records.json.gz",
+    "sha256": "EE00DC4864A2A4E6D2727697C5A0ECEC681D387D5E9D4620AF53954D4F7C10E9",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E03_2029/result.json.gz",
+    "sha256": "CEFDB85B8B871EAED04A8D2BE7A981B3C4F5CCD580B5A74FFBD4831480BD161A",
+    "source_sha256": "CEFDB85B8B871EAED04A8D2BE7A981B3C4F5CCD580B5A74FFBD4831480BD161A",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E03_2029/identity.json",
+    "sha256": "EE88A58EFAD28A7A443285400EF00F415531B4C677A3D19F8025541A45CE2A0A",
+    "source_sha256": "F2243F7C0255442D51A3C99240DC5E28C41590EC57CB21D34F1B6845DDC7B361",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E03_2029/rank_records.json.gz",
+    "sha256": "CBEDE76A31B4B499F0290AD3AEF332F97822E268DEF63C5532D61DECE124C9E0",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E03_2039/result.json.gz",
+    "sha256": "ED0D3D112BC764FB600CFB92365364FC2859E7154B3297EB7A33A429D8324E54",
+    "source_sha256": "ED0D3D112BC764FB600CFB92365364FC2859E7154B3297EB7A33A429D8324E54",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E03_2039/identity.json",
+    "sha256": "DD17191706A6A46FA07C10FF4F886AD6027150218584678E66E085F5E15340E5",
+    "source_sha256": "E131AB39CE08D43B45708FABEB54866CFEC66EB02A5169A32D6FE543FDBE2A76",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E03_2039/rank_records.json.gz",
+    "sha256": "7BC0D091A95D7DEE3B4AE261549609A9FA64D83D41354B1728451255C5BD93A8",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E03_2053/result.json.gz",
+    "sha256": "4CB44DA674172A561CBCCCBD23E78E48BBDAA0A6858487124B316292AF0EECF0",
+    "source_sha256": "4CB44DA674172A561CBCCCBD23E78E48BBDAA0A6858487124B316292AF0EECF0",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E03_2053/identity.json",
+    "sha256": "A3B8EF74CBA6C81F1BE220465A8E434EB8CA3EB69310D5CD6C01F2E94CD403BD",
+    "source_sha256": "62EF66432C1B9FCFB6EFD01ED96093E527789569B0CCF84099078E086DBDF8E4",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E03_2053/rank_records.json.gz",
+    "sha256": "9A0306BE374E4274B40361156C4C095673A97E2E1C3E74F9B6F9D1E5264F9A59",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E03_2063/result.json.gz",
+    "sha256": "D7BFFA61B60EF7B5C906BFFC2A2778718371EB8A4F0D6D9EACD91442CD36987B",
+    "source_sha256": "D7BFFA61B60EF7B5C906BFFC2A2778718371EB8A4F0D6D9EACD91442CD36987B",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E03_2063/identity.json",
+    "sha256": "58FAAC45853E81C18109CDF48F311C8656038CC77C53F5A07155C8942C3E8E1D",
+    "source_sha256": "5F7368C3DAACAE6F868405F386DEF4A0B95B464F4E91B87AAEA6AF217FA883DC",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E03_2063/rank_records.json.gz",
+    "sha256": "F1EE89CA640F2F067A5A8A7EB1EB0A9B86DED3DDAD8EA4B0EF7FFBEA80DF218F",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E03_2069/result.json.gz",
+    "sha256": "6DEEFB7151658833BD137E548AFE341712FEA4E6EF5E0DE64F6BDF3CBF6068B6",
+    "source_sha256": "6DEEFB7151658833BD137E548AFE341712FEA4E6EF5E0DE64F6BDF3CBF6068B6",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E03_2069/identity.json",
+    "sha256": "CCD666A6D4C6DED8FC6F0ACD5198C84B19909BA7B96092F12FCD05F547D2AB5C",
+    "source_sha256": "E446C7106244B3CAC9E0680668DF76D04B2B4679CA781430E04C407B1F5C657C",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E03_2069/rank_records.json.gz",
+    "sha256": "5CC44719D834A76D094B4446BA993310D2C2009DCDDBD633A54FB6E7C02DF2A9",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E03_2081/result.json.gz",
+    "sha256": "2E136282CC0FCE29AAD990D3E7562D10F62F39098CFDF4E499D63B423BFCD911",
+    "source_sha256": "2E136282CC0FCE29AAD990D3E7562D10F62F39098CFDF4E499D63B423BFCD911",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E03_2081/identity.json",
+    "sha256": "F649E4BC247CC776EF6A1381883D9A94BC85E9F67E07CC1E8C5E6A34227352F5",
+    "source_sha256": "098F7E0DF32FC661C68623670FAAED581B2563AA0AD73A7E7EE9EE0BD0314304",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E03_2081/rank_records.json.gz",
+    "sha256": "08295BEA1A8D2C1AE055A53657D77502D64D6DBABE8A116C976A25999910D518",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E03_2083/result.json.gz",
+    "sha256": "65515BBA22ACFF844CE60D1367257B5E46E21FAA6B30B6133239AA6F56839D1F",
+    "source_sha256": "65515BBA22ACFF844CE60D1367257B5E46E21FAA6B30B6133239AA6F56839D1F",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E03_2083/identity.json",
+    "sha256": "AA85202F8D1769D2303CDFC6C7663119334B44581653B315319144440CB095AF",
+    "source_sha256": "9F895CB31ED1203E4BFECFE5DC3A3E16D6517C15ECEF434BCE2C92A8AA062E3F",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E03_2083/rank_records.json.gz",
+    "sha256": "E4316A00DB460E886F6F16F216CD7BD170ECBF7453A51AEFAE03A33870431E11",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E03_2087/result.json.gz",
+    "sha256": "8765179BD17DAE53F2E22E19CBD1E13874DF92A0A831A4E45F1E838E2DD136FC",
+    "source_sha256": "8765179BD17DAE53F2E22E19CBD1E13874DF92A0A831A4E45F1E838E2DD136FC",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E03_2087/identity.json",
+    "sha256": "7AC64823ADA76958EB67BF5ADF62C7E654254F29CC80457758B0305D7BBC7A37",
+    "source_sha256": "CBA80A4AE5B783446C4A1629C1449FBAA7691846DDA48D7FA3FE6047CD13E405",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E03_2087/rank_records.json.gz",
+    "sha256": "9F0AD374969FCCD5605DC02AEF6E699BABE275FC8A17551DB69F58FE1C6A2EC9",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E03_2089/result.json.gz",
+    "sha256": "6A8393DB9C7BB2DE484772424C86A5F3BE775F0D2200FB910D35282C98F66A16",
+    "source_sha256": "6A8393DB9C7BB2DE484772424C86A5F3BE775F0D2200FB910D35282C98F66A16",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E03_2089/identity.json",
+    "sha256": "DEC457C31255752015097C102BEB831635881249ABE4AD36EF99521D89785D65",
+    "source_sha256": "217624524B770E5E4300A7529957D872A0A75178BEA520533312C446FCC420C2",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E03_2089/rank_records.json.gz",
+    "sha256": "D357E5B0F61DA6EAD9E9F8449DB2861C8334C438EF6FE07F27ABFD9DA2D49006",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E03_2099/result.json.gz",
+    "sha256": "58940C8F97F7CA816532916BDA38C299C49DC893CA39325F88EA73F7FB313059",
+    "source_sha256": "58940C8F97F7CA816532916BDA38C299C49DC893CA39325F88EA73F7FB313059",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E03_2099/identity.json",
+    "sha256": "E29BE96B5ED211C8B49C36AF171EA782A3426C350499EA99257A4BB45C687C33",
+    "source_sha256": "8C97D7C779C249688D426D08A7F6F8E8A803C9CA524279B390B9EA74675781BD",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E03_2099/rank_records.json.gz",
+    "sha256": "386AC7ECCC3514608343CBC1C879B774C7CE1560143C9FC6F5AED91AB3A15103",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E03_2111/result.json.gz",
+    "sha256": "F7489DAF6210E7070D4244DC8B0E355F6AA2C04CEF5BD4A92391E0EE25E51562",
+    "source_sha256": "F7489DAF6210E7070D4244DC8B0E355F6AA2C04CEF5BD4A92391E0EE25E51562",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E03_2111/identity.json",
+    "sha256": "928DD795DD4A5D633ADB8867713949CB789FE9EF07244F05CC9DAA31562D4F9A",
+    "source_sha256": "600600D041B11A1B6271D25D9DE2C56E679E2967B4851C204CD71B962DA29A83",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E03_2111/rank_records.json.gz",
+    "sha256": "19914BAEA9AD2DCE00420F7A5C45021C9DA691C51AA5108C1DC842F749ADC56D",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E03_2113/result.json.gz",
+    "sha256": "1B8FEE13D4F06766B28D62D75BF1E5EF08AAF35C890196E0112A1E9425F66592",
+    "source_sha256": "1B8FEE13D4F06766B28D62D75BF1E5EF08AAF35C890196E0112A1E9425F66592",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E03_2113/identity.json",
+    "sha256": "125D6AC894DC72C10447E6593A40A33089872BFE20F070DCE360B54E11786EA8",
+    "source_sha256": "9CD9B0DCDD4E397CB310C3840DB72EC3E2BEBDD3F692232FCA6198CAB86FEFAC",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E03_2113/rank_records.json.gz",
+    "sha256": "EBF1A299D1D6A12AD5DA23772F8CF72FEA3C18DCD1D9F3B963919E852558B1C4",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E03_2129/result.json.gz",
+    "sha256": "39EDD521529C1024BD5A027527CBCA35EFF78AD7296E5E26E7B8BC358EC327FD",
+    "source_sha256": "39EDD521529C1024BD5A027527CBCA35EFF78AD7296E5E26E7B8BC358EC327FD",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E03_2129/identity.json",
+    "sha256": "C5E4D91A4908BA841839C45CD5B0AAE8118CCA660F06D6BC5AE059773E2A5F63",
+    "source_sha256": "E79C7E1AD2926C43A08A4F39D65CF42D40C3BE31282516C1919A6FFD15D0DD2E",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E03_2129/rank_records.json.gz",
+    "sha256": "E116537930BF4A679C272BDE0765E718FD81F6D939786F23762966D8417AA198",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E03_2131/result.json.gz",
+    "sha256": "89EE714FCDEBC0B9BF905757DEC860CC0ECED5AC391BB5AA58AD449BABEFC07B",
+    "source_sha256": "89EE714FCDEBC0B9BF905757DEC860CC0ECED5AC391BB5AA58AD449BABEFC07B",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E03_2131/identity.json",
+    "sha256": "F5C2DF4C6BD9D4E995F0690E31CD16E56A74EA528139B410DD474FF16D2685A2",
+    "source_sha256": "CC0A6B912A89917DF68BD44F00DCE3F8FAF82513E5D42758A23A70040EAEF87E",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E03_2131/rank_records.json.gz",
+    "sha256": "9E9805D7A546DBA8219E41CCA150FA88EEE725769C74468721F1F6AB0ADA9869",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E03_2137/result.json.gz",
+    "sha256": "6EEB4E24AE31E08E2F0F1B459D7EE29DF7758F8D810CA3F3AAB41DDC4311D14C",
+    "source_sha256": "6EEB4E24AE31E08E2F0F1B459D7EE29DF7758F8D810CA3F3AAB41DDC4311D14C",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E03_2137/identity.json",
+    "sha256": "EA84DEEA6597CB31CDEA5A953B52FA312F73D5E62A947BFB4DFCAEC6BCB33D22",
+    "source_sha256": "6F59F1421F0F68ADA4F1488CA4C92AD845929D429957A0F4A5EEA5AED7F4AA5F",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E03_2137/rank_records.json.gz",
+    "sha256": "5B1AE7A1EA3BD95EF3E29D598477467A74384FA661B9ECD8FE190E26A8EF5B59",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E04_2003/result.json.gz",
+    "sha256": "814EE2AF346ACA9ABFB9ED7C2D1CC4D0EB2CC2239ACE49BCC52F0EBDC0C5CF79",
+    "source_sha256": "814EE2AF346ACA9ABFB9ED7C2D1CC4D0EB2CC2239ACE49BCC52F0EBDC0C5CF79",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E04_2003/identity.json",
+    "sha256": "06D6CC0E0DA0F2C01B1F3071444082BD8C451B1AD71EBB69ECF07B16A14FC697",
+    "source_sha256": "55BE2C0A9F7838D48939121D6F0929AED7539026E01B3510B9E0E8609A5FD980",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E04_2003/rank_records.json.gz",
+    "sha256": "979E26A5A78E409A2F0B4EB9AA4112A7C974F5D4DAB76D1752E459C170475C9A",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E04_2011/result.json.gz",
+    "sha256": "4592DFB6938173295CAA718007DA7E4D97280E222B980EA9A665DB746C0454AF",
+    "source_sha256": "4592DFB6938173295CAA718007DA7E4D97280E222B980EA9A665DB746C0454AF",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E04_2011/identity.json",
+    "sha256": "2487782BFA12D49BCDE96B92B180D971B9D79B8108B8A29405F5EE30C08995E2",
+    "source_sha256": "0F99913B8CBC6A2028A450DFD2F3F895B9ED95F35B60DB698B96119E863D0E22",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E04_2011/rank_records.json.gz",
+    "sha256": "551CF5CB33E4B889AE89A59596C8B25F80D0D99C6CF632022E1F1A98501DA016",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E04_2017/result.json.gz",
+    "sha256": "277EDF858F1FC5DB036832908DA73C038EE5552CA46F83A5ACEA68369AD55BFD",
+    "source_sha256": "277EDF858F1FC5DB036832908DA73C038EE5552CA46F83A5ACEA68369AD55BFD",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E04_2017/identity.json",
+    "sha256": "AED7F6FD85289F852244575AC848FA2698FA7B9F29EC424C6629B7411DCF978E",
+    "source_sha256": "EE941D51A0E1BC05A932E5FB8C6B955A996D44473ACDD1271F181E3BF51DC6D0",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E04_2017/rank_records.json.gz",
+    "sha256": "D19E4D2554B2FE4A3E046ECB34744E09414131303D87581E1CD7100E24BDF33A",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E04_2027/result.json.gz",
+    "sha256": "CFC832A00F1A10C1BE7A484D8F76163A555AA22AD66B2D55530AD06B07231A4E",
+    "source_sha256": "CFC832A00F1A10C1BE7A484D8F76163A555AA22AD66B2D55530AD06B07231A4E",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E04_2027/identity.json",
+    "sha256": "22AFC9FD0454E5781ED322182179E7ACF33987088DC0DD4F1DFCC5D451A48E2D",
+    "source_sha256": "725F75D639BEDAED0EE8B0E8B19F9B00007C2F7BACB58A3B8031BA908686CC96",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E04_2027/rank_records.json.gz",
+    "sha256": "C223017A22A9331F9D7D67952962A09826AB2D651E7E2D4379E99DDC5344755F",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E04_2029/result.json.gz",
+    "sha256": "895EDA0B09923DA25773E549FE2930517FF1AC30122C8237A226A4FB3867C180",
+    "source_sha256": "895EDA0B09923DA25773E549FE2930517FF1AC30122C8237A226A4FB3867C180",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E04_2029/identity.json",
+    "sha256": "A740E7745E51BDD9B85658D5CE40672ECB0F58156B7607680FE58C1901537B52",
+    "source_sha256": "3FABD0AF6F394ACCD1BC73F152F3DBAD2F9953D04A362667233F410B82C169EB",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E04_2029/rank_records.json.gz",
+    "sha256": "F540738859AEADB0EE53204FE5F95818D778707CFA42C18378915D8A7F8C8EB9",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E04_2039/result.json.gz",
+    "sha256": "9A6338BDC4B3C08B6858062F03D5F2DD1394424E549260A9AF87D32886F2C63C",
+    "source_sha256": "9A6338BDC4B3C08B6858062F03D5F2DD1394424E549260A9AF87D32886F2C63C",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E04_2039/identity.json",
+    "sha256": "E321AE6E0ADA30750F4E1BCA97234BC5978031786A9BAFF0E5B2DBFA2F8BE37A",
+    "source_sha256": "358FDB2E3DB8BF61E5E5AA7704A7BD2FB609277CAE17A99605EA86A903CA8D3D",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E04_2039/rank_records.json.gz",
+    "sha256": "C7AB0DDD50AAE6AA1584C8CCE4C49878CA35BC84AD13E2FC8B6837D0B872498D",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E04_2053/result.json.gz",
+    "sha256": "01652676D197482CDEAE612FB68485BD7D09561FCE638F092AD6AC346C3E3501",
+    "source_sha256": "01652676D197482CDEAE612FB68485BD7D09561FCE638F092AD6AC346C3E3501",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E04_2053/identity.json",
+    "sha256": "D058F0FB365A787AA45FEC334E2AEF51325D8418E22223A8CAB152E161ADFAC7",
+    "source_sha256": "3414B72B7BF4549BA17BD0E7A11928E8BB40C9B0C9C9F5FCD1DCADD13256F8AD",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E04_2053/rank_records.json.gz",
+    "sha256": "B88DBBBAD2A795C13B7B39B3AA1B5373BF1243A7DF97C3FC3D6F111AD5CDDC61",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E04_2063/result.json.gz",
+    "sha256": "9C2CDBD29C65833AE52A7D03958FC277265D5584D5BB02152A3B8EE76B44FBCC",
+    "source_sha256": "9C2CDBD29C65833AE52A7D03958FC277265D5584D5BB02152A3B8EE76B44FBCC",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E04_2063/identity.json",
+    "sha256": "FFF3715D10AEF332F5EEAE6F955177807B14A2B067A739FEACDBF50F54A8777F",
+    "source_sha256": "D0324F3F341E71DFB4ECE7B476A650624C3BAE742FB53395D1C7F21E0B5BCA63",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E04_2063/rank_records.json.gz",
+    "sha256": "E6F66A920A038B6300F2D371F827EE29C5BDFB9BD600699CBFFC64B514CF444F",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E04_2069/result.json.gz",
+    "sha256": "F1C218B372C87615A3642DF7FB87401755B6B355F62A8054CC848B1173D80D1F",
+    "source_sha256": "F1C218B372C87615A3642DF7FB87401755B6B355F62A8054CC848B1173D80D1F",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E04_2069/identity.json",
+    "sha256": "766B6136B13A3A49EC2575060F2D52A70646301AE1077B34120A980676C66366",
+    "source_sha256": "E063A500A4F41819D98FB67F677DA222FC6B64B517D0A2CF30E2F53CAFC9DBA6",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E04_2069/rank_records.json.gz",
+    "sha256": "12A16D1A9125E17C1FCFA2F5AEA5BA174E12E306B8BE2A03B97C913575E54D61",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E04_2081/result.json.gz",
+    "sha256": "64EEB836163BAF93FCC2F02A690A7B5D5232FFB2CB40637F918E8C67FFFBBFAA",
+    "source_sha256": "64EEB836163BAF93FCC2F02A690A7B5D5232FFB2CB40637F918E8C67FFFBBFAA",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E04_2081/identity.json",
+    "sha256": "923A49F47EF6CBB5A69773F18CF0FCE8D727CD324ABBF7A98C8787A678216099",
+    "source_sha256": "7BC7D7B72C83CB4B4A94B62FE286FA2E9773F8C50BDC2A5210E0BDD22C8BE96B",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E04_2081/rank_records.json.gz",
+    "sha256": "CD42AED0AFB8CDAD13A4F577BB0F0E4A448E3C06CAAA5D1D841896C7282EB1D0",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E04_2083/result.json.gz",
+    "sha256": "D51C05DDDD483BA4F583E3160EF64A0DB27E0E7A8B52A124546359470A62231B",
+    "source_sha256": "D51C05DDDD483BA4F583E3160EF64A0DB27E0E7A8B52A124546359470A62231B",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E04_2083/identity.json",
+    "sha256": "8899A74D0D5B1BED13CA95E1FFAF0B050CB7D21AEEEDC1DAC5E994875604D217",
+    "source_sha256": "24C838E9FCD73B7A4609D2ECA39F2467DAE317CEE22889177676A56905837BC3",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E04_2083/rank_records.json.gz",
+    "sha256": "4A196794635CBC0D6A2AF31D9DE6B9B051A493C7EFB26CD616509B90DEB6746A",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E04_2087/result.json.gz",
+    "sha256": "36A828ED4679DBD64B49F424389C999CFD34ECB4DD10206AA07B0AA4E3581481",
+    "source_sha256": "36A828ED4679DBD64B49F424389C999CFD34ECB4DD10206AA07B0AA4E3581481",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E04_2087/identity.json",
+    "sha256": "5C92138FAB9DC3B7F107D449C4A6EC847B26D89048FB49671C79AF4D23E34F42",
+    "source_sha256": "3C473F7A909C616C7D68333F967A2FF24EE6E3EFD165C7795D94F592FBF5DC62",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E04_2087/rank_records.json.gz",
+    "sha256": "DBFFBAE2FC22B5155E74486C652B913EA72C972B51700C5F618000457E2084F1",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E04_2089/result.json.gz",
+    "sha256": "55380AC849CB64D63B90698940D19C5FED76AD4B204610526F04B8B1D0ADF24C",
+    "source_sha256": "55380AC849CB64D63B90698940D19C5FED76AD4B204610526F04B8B1D0ADF24C",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E04_2089/identity.json",
+    "sha256": "3511476B36D7B69F116B8DC801F813DDDF3BDBBD192BB97470066C987AF24531",
+    "source_sha256": "D53FC67A02E87CEC1D2886B98C8D2E84A480AE6BDB61CEA2591A1C534377F591",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E04_2089/rank_records.json.gz",
+    "sha256": "D8270B1A6FD6D1B17ACF065631A93F4E8CC1349D7F157E92CD542894150D82FF",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E04_2099/result.json.gz",
+    "sha256": "2558B670AD94127A2A3C6B5D44C8D55334448DB939F3220A4236F9C00B998B01",
+    "source_sha256": "2558B670AD94127A2A3C6B5D44C8D55334448DB939F3220A4236F9C00B998B01",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E04_2099/identity.json",
+    "sha256": "66858AD74B54A6F260DB4D06C9B5FE64C5F3E8F654B3DC41086942B902EC1330",
+    "source_sha256": "DBB3B53D3D48741EABC0D9A6673961DFCE598547FBD4E2007A14045748AAB70D",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E04_2099/rank_records.json.gz",
+    "sha256": "FE1CB637546CAAA1FD04961EC91B75B952251FDD5458387FFF42B246387B5CE6",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E04_2111/result.json.gz",
+    "sha256": "02145ADCDC1C81129213873DCD162E4A58E09A1740B6A58A1B0014BC477C514F",
+    "source_sha256": "02145ADCDC1C81129213873DCD162E4A58E09A1740B6A58A1B0014BC477C514F",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E04_2111/identity.json",
+    "sha256": "21A6744CF3D3664DBFA9F534BE46742FF6FAE3F8A8E326C080818B14D86D3B88",
+    "source_sha256": "347AEE45ED03C56714D8CFE6F8D020E6E41457F06A737F97B8299614C93BC65D",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E04_2111/rank_records.json.gz",
+    "sha256": "0B8A12D2F3AF385969778F9F4652597D8C9A3B5CC13F8FB9B557CCF78492042B",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E04_2113/result.json.gz",
+    "sha256": "23ADBFBA5625223A954A0BFF1C76CEE995444CCA50EE4F26BA2F2D0BD084DD64",
+    "source_sha256": "23ADBFBA5625223A954A0BFF1C76CEE995444CCA50EE4F26BA2F2D0BD084DD64",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E04_2113/identity.json",
+    "sha256": "9EDAA595695EE7E1FDEC2B22CE47F4BA14031BD5FCDC232B785CE88A68059426",
+    "source_sha256": "98A7791DACAB62BCDAE3FD547E26FD655FF0A6749C87BB2EF0CCF09F6578837F",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E04_2113/rank_records.json.gz",
+    "sha256": "A58AAF2DF44A98532C2B0DB353CAA3B1CECFE8877B137C20AD4BC012F8A051BF",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E04_2129/result.json.gz",
+    "sha256": "9D4169C060D1A423384F25FEF8BDE9AB8EF60FFCB233C20241F8602804E5B578",
+    "source_sha256": "9D4169C060D1A423384F25FEF8BDE9AB8EF60FFCB233C20241F8602804E5B578",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E04_2129/identity.json",
+    "sha256": "436634A5F39F3C981573BC78A3ACAD3108823BD413ABB8CF9BADBFE0815BA3B9",
+    "source_sha256": "591AEB9F31C7B37BD3439D707210FBEBB32685F0D349C03B7DD2D555E30696A5",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E04_2129/rank_records.json.gz",
+    "sha256": "C9761138AB45C85A067A799DFDE6A65277C0896A6F48BB6B582F67718F6E7A2B",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E04_2131/result.json.gz",
+    "sha256": "D8845426C4099C830BA3D22328F76588234B5FB35EC6A22B77E6F0917F4C1BBC",
+    "source_sha256": "D8845426C4099C830BA3D22328F76588234B5FB35EC6A22B77E6F0917F4C1BBC",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E04_2131/identity.json",
+    "sha256": "62EB4C17EDE77E3629CB8483CBF17D6545A1FC9E58C9535186EE422B04862F35",
+    "source_sha256": "40E2D6C97272E97AA314D323D6E70C47ED54D2D46E3B298E1CBC090AB341CE31",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E04_2131/rank_records.json.gz",
+    "sha256": "4B7E525A4E92EADADCEE21E765D0433C5C686FD9A432992D6DB76E896200518D",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E04_2137/result.json.gz",
+    "sha256": "EE74405E6A26C427EC276808AD1F27E818DCC5D5A9B1F505F35A7D2360D59A75",
+    "source_sha256": "EE74405E6A26C427EC276808AD1F27E818DCC5D5A9B1F505F35A7D2360D59A75",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E04_2137/identity.json",
+    "sha256": "BCF8B02C08ACF330A03180AD1AD08635EC6BED86A9DB24885E41A25B7DB5C552",
+    "source_sha256": "A972C348561FE73D5037CC45BCDC7C3C776CFF12EED0E47C285F2FC3E739CCD7",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E04_2137/rank_records.json.gz",
+    "sha256": "3ED6113847D5E520D98D2FB17D9E0E0A03B4879C2D1F33A46FEFADD7AD21D7E1",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E05_2003/result.json.gz",
+    "sha256": "2E78EDC198E177BB319504D671BDE2C3B8A924283F1B60617E0447F55452E45B",
+    "source_sha256": "2E78EDC198E177BB319504D671BDE2C3B8A924283F1B60617E0447F55452E45B",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E05_2003/identity.json",
+    "sha256": "700D316F7FC81C158AA4D52400B26D6EFDCBD472FC816C3391BCD9E1C929A497",
+    "source_sha256": "A8DE9CBB945F2FEA59EACCB798A274881A5D21DA67E113F5810DFA044233895A",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E05_2003/rank_records.json.gz",
+    "sha256": "629E252C5F5B2CEBBB30AE09F88A29B4DD4E080F0B9DB12F1F1F66E372A0A84D",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E05_2011/result.json.gz",
+    "sha256": "D6CAB3C2D10750E1A1EF2FE88951370F0380E7E8A9351A2FB2E6383BEB84BF40",
+    "source_sha256": "D6CAB3C2D10750E1A1EF2FE88951370F0380E7E8A9351A2FB2E6383BEB84BF40",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E05_2011/identity.json",
+    "sha256": "2BB555A06B7CBE2E6BEEC0CE1D7D9164A117B6E760228452F12E89ED9EA64D66",
+    "source_sha256": "F41B99B4CDDCD8B06D1A03CA2402FCEECCDBBAADAC1505F479834FDBB00A15C3",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E05_2011/rank_records.json.gz",
+    "sha256": "9457B9192E03D6629C2AB86C404C3A5D172E332186C41DCF0AF9450ECE89EEF1",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E05_2017/result.json.gz",
+    "sha256": "FDC72FF172AAA403B8D83E359B59C600F9F3B1663E2327EDE55DDA256D2A4F2D",
+    "source_sha256": "FDC72FF172AAA403B8D83E359B59C600F9F3B1663E2327EDE55DDA256D2A4F2D",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E05_2017/identity.json",
+    "sha256": "529715DED15002FFF1712A09CBEA2125D81350D5B2B7E665DF09FA491FC024FB",
+    "source_sha256": "41FEE808836D4FDAB960A7E1C72F0C5F6F98DBAD17885988CF0D752C3CB9B016",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E05_2017/rank_records.json.gz",
+    "sha256": "6CAFE3D16F79F170DDA7FA63FA6F21669DF4152782BCA9833319D445E59D0332",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E05_2027/result.json.gz",
+    "sha256": "33C139E822A8EB28A424ECBDB6FB33D34435DB40D6DBC9160B0F0E348D2983A6",
+    "source_sha256": "33C139E822A8EB28A424ECBDB6FB33D34435DB40D6DBC9160B0F0E348D2983A6",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E05_2027/identity.json",
+    "sha256": "9626C4468A6D6FD4F0545E0360C5685191ED0D2117511162DAE823103EE60C39",
+    "source_sha256": "0794746FDA06C8CF2DCFBF38A70BBF99540CFE619549856AE1A86E79A26886F4",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E05_2027/rank_records.json.gz",
+    "sha256": "A469F23D477129BD78CA9B199B15447512097EF0D27716AC5DFF09D43B563109",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E05_2029/result.json.gz",
+    "sha256": "D1042E346FA935BBE7C3700241DCEBC35396950ABDF1BF26CE2B5781BDD2BAD9",
+    "source_sha256": "D1042E346FA935BBE7C3700241DCEBC35396950ABDF1BF26CE2B5781BDD2BAD9",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E05_2029/identity.json",
+    "sha256": "BE5A9D7920FE9DACB2181DA2D28428882F6E570F3A32463D308D9A63423BADDA",
+    "source_sha256": "D9FA35D0623DD1BADA9F945228524D9A5C487DDADCF03B5A43DC7C8438D5E60B",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E05_2029/rank_records.json.gz",
+    "sha256": "4900B7E6CA47EF0C0DE9C4B9A67BD6D0EF4BA37D05EA46D764910D0A01FC1360",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E05_2039/result.json.gz",
+    "sha256": "ADDE7F784333A782ACB80DECBFBA41E0AF95854659D3B8C0D02BEAAD68B2A101",
+    "source_sha256": "ADDE7F784333A782ACB80DECBFBA41E0AF95854659D3B8C0D02BEAAD68B2A101",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E05_2039/identity.json",
+    "sha256": "70CE2C8E8E63527CE14DE6A72B8CD6B95287E4F0371FD4E5E0C5F8F4E8240118",
+    "source_sha256": "776970A9F801F10985FDD5E400F96A4CC4A450FA7E60E796484CEC088D360B13",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E05_2039/rank_records.json.gz",
+    "sha256": "CD795F0F52ACF4CADD6867D2129C04D2061F2E930AD07565ADBE41988E5A52A7",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E05_2053/result.json.gz",
+    "sha256": "E2FAAF50A9D847C270825981C0F89A861D3B95595252470E4CECE565B7F9B653",
+    "source_sha256": "E2FAAF50A9D847C270825981C0F89A861D3B95595252470E4CECE565B7F9B653",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E05_2053/identity.json",
+    "sha256": "F05425267FB35A1AC1582945463BDA794C1FFC7C9567B022283F25EABBCC0DE7",
+    "source_sha256": "2657A194CEE996BD360A9A53445EDFE43023CD50D27422F4D5108E81878CB121",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E05_2053/rank_records.json.gz",
+    "sha256": "23472A830AD8A7C6493CD9DF9EEFEFEBC170153E1D01F53B4A8CA0B979F5E327",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E05_2063/result.json.gz",
+    "sha256": "E415598208944C0240052FE629398E8CC06312D166E8C961E3496A9C7A27CF8F",
+    "source_sha256": "E415598208944C0240052FE629398E8CC06312D166E8C961E3496A9C7A27CF8F",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E05_2063/identity.json",
+    "sha256": "54BD538FA09BCBD25E2509822957BAD49923E34FB32C1E992C875E34C27B1537",
+    "source_sha256": "A66FA9F7BB7BA298C258D2AAD74109B421D18E2FC61B8ACDF123B691D6210E84",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E05_2063/rank_records.json.gz",
+    "sha256": "7C960CF4987657B642852CB8F7370A8068608B7003ED268594F5964C7F17D25A",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E05_2069/result.json.gz",
+    "sha256": "F6D6CE441D2F45C8F1D87D328F68FE303C814B6BCDF5A0AFE8559CC8604AF998",
+    "source_sha256": "F6D6CE441D2F45C8F1D87D328F68FE303C814B6BCDF5A0AFE8559CC8604AF998",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E05_2069/identity.json",
+    "sha256": "3D0137AFFA52B2FFD5D97F7B781402727A27FEA1895C8F43B64F45B82BFF92E7",
+    "source_sha256": "614F3FD9D49BC3D52D74EBE1E784504DB991F327FF9AD8324F931D40E007521D",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E05_2069/rank_records.json.gz",
+    "sha256": "98818EE2ABD855E4AF26202A642FACC9ED7275DE34CA13C17806074BA452F649",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E05_2081/result.json.gz",
+    "sha256": "93A74F345CEAC277F6043E071DD0D984EFB4DC98E85499BDE84D45BB67EFF3C3",
+    "source_sha256": "93A74F345CEAC277F6043E071DD0D984EFB4DC98E85499BDE84D45BB67EFF3C3",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E05_2081/identity.json",
+    "sha256": "5E19AA74CE42FC9E30F0955CA5EAAD6564BC1029206B83111C937745F73A55F7",
+    "source_sha256": "4203DFAA71DDEB3B8760D54FEAB46E4BF44B70E236C574EF5B1FE35A63F5DE66",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E05_2081/rank_records.json.gz",
+    "sha256": "8A1C89EAE2A3AE7D509CE1AC6D7A08EACFC0F0254C5D82C3359E89939812F636",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E05_2083/result.json.gz",
+    "sha256": "CA8607A7250E5A115E13001BBD645A4AEEB54D33FA929437084408BB1345D6D8",
+    "source_sha256": "CA8607A7250E5A115E13001BBD645A4AEEB54D33FA929437084408BB1345D6D8",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E05_2083/identity.json",
+    "sha256": "2B0709D643160CE6F1122685FDEE37527F399BAF39696C37B04FC76506B3F31C",
+    "source_sha256": "211345C35D33FDB72AA8C224BEE7B8108119263A352A84C718E3D295E6EBB067",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E05_2083/rank_records.json.gz",
+    "sha256": "6C58610F53D6E86066E2856414F729A233A9314C819FC2627C64CEDDDD47BB0B",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E05_2087/result.json.gz",
+    "sha256": "B08616F87185FBF954E54D945E5967945F901AF91773A712CD83E8324AC333D0",
+    "source_sha256": "B08616F87185FBF954E54D945E5967945F901AF91773A712CD83E8324AC333D0",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E05_2087/identity.json",
+    "sha256": "C43AA1A1436794F39B912B655907D5B359FC98ADA28D9A0BD9787F8D332F62AE",
+    "source_sha256": "68FBDF1EC24449E16F19CE3531C8FE3FC85FA6E7E72E83879121249AF6331076",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E05_2087/rank_records.json.gz",
+    "sha256": "7D04EF66846C25B66D9A1146A23929D9AF99FD28C752CED31ABCBD9C9A331534",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E05_2089/result.json.gz",
+    "sha256": "4E15840DB001A6625987BE305599C76FDFD5BEA9FA7A80A72B259E7096D36290",
+    "source_sha256": "4E15840DB001A6625987BE305599C76FDFD5BEA9FA7A80A72B259E7096D36290",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E05_2089/identity.json",
+    "sha256": "C19E2B8E029835319F7E38BAD07D108FC5B9FAABFDF3871F780F111425016D6F",
+    "source_sha256": "F53BFB4FE5B7A17F47BAE7C5DFE837B318331893098B8E9F3048FED37ACA3608",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E05_2089/rank_records.json.gz",
+    "sha256": "86F1911CB4AE0A10347FE765F1CFA722A57FC9D570EA9F75DC3AEEC54C0D878E",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E05_2099/result.json.gz",
+    "sha256": "5FDB39CF69885A809E3C125A4A817BBBE0263FEF4A3740FF08591858923039DA",
+    "source_sha256": "5FDB39CF69885A809E3C125A4A817BBBE0263FEF4A3740FF08591858923039DA",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E05_2099/identity.json",
+    "sha256": "83F952C41B4DB298422862E0F2B229EA1D855F001F77496711F985ECCE6252A3",
+    "source_sha256": "1A751DB5F86C8EC7ADE461C8D085CDD3889B6BE987BF210F22E64CEAF8A08630",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E05_2099/rank_records.json.gz",
+    "sha256": "CE1E46F08B06BD5F72D5C9F97678DCF8AAD0D7EDFEDD0C30827FB18F21097D33",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E05_2111/result.json.gz",
+    "sha256": "38C1B53C2433B883B7B215855C2A5D03258EBC37565D9E2EFCF41C468E52E783",
+    "source_sha256": "38C1B53C2433B883B7B215855C2A5D03258EBC37565D9E2EFCF41C468E52E783",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E05_2111/identity.json",
+    "sha256": "7CA9C85B7580B87BAD82D8DBC4FAA2C9FC09EBB3F1244369FF1B9C2E334C2A8A",
+    "source_sha256": "E1DBE37B91888D737E3F9FC8C746D43CFED8700F582E79C7926787CF3C5C1B2F",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E05_2111/rank_records.json.gz",
+    "sha256": "D8F7D6AADCDD723CA069B3776B044322BA6AFBD31AEE83A9DE743E2569A20F7D",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E05_2113/result.json.gz",
+    "sha256": "A4F149009F88967A08EE35062E02D2EAA51ADE667F0710FD99C9FFDE681AB9B6",
+    "source_sha256": "A4F149009F88967A08EE35062E02D2EAA51ADE667F0710FD99C9FFDE681AB9B6",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E05_2113/identity.json",
+    "sha256": "1C3E2AA2A267DE690AFB8CDBF4990F0B31EDDB9846A627321E01A3793BDF55F8",
+    "source_sha256": "3D493C073FB0AB9DA73FACAD48C95409BD465ADAD2336975515A2BE416837577",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E05_2113/rank_records.json.gz",
+    "sha256": "EA4CFDAECA4A452A294DE376EA31B3D7DD551D8245891A1A908A1856B44EE8F5",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E05_2129/result.json.gz",
+    "sha256": "F0293B7CD7FBF008270F67FE942C6481803C707309115E683DD935E86792CEEF",
+    "source_sha256": "F0293B7CD7FBF008270F67FE942C6481803C707309115E683DD935E86792CEEF",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E05_2129/identity.json",
+    "sha256": "92FC2316486799093DEF3D27D444B7E4D1C36FB09942596F334D5F8854F190DD",
+    "source_sha256": "37D04D12EFF83CF7D248D6D13B09A63C39AF8998B292B8C7EE955F8532FB003C",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E05_2129/rank_records.json.gz",
+    "sha256": "2A5AA454EC408E5AA798B6195DD8919F527FB8DB16BA9C9A51A2894A06A4DDD7",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E05_2131/result.json.gz",
+    "sha256": "916C0B71513C0175986D95254AB46DAC7A39746275D65E554856D8E3846A765B",
+    "source_sha256": "916C0B71513C0175986D95254AB46DAC7A39746275D65E554856D8E3846A765B",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E05_2131/identity.json",
+    "sha256": "F4FA691E7756A7086D8BC5B7DBF074B1C823D1CF2224596555D7A7FD1C3C9B67",
+    "source_sha256": "7EE7902CDDEB513E6F28B13EAE3F94F3AD1A825FBB555597C2BEDF3E098714E5",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E05_2131/rank_records.json.gz",
+    "sha256": "47B39DC07D430D1618562C02A868D5B60EDB73801B6C6C61FE1786391609FD16",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E05_2137/identity.json",
+    "sha256": "98175F016F5860819CFA3EAB97661312BCDB2E065C56417ECF5515CB9E46F4AB",
+    "source_sha256": "25CFAD3DF302F940C2855154DC6D96657636D6A732FC1E4B261E7F2244F3C2C6",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E05_2137/progress.json",
+    "sha256": "52A891C1A7F68F0C34C6C91E36AFC9DB854453E357718F2E7DECB5E8880FD5D7",
+    "source_sha256": "F46B64BE1DEFE95F031FE938815E96C24973FE1267680A617F386B7E2BE92C23",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E06_2003/result.json.gz",
+    "sha256": "C787C1EEE9B0209FB2E154F5327D34E7A99C8CBBD871306963B276BA61DFF7F7",
+    "source_sha256": "C787C1EEE9B0209FB2E154F5327D34E7A99C8CBBD871306963B276BA61DFF7F7",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E06_2003/identity.json",
+    "sha256": "0B286357FDCBBFA318027B386D8C605EAB80FEBCB79D7611529022CC0978878A",
+    "source_sha256": "DF47A698A2D938D7AD473081DAFA615C32B66B69C7DF602BDDA300A20E4FB2D1",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E06_2003/rank_records.json.gz",
+    "sha256": "3C97F2BFE1BE22E01B4DED0D136641E554615EBDEB94B97DF127347742C77B87",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E06_2011/result.json.gz",
+    "sha256": "592995D3A9D3ED6AD78979E905E1D61C833F0CF718DCE64B3FAFF27EB24D73C9",
+    "source_sha256": "592995D3A9D3ED6AD78979E905E1D61C833F0CF718DCE64B3FAFF27EB24D73C9",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E06_2011/identity.json",
+    "sha256": "7162B160E1EF8584877890CA76D7BC5C1307682A157B2AECFFB03E7939377942",
+    "source_sha256": "CC880604E74A84F2C784BF1AF280412D6BBCAE515D4BEF9FDCBFB56904E7E252",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E06_2011/rank_records.json.gz",
+    "sha256": "B1E8B7F29E077AD776AA2CFF7F6E65BBFED4F50236DFF030FAECAB4440329BE2",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E06_2017/result.json.gz",
+    "sha256": "3FF70100DB5CDC1311A0909358F4B550D06B15E0F684EF60573DF4DBF7830B7A",
+    "source_sha256": "3FF70100DB5CDC1311A0909358F4B550D06B15E0F684EF60573DF4DBF7830B7A",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E06_2017/identity.json",
+    "sha256": "33B797866C7FA4ED5D551E97BEA8968BD1A3BD4DBB6F44A89D18000C1D422434",
+    "source_sha256": "57E62F20A951E9E3A10A0AECD4D71B1B7A3A6FDC8C10966FFFA6E27A5EFDAE06",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E06_2017/rank_records.json.gz",
+    "sha256": "0A3701F0425F7510BD154D010AFBAF02726F1A3EA4E2695971F6D34D1EC3D023",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E06_2027/result.json.gz",
+    "sha256": "064B6CF31ED4D6BB9FEE7F6C65C4290656AF2E6C518CAB80AFE52F79D1CF4A13",
+    "source_sha256": "064B6CF31ED4D6BB9FEE7F6C65C4290656AF2E6C518CAB80AFE52F79D1CF4A13",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E06_2027/identity.json",
+    "sha256": "EFB5C05C735C8416999510EEBD23B27617F0FF0B672AB1531C00BF1B708CE125",
+    "source_sha256": "115CEB1751EF69ADA7A1842B89004F6A82655B048AAC4E42A426E60DA8D848B1",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E06_2027/rank_records.json.gz",
+    "sha256": "2121A99FF46E4F5C3EDD56D38DBAB0382065D8EF55FE215DC77BBBABF62F8DFA",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E06_2029/result.json.gz",
+    "sha256": "555A954A94DDE69B019BC16B8EDFE0422739D1E1B56F8508856F8BDACB332883",
+    "source_sha256": "555A954A94DDE69B019BC16B8EDFE0422739D1E1B56F8508856F8BDACB332883",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E06_2029/identity.json",
+    "sha256": "2AAD04E099F4CB9AE4A5876F7664C4D4E9DDD1DD8910097570A3E73C52D49F0F",
+    "source_sha256": "AB16B1A19F643F4345A58BED27AF5786ACA6997308FE8994EC4B45D3E9FE54E4",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E06_2029/rank_records.json.gz",
+    "sha256": "600D44C2255784D24251F42794CEA85A4659DCDDFC52238E652DFA978B40898C",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E06_2039/result.json.gz",
+    "sha256": "0AF87C69F9D74D8BF22E4635D32066560DE53C761A306E3D230F6789A6EEBAF5",
+    "source_sha256": "0AF87C69F9D74D8BF22E4635D32066560DE53C761A306E3D230F6789A6EEBAF5",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E06_2039/identity.json",
+    "sha256": "13C2D1E3461D5C507009525C1F0779BBE130702309796D67719843550DBBDE83",
+    "source_sha256": "F4BAD15E3D6FC405C83C30032641EEC866DFB967794F2C1E06D5D8DD30CE9C1B",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E06_2039/rank_records.json.gz",
+    "sha256": "C3FBF92EAE26F3BCF17FEE8E0B3C51E9E19CAE184870172AFBD4E8EFB4C1C960",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E06_2053/result.json.gz",
+    "sha256": "538C12BAE8AB475FBBE42359CA91F99B10564F67940B0E227B6313E41C5D1F0D",
+    "source_sha256": "538C12BAE8AB475FBBE42359CA91F99B10564F67940B0E227B6313E41C5D1F0D",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E06_2053/identity.json",
+    "sha256": "59074893EC97639DF3017F06090595C9A4DDABD021B826739548A1DBEF4669D9",
+    "source_sha256": "A4049AC0C12468D1DF66219851ED903037F419C8C9B50565F2DE66445F57F0C7",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E06_2053/rank_records.json.gz",
+    "sha256": "09C7030460AFF9E3A3950F1032764CEC38BD27E69807EC483AE755EF0C17A2C3",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E06_2063/result.json.gz",
+    "sha256": "45016785A35221C858B8088FDFE2D2F871E67F964884DF4E8884C1BD2CD5B6EF",
+    "source_sha256": "45016785A35221C858B8088FDFE2D2F871E67F964884DF4E8884C1BD2CD5B6EF",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E06_2063/identity.json",
+    "sha256": "801A9727F6D60B5A21358FCCD60FA86EE154499B8319C7738C5519832063B8CB",
+    "source_sha256": "F374A46707E9B3EE4F13C5806A379763CB5D1491E7857ED6C3B1465FC28CEBCC",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E06_2063/rank_records.json.gz",
+    "sha256": "57BB781CFE330B6B33AA81840A87D95D00053BF3F6654B1BE464BD564C186ECA",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E06_2069/result.json.gz",
+    "sha256": "AC258A00D32A7142E64A3270CC9F7E6CC469F4B3E5A5B35C76812B3FE091FA2E",
+    "source_sha256": "AC258A00D32A7142E64A3270CC9F7E6CC469F4B3E5A5B35C76812B3FE091FA2E",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E06_2069/identity.json",
+    "sha256": "A61723C80F92BC6A7EF5D7275450E0B4C06E2DD795BB93D1B6659E83690F209E",
+    "source_sha256": "C96A263217C72F0758CA4822599F3F23999279BC270F56D7DA31191739EBC24F",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E06_2069/rank_records.json.gz",
+    "sha256": "90710DE6192224CBBBC83863D6087D036CB5F667F1035DCDFB2BE8BC51B33917",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E06_2081/result.json.gz",
+    "sha256": "AABF02B039BC675FCEBF2392BB4F1685F32109FDB034C84E5FEEB76710F851CE",
+    "source_sha256": "AABF02B039BC675FCEBF2392BB4F1685F32109FDB034C84E5FEEB76710F851CE",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E06_2081/identity.json",
+    "sha256": "98BE0C6261813084C4125E71007AF174A53BCC427BB9923BCFB8DEE185DCBAD5",
+    "source_sha256": "D996CB282C8D41F34AC42BF7CF841113903D102AC6F626B5B2F068324F3DE2A7",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E06_2081/rank_records.json.gz",
+    "sha256": "A20EB8799FF52624BA0F76C38763CA7F6AEE41ED1F88364B81D8BDB49A0BCE59",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E06_2083/result.json.gz",
+    "sha256": "BDE00373E7FC2FFE57FD4263DCD2DD36A48AE6C016D70F37668FE51663F41716",
+    "source_sha256": "BDE00373E7FC2FFE57FD4263DCD2DD36A48AE6C016D70F37668FE51663F41716",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E06_2083/identity.json",
+    "sha256": "8F2AC33E82157F8F6C9F0E9776623D4017AFB22EAAFF174A4C8DAC54BDFD21E8",
+    "source_sha256": "5CBD088353EEE97D5EBCE9A6AF3C24074D076F97A36E460FA754C6A90262A097",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E06_2083/rank_records.json.gz",
+    "sha256": "2397D35EBA4479C29CD2CC37150520514525F935E105F8B3510C9015B15DD017",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E06_2087/result.json.gz",
+    "sha256": "E1192D354B6C1CB250DB8FBC38DAD5038384EDE8BBFB3457A1E10EC4E178FB0D",
+    "source_sha256": "E1192D354B6C1CB250DB8FBC38DAD5038384EDE8BBFB3457A1E10EC4E178FB0D",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E06_2087/identity.json",
+    "sha256": "DE4E8EA7A3D9E7D48C836BE7258F3FC8A3407ECB0CDFA5E0873A082CED4F839C",
+    "source_sha256": "00CCF0F13D6FE513F4482B60B18E3E5A0DF528D6442A972C59B7A8D7F649EAD0",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E06_2087/rank_records.json.gz",
+    "sha256": "4F6841FD625EF25EE4E9FD342E44CFDD75AA5FF9093751C2A0DB28E373838AAB",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E06_2089/result.json.gz",
+    "sha256": "0EA623D711EC37B427C479AAEDE78FE22D3B456D34EFB846C05327C6A650D3FD",
+    "source_sha256": "0EA623D711EC37B427C479AAEDE78FE22D3B456D34EFB846C05327C6A650D3FD",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E06_2089/identity.json",
+    "sha256": "8BC042F53504669D664F7359F8234C2DC4C3313C5DE92A99512E8301555860A3",
+    "source_sha256": "90FAFCEF7CB588B7F6A6403664ECC1FF7BD844B8550AE42C05F4C4E66B9A2E1E",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E06_2089/rank_records.json.gz",
+    "sha256": "2B8221ECD8CEFFE74179A395D2DE7188D9AED496D818DDEB2B78F774621E1F3C",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E06_2099/result.json.gz",
+    "sha256": "36B617D56590FBA0119996214A568760F0BF12ACB375502F5719F48DE4D992B0",
+    "source_sha256": "36B617D56590FBA0119996214A568760F0BF12ACB375502F5719F48DE4D992B0",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E06_2099/identity.json",
+    "sha256": "E1EA51C3EC174E27AE42206C50C379C7366E687632C95461E37BEEE0F2C55B64",
+    "source_sha256": "45FD5FEF7BDAFF6670D7A306DC59F85A8FBE2050044185B385B82E44A2B12BCC",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E06_2099/rank_records.json.gz",
+    "sha256": "2FF62043A21F6F1C42198D308724ECAA49D390B35990B894B382673EE913F3AA",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E06_2111/result.json.gz",
+    "sha256": "9BF7838411259E4624DF3EDAA126D894DD1DE39CF956724441626D679C0D2303",
+    "source_sha256": "9BF7838411259E4624DF3EDAA126D894DD1DE39CF956724441626D679C0D2303",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E06_2111/identity.json",
+    "sha256": "F853A96DEEACD154DCEE1CD8C4B0C00333493F07F6EEED89FD1BB00A2BCA4C69",
+    "source_sha256": "E32486E1BABC61561D674259ECB776300581A59AA8189414CA394EA4747B8338",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E06_2111/rank_records.json.gz",
+    "sha256": "15D913D6E999CCF00E6DDF27F3FA93A36B8BED4758B5069362E8C066CCA91260",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E06_2113/result.json.gz",
+    "sha256": "99F269948C9F90A03DEC34EF3103C6EEB304FE3C7163A922108C1E1EA17629EF",
+    "source_sha256": "99F269948C9F90A03DEC34EF3103C6EEB304FE3C7163A922108C1E1EA17629EF",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E06_2113/identity.json",
+    "sha256": "131D4C5061ED87CFE1DDDD5A7A74040D10ADC179EDA2EAB6E1F56E8589CE01BD",
+    "source_sha256": "B70F4D6A87E0851DE9A7C293D8774286CC4D77A6DC6145CE591D7EE251401BC9",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E06_2113/rank_records.json.gz",
+    "sha256": "12A45E7B6EB384A13B3F5B461F54E1ED53D5231737A093AEB6245764F575F142",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E06_2129/result.json.gz",
+    "sha256": "0544B2B6D759168FE2509F4B53944BCC35D8AB4F642197CCFF11FD5962E7FDB5",
+    "source_sha256": "0544B2B6D759168FE2509F4B53944BCC35D8AB4F642197CCFF11FD5962E7FDB5",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E06_2129/identity.json",
+    "sha256": "0CFE91DA6E1437D65991BD503DB6F759C4C38DE3707C9781FAAC52150F40F159",
+    "source_sha256": "0B398C00CEE52DC22FC30ADB19A544C9F6F5A478323CA598B7815916C888BC60",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E06_2129/rank_records.json.gz",
+    "sha256": "F688CBD4EF76E3C25109F1FCEBB49591CC66BF90686AE32C8055BF0B718EE096",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E06_2131/result.json.gz",
+    "sha256": "388A5BFAB8E26AD44DE3E17DCA7760494A7007E35E1DE6D0E5FBB70C631A2488",
+    "source_sha256": "388A5BFAB8E26AD44DE3E17DCA7760494A7007E35E1DE6D0E5FBB70C631A2488",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E06_2131/identity.json",
+    "sha256": "6138799F83A7C489E9C180A03F3A3DFB6B92F1895F28F0672D7A70AC780DE5DA",
+    "source_sha256": "71CC2DB5BE1AF4544C68F9B91CCE58439BB0A21B0B0EE86E25AFF25EB6282F9B",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E06_2131/rank_records.json.gz",
+    "sha256": "F44E5064715260741E86738D5DA163F42D6411A6744505C2E4E9994BCA6366BA",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E06_2137/identity.json",
+    "sha256": "49DDB7222E7DFE9648B6A7241584507EB8985B5AC410DB8000D98F626ADDB5BA",
+    "source_sha256": "77E18408958317628D3E9A37DDE254668EE236F272CE0C9A322AD9AF77C77A8E",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E06_2137/progress.json",
+    "sha256": "39790096FC220B7F55E1E13BB9327E7BB90508B6400FA5F3CF6CA334FD365A65",
+    "source_sha256": "B75F62E11E6639E9995F7E1AF2A31B52FCB672E05C7F3DE03F14C6F1A6197037",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2003/result.json.gz",
+    "sha256": "37DDC0E7CD22C14E16CFE40344F2BB4DAC6DB934A9CCCF5754B6714A018386E5",
+    "source_sha256": "37DDC0E7CD22C14E16CFE40344F2BB4DAC6DB934A9CCCF5754B6714A018386E5",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E07_2003/identity.json",
+    "sha256": "B3455DDD33834B0CD284ACEDF37B63E54F0F5311DC206178DA10C23BF32507F0",
+    "source_sha256": "B978044258DDE05B4E1A6C364B97E8A66751D9FC9E48EB59E8A8D8C25571DF4F",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2003/rank_records.json.gz",
+    "sha256": "4A8BFE036CF773FB2C25D118087E6C8A556A0DD0EEE85220AA237F6345D2956D",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E07_2011/result.json.gz",
+    "sha256": "A067A6210A3310594C72767166A1D3F980D2979E05801D99F88AA210615F122E",
+    "source_sha256": "A067A6210A3310594C72767166A1D3F980D2979E05801D99F88AA210615F122E",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E07_2011/identity.json",
+    "sha256": "EC42D29D9962D2C0E319C6B3E14AF66B758D90EA4C679D888416B4306CC764E4",
+    "source_sha256": "7B9A8CA0EEA30ADDFCAEE7052FFDA160B903A668C2EE21D24C670429D077580F",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2011/rank_records.json.gz",
+    "sha256": "0971E281003140F06187C29021EFD82115EC8ED55EC1B179708DFAB25174F0D7",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E07_2017/result.json.gz",
+    "sha256": "E848AF6D778CF4005C9311F96F9FC0B86B0CB965A0E36092E9D56AFFEBC0B671",
+    "source_sha256": "E848AF6D778CF4005C9311F96F9FC0B86B0CB965A0E36092E9D56AFFEBC0B671",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E07_2017/identity.json",
+    "sha256": "C13F239EE13FC9E497DC9E0D368E71098548D503F4B05FE1F8606A914E8A170A",
+    "source_sha256": "4D7ED3BD550EC1D5C97686283970948A4151EFA2552A3352004DEE1DFBC3C6C5",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2017/rank_records.json.gz",
+    "sha256": "C272AB0BCF4F83596865EF9528EFECA3CED8195F887FA96E579E5C8B3F7F56F4",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E07_2027/result.json.gz",
+    "sha256": "47F85F047290666F0AA710F946E2939738E255A515B58C82ABF44A217A83B6D4",
+    "source_sha256": "47F85F047290666F0AA710F946E2939738E255A515B58C82ABF44A217A83B6D4",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E07_2027/identity.json",
+    "sha256": "5C3CA26F5A1804D9E06AE78EB39789AEEAC7D64794223F111E6381502EA4B769",
+    "source_sha256": "E51EE8AD6571D2886F50C3AD0B6BB89790BEFBA9ED565796862288A06BD288DC",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2027/rank_records.json.gz",
+    "sha256": "89A8176433B1C4701BB62CE1F2E2F0B73C48701148AAC23B1E72ABAC22EE95CC",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E07_2029/result.json.gz",
+    "sha256": "7E18FAAA5F3972C6BFE245B15DAAA65CC83DDAA1EA3A228F10251FD5896AE7EB",
+    "source_sha256": "7E18FAAA5F3972C6BFE245B15DAAA65CC83DDAA1EA3A228F10251FD5896AE7EB",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E07_2029/identity.json",
+    "sha256": "28EAA9B9ED83B4BC21FE9056480E2FE768599552DB64523CF57002C68AB0FD68",
+    "source_sha256": "83AD8A07B5A43158DEA8AE7267A325E9A0716443C2FCE8C746DA1A68413F5648",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2029/rank_records.json.gz",
+    "sha256": "59D9CB4F48955F4DDCF9E7884EB0CA51017CFF45C6AB141256CA4DE320E74B5D",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E07_2039/result.json.gz",
+    "sha256": "AE2E2291BA75E368D9C7A727D94C0943488170F8011CA365C53815F53B0DE5AA",
+    "source_sha256": "AE2E2291BA75E368D9C7A727D94C0943488170F8011CA365C53815F53B0DE5AA",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E07_2039/identity.json",
+    "sha256": "4E20DCE51CC4B98289C5205D9DF0BC62F75D2D0A0B4B48894B5245E6E7507A32",
+    "source_sha256": "05EF18140D3C071DDC452A9FE9F10A37217C460C5F8CB5BA96E25481218A2FD9",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2039/rank_records.json.gz",
+    "sha256": "36638E5E1A0AA7F50A8CFE13ACC5249AD781AAB86458BD4C2F91D0DABF558B19",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E07_2053/result.json.gz",
+    "sha256": "5F41B08D1FF94B5B32C5D54C56245E2E9EEB91179DA63EBEEE7FBE47D51A1A00",
+    "source_sha256": "5F41B08D1FF94B5B32C5D54C56245E2E9EEB91179DA63EBEEE7FBE47D51A1A00",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E07_2053/identity.json",
+    "sha256": "C5A129E011A24493F23755258091DE7E1CBF68FA13167E8D5F45B4D95E889984",
+    "source_sha256": "031F9C2C104BA67E1EB8FA99EA20ECA25DE64B25C95B1A449049278F87CDAAAD",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2053/rank_records.json.gz",
+    "sha256": "57B5AF212590F2593D301D89F5DA88EB10F6DE8EE75895F21D2370591CEDF558",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E07_2063/result.json.gz",
+    "sha256": "30C14E0E8BAD8A83BE2E87FBDA61718DE240A79DBB38F4432B7073AD910DDD2A",
+    "source_sha256": "30C14E0E8BAD8A83BE2E87FBDA61718DE240A79DBB38F4432B7073AD910DDD2A",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E07_2063/identity.json",
+    "sha256": "0871C54CB56EFD6CBF9EAF3B00F0383CA45393A5A8B33B5042F482EA7866B37F",
+    "source_sha256": "E7A4C38AD289658C55281232AB5A72CB6C05DD14BBC87A502C5847D3F189E9A3",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2063/rank_records.json.gz",
+    "sha256": "2CA6C778552448AFF8ABEE023ACC358837244823018238413460FE5AA18DC99A",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E07_2069/result.json.gz",
+    "sha256": "D7D77F432EC7989EA2E3B61D63FAB08FB1E59775A00B0FD5ED669A1AB7A466A7",
+    "source_sha256": "D7D77F432EC7989EA2E3B61D63FAB08FB1E59775A00B0FD5ED669A1AB7A466A7",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E07_2069/identity.json",
+    "sha256": "70281CEB3E8B7EBA1B79A86EB296FFC5AC76FA9E0ABC5BA3232E085DAEF2E034",
+    "source_sha256": "ACCBAC7450E4E1419AF2FB3C8933DC1D4C80A648D2F643C380CCA55345EA9350",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2069/rank_records.json.gz",
+    "sha256": "38C0920E267D5CC421FC9E9AC8F741BD74FFE0A88121A2514C7D1A4B46D8AECA",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E07_2081/result.json.gz",
+    "sha256": "1798EA0974C425E7659F7B622F533B19877B1122C32070B5FBFF74F05057DC8C",
+    "source_sha256": "1798EA0974C425E7659F7B622F533B19877B1122C32070B5FBFF74F05057DC8C",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E07_2081/identity.json",
+    "sha256": "0804744E73BF3FA9A0244A4EA3318AE073C026CC95F2D399DD6FCFF6F9CE2EC3",
+    "source_sha256": "5A5001F9015102BF000D38ADDE16AA9B787DA1ECD7E13AA4A2AC7025CABAE2FF",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2081/rank_records.json.gz",
+    "sha256": "1A4A875236D429DC6AED31C6C8D369B81130BD902BE7850BAFF7C42E06306D21",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E07_2083/result.json.gz",
+    "sha256": "E2EE5DB4B7663A6062A0D3D63271E08DA54E278BF80E2BC15DB891052C6F9961",
+    "source_sha256": "E2EE5DB4B7663A6062A0D3D63271E08DA54E278BF80E2BC15DB891052C6F9961",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E07_2083/identity.json",
+    "sha256": "0A70F554AB5A4828950FC2B26AD2F942E4A26BAAAC45EC57B0A1DB1276471713",
+    "source_sha256": "8170C510BD6F7A2F7419F948626E835C7B3ADA2544FE3B291A43E2364E69BE7F",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2083/rank_records.json.gz",
+    "sha256": "70F2C6701CAF226729301EBBA2635ACAFEE6B2D78AB68F5B9F0E30C0608B061D",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E07_2087/result.json.gz",
+    "sha256": "A1619DD68DA8470A307B18B3FDDA3895688E8855BB301E4701B194985F9440C6",
+    "source_sha256": "A1619DD68DA8470A307B18B3FDDA3895688E8855BB301E4701B194985F9440C6",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E07_2087/identity.json",
+    "sha256": "C9EC8D4C795AF6985C94F157947D73446E8E0F81BE3A939F0218E3DBEAF2934B",
+    "source_sha256": "339131C1AC41FF72000D91DB7E25CBC50B33243A87F045947E363F3AE9878915",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2087/rank_records.json.gz",
+    "sha256": "307E67F42034E57E7A295C33D6A33F849A61F4FAAEAE7F6719DAB05CCBD26B92",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E07_2089/result.json.gz",
+    "sha256": "C6D0A53973BA0C6E41991BF12B339D7AAF1070F05A462412D7A6ECB4E00B7747",
+    "source_sha256": "C6D0A53973BA0C6E41991BF12B339D7AAF1070F05A462412D7A6ECB4E00B7747",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E07_2089/identity.json",
+    "sha256": "FA8E456F1F0E93FFCCCE7E50C974AC6BD6014BF84304C8A48FE548BEB58E312D",
+    "source_sha256": "ADD4B0C4E9649FB7BE883ADF2C12E237BC8CAE54632697BF9B6994B6579B7842",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2089/rank_records.json.gz",
+    "sha256": "119E905DA494BE61A7A2C5D6F96422076B67F60CA3F3FF2EDE4AA9752DCCAD17",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E07_2099/result.json.gz",
+    "sha256": "D696AF13790860CE9A987C3FBEB8A8D9D753D9F46EE24ACF2A02DF3BF1A7F5C5",
+    "source_sha256": "D696AF13790860CE9A987C3FBEB8A8D9D753D9F46EE24ACF2A02DF3BF1A7F5C5",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E07_2099/identity.json",
+    "sha256": "5644BDEBC114A1E02A9291FB82594A4F42910A19DE8593FB45AA1C43A74A6326",
+    "source_sha256": "1A9FAFFDAD4EB840CAAADA754E4AEFF30C7CCA4302F096EC735E5D20305317F4",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2099/rank_records.json.gz",
+    "sha256": "0EAE405B01BAE5958CD9AB7FAE13C085AB6D09AC031035BD90B76FAC5CD26B05",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E07_2111/result.json.gz",
+    "sha256": "2BA6C1543C2DB95E40AA55E162FDFA85847D3A78796DE64F814E1614785D603C",
+    "source_sha256": "2BA6C1543C2DB95E40AA55E162FDFA85847D3A78796DE64F814E1614785D603C",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E07_2111/identity.json",
+    "sha256": "8185CD5E87DF22609C93917E3F01420762A1FC5D27123A8C46BDB967F5F0FAEE",
+    "source_sha256": "01704232D00226D644547B4518A93143D9F94567E06D210EA4BCDF4A1DC93628",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2111/rank_records.json.gz",
+    "sha256": "68220A38C686D5376DD21AFA8060773E07E415E0BAB51EA26173424685E3AF50",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E07_2113/result.json.gz",
+    "sha256": "58FC84E2E5E021A9445C1413FB59B8836EEA8F7FB3C3B75F012C19544ED34C04",
+    "source_sha256": "58FC84E2E5E021A9445C1413FB59B8836EEA8F7FB3C3B75F012C19544ED34C04",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E07_2113/identity.json",
+    "sha256": "F8073D421C2AC735915C617ADA7E2B608EAED8B9988D3B56EC8A527DFE055573",
+    "source_sha256": "9D329360599DB9F081270F1BA3C7120CEC2D041E767BD630CB1C351420C7FC07",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2113/rank_records.json.gz",
+    "sha256": "7D91E17CD0DBFDB4EFD65D09FDF4C1163E7E1DA0A8B1A48E4F0D2A0A5C817D9E",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E07_2129/result.json.gz",
+    "sha256": "A92DD7D6C0CE0BDC3743EC293AE15187A4790CBED62B31DDE3E49DA09DDE872C",
+    "source_sha256": "A92DD7D6C0CE0BDC3743EC293AE15187A4790CBED62B31DDE3E49DA09DDE872C",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E07_2129/identity.json",
+    "sha256": "FCEC98A9BC9BAF2803646C017E48F6F2126D67B260A9165F623991381123DA1D",
+    "source_sha256": "EB6BE31E3AFFB019E994028816DE4DA093588134B8C1886916BE8602B6C9C108",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2129/rank_records.json.gz",
+    "sha256": "4637CFCF2061778601BBA16B1E5AF3C7DDD772CE9DEBC5B849186B226D009C12",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E07_2131/identity.json",
+    "sha256": "9A867D8935B764978436B756E79D39CF2022CA53D69D65DD1E445DC06EE9B93D",
+    "source_sha256": "178DA4EFD2776C767B4C11C49ED49D0B476DEE1259D0158A7E57E3FAEF913F7A",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2131/progress.json",
+    "sha256": "0BE713D34D16A7AE70D9ECD06EEC6647F3EB8D66EEDB67281743F159F44AF32D",
+    "source_sha256": "37A23D3299BDECFE1FC6868C33E6452211B17B4C273AE5092F7136AF6038F00C",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2137/identity.json",
+    "sha256": "74BC691438D6BDC249673205AB1D453F847E374A0224598EC203F2CBA39B3323",
+    "source_sha256": "184AA2EDDC1B5EBD107409021585E7E9C9DCE3821B45A06B44523587CD61B310",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E07_2137/progress.json",
+    "sha256": "74DE91D0E7692822934EDFBCADCCAAE6FF42F1CC00175F3B2CC1D7D20E919478",
+    "source_sha256": "EC9687A9369CF3E5D47E96C3D050D8467444A72F4983C9B1F37A68B170EDB851",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2003/result.json.gz",
+    "sha256": "C7521DBAD9C4C3920032568F00A69349FEDFAE68967701856DDBD59BF0A10D15",
+    "source_sha256": "C7521DBAD9C4C3920032568F00A69349FEDFAE68967701856DDBD59BF0A10D15",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E08_2003/identity.json",
+    "sha256": "45C1E4D5F4CABD1FB1864FD0779F1175E657C35393AAEC90CC9C726EC569DD82",
+    "source_sha256": "A250C6774EB0D8C37C2ECAA8F7D5D38131B20B65F7F7016995FBAF7067B12C89",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2003/rank_records.json.gz",
+    "sha256": "135094C9611D10EDA482D2DFA845AACFB615DF0948C8C0B64866AF3896ECF3B9",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E08_2011/result.json.gz",
+    "sha256": "B11C2E1F443E36EF79BD784E577EFC99B265C420B9C22B19C97E25164867340E",
+    "source_sha256": "B11C2E1F443E36EF79BD784E577EFC99B265C420B9C22B19C97E25164867340E",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E08_2011/identity.json",
+    "sha256": "AD53CAE4E1AF6CCF5F9E3FBD82D8D9BC93B7D9CB3F0C4F64FC3F4B1DEB404EED",
+    "source_sha256": "6190FBBBD59D9F8AA88418F171088264CA7147B8F1CD3A6687741C5F6DD06B80",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2011/rank_records.json.gz",
+    "sha256": "8824EC7AAB5B9B1EBCFB4FBD927880228C6753451A5FDA3DBB1BBCF421F9406B",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E08_2017/result.json.gz",
+    "sha256": "79D6A1C7CFDC000D4B4833F0968D1786032A3B33172224E4CAB72ECA3E50E3FD",
+    "source_sha256": "79D6A1C7CFDC000D4B4833F0968D1786032A3B33172224E4CAB72ECA3E50E3FD",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E08_2017/identity.json",
+    "sha256": "36EF8BEEC9FAA596962DC220D23DC2AAFCD23EA335E3BB0336FCCD244C1A013F",
+    "source_sha256": "1373017B9A75E3CF7AB0F08B3B3BF2CB609A2AB6A8AB91056636E2EE1EB84458",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2017/rank_records.json.gz",
+    "sha256": "14D1778CAEBA4217795A239D6D6A0DBEA6ACFA843CBDFC620BAA10FE8C16FBD3",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E08_2027/result.json.gz",
+    "sha256": "DA2E95EBBAB9C611EA8854DF7E73B6DB9DF4B9BB5EE349353A81BB401F136C78",
+    "source_sha256": "DA2E95EBBAB9C611EA8854DF7E73B6DB9DF4B9BB5EE349353A81BB401F136C78",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E08_2027/identity.json",
+    "sha256": "0431216759EE5DF64BCFF775AB2E16A8DBB4214D0D11766BEDB8B3F1623EBE2A",
+    "source_sha256": "E52932BCB0BF0F34EC76936A7E9122690E365237FC199C97BDAD99C2B4ECA2B4",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2027/rank_records.json.gz",
+    "sha256": "FF7B9C994500DF1F8DFA4EA43D41C4E17BC216AF64BD4FD8837DC76294086C18",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E08_2029/result.json.gz",
+    "sha256": "A2BA2635EB658654A59F1697139BDF8625EAEBC0FEA4EC21D2C62026E454843D",
+    "source_sha256": "A2BA2635EB658654A59F1697139BDF8625EAEBC0FEA4EC21D2C62026E454843D",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E08_2029/identity.json",
+    "sha256": "99C237E4F501B90021878F6FDFC71BAE6E49D962BC7DABAE127B48BF1FFB8230",
+    "source_sha256": "A510FA8CF9657C4B1CF080107DA6D02443079C0DC3E4CCD614CB4F180DCCD805",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2029/rank_records.json.gz",
+    "sha256": "1C16755478C9F63D1D02E2FE3FA33C849BA6209E57F0417E6BDAC9449482DE2E",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E08_2039/result.json.gz",
+    "sha256": "1A819F8275A680CF8C371292EE59819B39FBA091031E7F6877C6FEE9BEBFE67D",
+    "source_sha256": "1A819F8275A680CF8C371292EE59819B39FBA091031E7F6877C6FEE9BEBFE67D",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E08_2039/identity.json",
+    "sha256": "84C360A4E748FBF77035AB30DCBECCA830B4CAE6E07A30A7133C4A79FAED2CF8",
+    "source_sha256": "866DBCDE7835A07CDCD20321D952D95FE46B93DAF7A426A7E67CCBA74C8A972C",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2039/rank_records.json.gz",
+    "sha256": "485F8422AF586EBF2448B1973CD93252642F449232152AB1385F0EE2972FBDD3",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E08_2053/result.json.gz",
+    "sha256": "5114C6F50427EB3805376ED07A01C6C36F7DC834251F37D3669C3FA8F06ED51C",
+    "source_sha256": "5114C6F50427EB3805376ED07A01C6C36F7DC834251F37D3669C3FA8F06ED51C",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E08_2053/identity.json",
+    "sha256": "019A1CEC70ECDD19C02E6407C0E160C6D701F7B1D547527D7914093E6E2AB0BB",
+    "source_sha256": "CB430B3FB514504ECF977F2FC599BB14E562A06E6944A10845811D510D061B61",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2053/rank_records.json.gz",
+    "sha256": "3CD899C27D32B208F0C9D6042D0BF6D54D3DABD8C281CD6362D8902DF4DAC6CD",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E08_2063/result.json.gz",
+    "sha256": "473E5CFCBC2B01FA192841E6134CA8DB3AC326E40E629B313CBDCE8DE0C3F441",
+    "source_sha256": "473E5CFCBC2B01FA192841E6134CA8DB3AC326E40E629B313CBDCE8DE0C3F441",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E08_2063/identity.json",
+    "sha256": "61531CD8925F08560778D1DF47DE1D712EF059B7527B5FA392A11BF827A7670B",
+    "source_sha256": "C9A959DB5D797F8AE4EC936F0D3F86E039907D20D606DDE772C0388077437C05",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2063/rank_records.json.gz",
+    "sha256": "84F6AB73A2E28B9198B0B3361FC07BD5299B87C897FD682C3C7683BCA80CF53A",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E08_2069/result.json.gz",
+    "sha256": "89852A54218036859F1B6CAC9207B76D0257F0F4FA04629FB3E6DBCF5DDA7801",
+    "source_sha256": "89852A54218036859F1B6CAC9207B76D0257F0F4FA04629FB3E6DBCF5DDA7801",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E08_2069/identity.json",
+    "sha256": "8734C95E52480E268DC87751E43B029317C874D40565E2896D320D9C4F567FD7",
+    "source_sha256": "5D397BA57DB0039DAAF389E79887FBABE130231ED9A5C588C4D3A60D0EC7A1C9",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2069/rank_records.json.gz",
+    "sha256": "DC583A285CCE21F8169E26EE0F4A1E940AB9E0CE02CEF9B92BE92424CC151C0B",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E08_2081/result.json.gz",
+    "sha256": "F4FD52E6AE704888079428A187DAF9B02EC5104FAA87FBE97FF8A7BBADAEF30B",
+    "source_sha256": "F4FD52E6AE704888079428A187DAF9B02EC5104FAA87FBE97FF8A7BBADAEF30B",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E08_2081/identity.json",
+    "sha256": "11C5E2CED502AD0C69405557B2185E7A6BE401EC972839AAE8B8994A268B5E6A",
+    "source_sha256": "3B67F4FB9ABC27DCD508539D2245A6101BF2E54A623A981B94E9D0EFB89AFC29",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2081/rank_records.json.gz",
+    "sha256": "7AF96BDFF8E38C761A7FDC470A6D0145C3BDFBA880EA0E3A64B66FEA17A20263",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E08_2083/result.json.gz",
+    "sha256": "07687C29A80665C8A01690FDD088CC0F117D5C1703A4E21703F5BBEA319D400A",
+    "source_sha256": "07687C29A80665C8A01690FDD088CC0F117D5C1703A4E21703F5BBEA319D400A",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E08_2083/identity.json",
+    "sha256": "04016CAAF7EF5BBC44284F77BDE9CDD950BA6942E563A4DD0E79301DC795028E",
+    "source_sha256": "755E886A3DD25A30AF7E5DBD3C01A630B1DBE19C6B7FC5FDC9633906F7331C19",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2083/rank_records.json.gz",
+    "sha256": "34D6161616780D3400408A51AB329549B660E730F18DD1A912919E6BD45B1070",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E08_2087/result.json.gz",
+    "sha256": "5F65D88BB8DA4B6E96ED16EF0791C6EC1CDFE61387267A81545419DC797C4F40",
+    "source_sha256": "5F65D88BB8DA4B6E96ED16EF0791C6EC1CDFE61387267A81545419DC797C4F40",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E08_2087/identity.json",
+    "sha256": "01157CE8933383AEB5B2F40D4E8168F5DA91553776697154A4DBCBD952EFE776",
+    "source_sha256": "35AEE590E5051E2E19BE51899C87539C33B52129B11F3B070B7C3B7FDEF34889",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2087/rank_records.json.gz",
+    "sha256": "47FBBA8F028B3A59FD35BF10DC3CB48D0C5E16BC150E09E938FEA5BF8E44CD5C",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E08_2089/result.json.gz",
+    "sha256": "751606E716E2E132B023CDB305B91DF97469D504D1837454F3A3DB7FA5DBA0E6",
+    "source_sha256": "751606E716E2E132B023CDB305B91DF97469D504D1837454F3A3DB7FA5DBA0E6",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E08_2089/identity.json",
+    "sha256": "C68BE8D4D22C7DC02BF9DC3A6FAE68AD5DFCE473894A5E5045CFD7C8543A5B46",
+    "source_sha256": "F4B2CF93949BD794F348B51977F2AE8B9C46755566B26B03D3C31CC509A8F4BA",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2089/rank_records.json.gz",
+    "sha256": "425C681ED1C1001872B231A73BA028D6752F81ACAE5D16EB458482B3C77A9485",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E08_2099/result.json.gz",
+    "sha256": "D44F989063F734BD60D0808BDE6E26FEF1EC48CBBEC4D7961AE93C218F759C65",
+    "source_sha256": "D44F989063F734BD60D0808BDE6E26FEF1EC48CBBEC4D7961AE93C218F759C65",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E08_2099/identity.json",
+    "sha256": "0793D7464BF1C030F32618EB07C7B628C154BB18BA2B68437269E6AD43959817",
+    "source_sha256": "148635E1AD783A987A52A804CFC3D460A669DC7E9CF765D475FA964278143952",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2099/rank_records.json.gz",
+    "sha256": "2264889E58D172DEDEAC063AD4BD256EA021A59CB041644964E7985444BA7912",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E08_2111/result.json.gz",
+    "sha256": "63133D5CC5AC822B6BD52616D274FC328838839C48C7FEC9A132FF014666F7D5",
+    "source_sha256": "63133D5CC5AC822B6BD52616D274FC328838839C48C7FEC9A132FF014666F7D5",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E08_2111/identity.json",
+    "sha256": "D116DBCAA8DF57C85467BA7596D570EBFB29921E09E0C5603A3426B72519411D",
+    "source_sha256": "D7B12A4ED879EB28472EC68E6606BAEFF377F014F3876A8A5DDF4159FB4C4117",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2111/rank_records.json.gz",
+    "sha256": "E172C9F76E88E5AACC5DDD1D1261D9210CFDFA2EEF162FBEE50B3332B9245CB3",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E08_2113/result.json.gz",
+    "sha256": "E1EC4E92D3046A970E1F1CC2A0C1460DF3B3A31D48B457263D06F166784E5CC4",
+    "source_sha256": "E1EC4E92D3046A970E1F1CC2A0C1460DF3B3A31D48B457263D06F166784E5CC4",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E08_2113/identity.json",
+    "sha256": "70FB279230AE86B964EEB64FC7D902ABFC093F7EE880E0661D6FF500C04ABE10",
+    "source_sha256": "D2331B2BF27B45DDC93194797F81E821AABAACA1222280951D5DC914975115C3",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2113/rank_records.json.gz",
+    "sha256": "972CE329C71A49D0FBB312FB3C898A116F98B9D2496FD9BC81F0196911573D6E",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E08_2129/result.json.gz",
+    "sha256": "44EBCCB90EB9A83195455D124D6F0B2422B414F27C2594564A029880ED7AD460",
+    "source_sha256": "44EBCCB90EB9A83195455D124D6F0B2422B414F27C2594564A029880ED7AD460",
+    "derivation": "copy"
+  },
+  {
+    "path": "data/mta005/units/E08_2129/identity.json",
+    "sha256": "AA3109F9BB98A640A5DE82B950AA715C73D08E902F12C4869CDB1321447AACA8",
+    "source_sha256": "6F089C36598EEE71BB955AA8157A7FFA80FED1B0170DAB601612FB2DEA60D12A",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2129/rank_records.json.gz",
+    "sha256": "59129A74A2E13FB7942C5EEB1311F24D1ABE330674D1AAEC188324E63009212E",
+    "source_sha256": null,
+    "derivation": "328_scientific_rank_records_derived"
+  },
+  {
+    "path": "data/mta005/units/E08_2131/identity.json",
+    "sha256": "CE27C5E8FAC0C482CFCDE7767A72227AF8FBF3BEBD5E7C9B69D2A4D1553CE410",
+    "source_sha256": "4AA7F2FCE372BD3E81D38223429240AE53E4AEE533A85EAF1AC578A7DA9D4729",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2131/progress.json",
+    "sha256": "019F1ED2950EA969A03609E55B14F9015312DE46187E79F11A5E73A7C6874D41",
+    "source_sha256": "FF7793C5331FA38562ECE8CC79E1687637C27D33D0CAF89B370CEE5805C38504",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2137/identity.json",
+    "sha256": "872A4BCA854C9532DE8F46F220BD53CAFE8B1E71861F8149C7AD59228BC071C2",
+    "source_sha256": "DCFF9D2FC0D3B177D6411ED4AD7E9E6676EF098BE80416FF59FD1EDD31D33B55",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "data/mta005/units/E08_2137/progress.json",
+    "sha256": "D69A757BCED847AC91768F9FB690527F2C35779B416421298099227B37C6309C",
+    "source_sha256": "B3A015F856E19162D796029B552280EA0C5D71E6CB4724E26C7F6415E0C87278",
+    "derivation": "metadata_sanitized_derivative"
+  },
+  {
+    "path": "expected/mta005/version_records.csv",
+    "sha256": "14EA472766FA6628B50CFA25B56D194C9FD72416AD86981843B8FEB6B00D2ACD",
+    "source_sha256": null,
+    "derivation": "154_unit_identity_version_records_derived"
+  },
+  {
+    "path": "expected/mta005/status.json",
+    "sha256": "8BE7FA42D02B4BF6145FFB9D6BB8426A8C1716CAEE3E4300A082F14187433820",
+    "source_sha256": null,
+    "derivation": "excluded_attempt_status_derived_from_verified_archive_and_project_records"
   }
 ]

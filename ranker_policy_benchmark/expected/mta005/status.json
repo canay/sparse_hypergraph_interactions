@@ -1,0 +1,50 @@
+{
+  "attempt": "mta005",
+  "description": "Excluded initial x86-64 controlled extension attempt",
+  "status": "stopped_excluded",
+  "classification": "SCIENTIFIC_METHOD_SEMANTICS_INVALID",
+  "units_started": 154,
+  "units_completed": 146,
+  "units_incomplete": 8,
+  "incomplete_units": [
+    "E01_2141",
+    "E02_2141",
+    "E05_2137",
+    "E06_2137",
+    "E07_2131",
+    "E07_2137",
+    "E08_2131",
+    "E08_2137"
+  ],
+  "excluded": true,
+  "used_in_reported_results": false,
+  "exclusion_reason": "scikit-learn 1.7.2 ignored l1_ratio=1 under the default L2 penalty, so the intended L1 ranker used L2.",
+  "replaced_by": {
+    "attempt": "mta006",
+    "units_completed": 160,
+    "correction": "All 160 cells were rerun with explicit L1."
+  },
+  "contents": {
+    "completed_units": [
+      "result.json.gz",
+      "identity.json",
+      "rank_records.json.gz"
+    ],
+    "incomplete_units": [
+      "identity.json",
+      "progress.json"
+    ],
+    "rank_records_per_completed_unit": 328,
+    "partial_fit_material_included": false,
+    "version_records": "Missing resolved_l1_parameters fields are represented by null with resolved_l1_parameters_recorded=no; no values are inferred.",
+    "metadata": "Host-local paths and runtime identifiers are sanitized."
+  },
+  "source_archive": {
+    "sha256": "E4821F0A59957EBF6AC1CED8B32022A4DF616FD4CDD03313BDC52D2D455C7819",
+    "bytes": 1010061977,
+    "members": 50862,
+    "regular_files": 50545,
+    "directories": 317
+  },
+  "provenance_note": "This status is a curated description derived from the archived unit inventory and project records; it is not an original run-level status file."
+}

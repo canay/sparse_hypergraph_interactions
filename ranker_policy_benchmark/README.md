@@ -29,13 +29,42 @@ the manuscript can be checked against the artifacts that produced them.
 | `code/mta006/`, `code/vps005/`, `code/v6/` | source freezes for the follow-up and extension executions | — |
 | `data/v5/` | the original benchmark's run outputs, including `final_adjudication.json` | — |
 | `data/v6/cells/` | 42 scenario-seed cells (S00–S13) of the ranker-family follow-up | — |
+| `data/mta005/units/` | excluded initial x86-64 attempt; 146 completed and 8 incomplete unit records | — |
 | `data/mta006/units/` | 160 unit records of the corrected x86-64 extension execution | — |
 | `data/vps005/units/` | 40 unit records of the ARM64 cross-environment check | — |
 | `expected/` | the summaries each bundle's analysis scripts are expected to reproduce | — |
+| `expected/mta005/` | per-unit version records and the excluded attempt's status | — |
 | `expected/cross_environment/` | the paired x86-64 vs ARM64 comparison, fit by fit and prediction by prediction | — |
 | `figures/source/`, `figures/expected/` | figure sources and the rendered figures | — |
 | `SOURCE_MAP.json` | SHA-256 for every file in the canonical bundle | 239 KB |
 | `REPOSITORY_PACKAGING.json` | the two files this repository stores gzipped, and how to restore them | — |
+
+## Excluded initial x86-64 attempt
+
+Date/time: 2026-10-05 15:09 +03:00
+Tool: Codex
+Model, if known: gpt-6-astra (effort xhigh, codex exec headless lane launched by Cowork-Claude)
+Operation ID: `shil-current-d-repairs-cont03-20261005`
+
+`data/mta005/units/` preserves records from the initial x86-64 extension
+attempt, which was stopped after 146 completed cells. Under scikit-learn
+1.7.2, `l1_ratio=1` was ignored with the default L2 penalty, so the intended
+L1 ranker used L2. This attempt is excluded from the reported results; all
+160 cells were rerun with explicit L1 in `data/mta006/units/`.
+
+Each completed unit has its saved result, sanitized identity, and 328
+derived rank records. The eight incomplete units retain only sanitized
+identity and progress records; partial fits are not included.
+`expected/mta005/version_records.csv` records the environment and source
+freeze hash for each of the 154 started units. The original identities
+did not record resolved L1 parameters; the table marks them as not recorded.
+The accompanying `status.json` describes the exclusion and source
+archive. These files document the attempt and its stopping point; they do
+not add evidence to the corrected extension.
+
+This addition appends 456 file records to `SOURCE_MAP.json`. The manifest
+size in the Layout table and the gzip count below describe the original
+September bundle.
 
 ## Verifying the bundle
 
