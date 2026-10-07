@@ -35,7 +35,7 @@ Operation ID: `shil-informatica-retarget-20260921`
 
 **Özkan Canay** is the sole and corresponding author. He is affiliated with the
 Department of Information Systems and Technologies, Faculty of Computer and
-Information Sciences, Sakarya University, Esentepe Campus, 54187 Serdivan,
+Information Sciences, Sakarya University, Esentepe Campus, 54050 Serdivan,
 Sakarya, Türkiye. Email: `canay@sakarya.edu.tr`. ORCID:
 [`0000-0001-7539-6001`](https://orcid.org/0000-0001-7539-6001).
 

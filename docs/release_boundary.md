@@ -10,7 +10,7 @@ Public repository:
 
 Confirmed author metadata: Özkan Canay is the sole and corresponding author;
 Department of Information Systems and Technologies, Faculty of Computer and
-Information Sciences, Sakarya University, Esentepe Campus, 54187 Serdivan,
+Information Sciences, Sakarya University, Esentepe Campus, 54050 Serdivan,
 Sakarya, Türkiye; `canay@sakarya.edu.tr`; ORCID
 [`0000-0001-7539-6001`](https://orcid.org/0000-0001-7539-6001).
 
